@@ -117,77 +117,98 @@ export class EvaluationManager {
       repeatTimes: this.repeatTimes
     };
 
+    // 获取启用的评分制式
+    const enabledSystems = this.config.evaluation.enabled_scoring_systems || ['binary', 'five_point'];
+    const binaryEnabled = enabledSystems.includes('binary');
+    const fivePointEnabled = enabledSystems.includes('five_point');
+
     console.log(`🔄 开始对 ${engineResult.engine} 进行 ${this.repeatTimes} 次重复评估`);
     console.log(`📋 评分制式说明:`);
-    console.log(`   - 二分制评分: 使用 /Users/jackson/Zai/web-search-eval/prompts/binary/ 目录下的提示词文件`);
-    console.log(`   - 五分制评分: 使用 /Users/jackson/Zai/web-search-eval/prompts/five_point/ 目录下的提示词文件`);
+    if (binaryEnabled) {
+      console.log(`   - 二分制评分: 使用 /Users/jackson/Zai/web-search-eval/prompts/binary/ 目录下的提示词文件`);
+    }
+    if (fivePointEnabled) {
+      console.log(`   - 五分制评分: 使用 /Users/jackson/Zai/web-search-eval/prompts/five_point/ 目录下的提示词文件`);
+    }
     console.log(`   - 评估维度: ${this.scorers.binary.dimensions.map(d => d.name).join('、')}`);
 
-    // 进行重复评估
-    for (let round = 1; round <= this.repeatTimes; round++) {
-      console.log(`   📊 第 ${round}/${this.repeatTimes} 次评估 ${engineResult.engine}...`);
+    // 先进行所有二分制评估
+    if (binaryEnabled) {
+      for (let round = 1; round <= this.repeatTimes; round++) {
+        console.log(`   📊 第 ${round}/${this.repeatTimes} 次评估 ${engineResult.engine}...`);
 
-      // 使用二分制评分
-      try {
-        const binaryScore = await this.scorers.binary.batchScore(
-          engineResult.results,
-          query
-        );
-        evaluation.scores.binary.push({
-          round,
-          ...binaryScore,
-          timestamp: new Date().toISOString()
-        });
-        
-        // 显示二分制加权评分结果
-        console.log(`      📊 二分制加权评分: ${binaryScore.weightedScore?.toFixed(2) || '计算失败'}分`);
-        if (binaryScore.overallScores) {
-          Object.entries(binaryScore.overallScores).forEach(([dimension, scoreObj]) => {
-            const score = typeof scoreObj === 'object' ? scoreObj.score : scoreObj;
-            console.log(`         - ${dimension}: ${score}分`);
+        try {
+          const binaryScore = await this.scorers.binary.batchScore(
+            engineResult.results,
+            query
+          );
+          evaluation.scores.binary.push({
+            round,
+            ...binaryScore,
+            timestamp: new Date().toISOString()
+          });
+          
+          // 显示二分制加权评分结果
+          console.log(`      📊 二分制加权评分: ${binaryScore.weightedScore?.toFixed(2) || '计算失败'}分`);
+          if (binaryScore.overallScores) {
+            Object.entries(binaryScore.overallScores).forEach(([dimension, scoreObj]) => {
+              const score = typeof scoreObj === 'object' ? scoreObj.score : scoreObj;
+              console.log(`         - ${dimension}: ${score}分`);
+            });
+          }
+        } catch (error) {
+          console.error(`第${round}次二分制评分失败:`, error.message);
+          evaluation.scores.binary.push({
+            round,
+            error: error.message,
+            timestamp: new Date().toISOString()
           });
         }
-      } catch (error) {
-        console.error(`第${round}次二分制评分失败:`, error.message);
-        evaluation.scores.binary.push({
-          round,
-          error: error.message,
-          timestamp: new Date().toISOString()
-        });
-      }
 
-      // 使用五分制评分
-      try {
-        const fivePointScore = await this.scorers.five_point.batchScore(
-          engineResult.results,
-          query
-        );
-        evaluation.scores.five_point.push({
-          round,
-          ...fivePointScore,
-          timestamp: new Date().toISOString()
-        });
-        
-        // 显示五分制加权评分结果
-        console.log(`      📊 五分制加权评分: ${fivePointScore.weightedScore?.toFixed(2) || '计算失败'}分`);
-        if (fivePointScore.overallScores) {
-          Object.entries(fivePointScore.overallScores).forEach(([dimension, scoreObj]) => {
-            const score = typeof scoreObj === 'object' ? scoreObj.score : scoreObj;
-            console.log(`         - ${dimension}: ${score}分`);
+        // 添加轮次间延迟
+        if (round < this.repeatTimes) {
+          await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+      }
+    }
+
+    // 再进行所有五分制评估
+    if (fivePointEnabled) {
+      for (let round = 1; round <= this.repeatTimes; round++) {
+        console.log(`   📊 第 ${round}/${this.repeatTimes} 次评估 ${engineResult.engine}...`);
+
+        try {
+          const fivePointScore = await this.scorers.five_point.batchScore(
+            engineResult.results,
+            query
+          );
+          evaluation.scores.five_point.push({
+            round,
+            ...fivePointScore,
+            timestamp: new Date().toISOString()
+          });
+          
+          // 显示五分制加权评分结果
+          console.log(`      📊 五分制加权评分: ${fivePointScore.weightedScore?.toFixed(2) || '计算失败'}分`);
+          if (fivePointScore.overallScores) {
+            Object.entries(fivePointScore.overallScores).forEach(([dimension, scoreObj]) => {
+              const score = typeof scoreObj === 'object' ? scoreObj.score : scoreObj;
+              console.log(`         - ${dimension}: ${score}分`);
+            });
+          }
+        } catch (error) {
+          console.error(`第${round}次五分制评分失败:`, error.message);
+          evaluation.scores.five_point.push({
+            round,
+            error: error.message,
+            timestamp: new Date().toISOString()
           });
         }
-      } catch (error) {
-        console.error(`第${round}次五分制评分失败:`, error.message);
-        evaluation.scores.five_point.push({
-          round,
-          error: error.message,
-          timestamp: new Date().toISOString()
-        });
-      }
 
-      // 添加轮次间延迟
-      if (round < this.repeatTimes) {
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        // 添加轮次间延迟
+        if (round < this.repeatTimes) {
+          await new Promise(resolve => setTimeout(resolve, 1000));
+        }
       }
     }
 
@@ -198,7 +219,7 @@ export class EvaluationManager {
     console.log(`✅ ${engineResult.engine} 重复评估完成`);
     console.log(`📈 三次评估平均分汇总:`);
     
-    if (evaluation.averageScores.binary) {
+    if (evaluation.averageScores.binary && binaryEnabled) {
       console.log(`   二分制平均加权评分: ${evaluation.averageScores.binary.weighted?.toFixed(2) || '计算失败'}分`);
       if (evaluation.averageScores.binary.dimensions) {
         Object.entries(evaluation.averageScores.binary.dimensions).forEach(([dimension, score]) => {
@@ -207,7 +228,7 @@ export class EvaluationManager {
       }
     }
     
-    if (evaluation.averageScores.five_point) {
+    if (evaluation.averageScores.five_point && fivePointEnabled) {
       console.log(`   五分制平均加权评分: ${evaluation.averageScores.five_point.weighted?.toFixed(2) || '计算失败'}分`);
       if (evaluation.averageScores.five_point.dimensions) {
         Object.entries(evaluation.averageScores.five_point.dimensions).forEach(([dimension, score]) => {
@@ -331,6 +352,11 @@ export class EvaluationManager {
     console.log(`⏰ 完成时间: ${new Date(evaluationResults.timestamp).toLocaleString()}`);
     console.log('='.repeat(80));
 
+    // 获取启用的评分制式
+    const enabledSystems = this.config.evaluation.enabled_scoring_systems || ['binary', 'five_point'];
+    const binaryEnabled = enabledSystems.includes('binary');
+    const fivePointEnabled = enabledSystems.includes('five_point');
+
     // 显示各搜索引擎的评估结果
     console.log('\n📊 各搜索引擎评估结果:');
     const engineEntries = Object.entries(evaluationResults.engines);
@@ -340,14 +366,19 @@ export class EvaluationManager {
       return;
     }
 
-    // 收集有效的引擎结果并按得分排序
+    // 收集有效的引擎结果并按得分排序（优先使用五分制，如果没有则使用二分制）
     const validEngines = engineEntries
       .filter(([_, result]) => !result.error && result.averageScores)
-      .map(([engine, result]) => ({
-        engine,
-        score: result.averageScores.five_point?.weighted || 0,
-        result
-      }))
+      .map(([engine, result]) => {
+        // 优先使用五分制得分，如果没有则使用二分制得分
+        const score = (fivePointEnabled && result.averageScores.five_point?.weighted) || 
+                     (binaryEnabled && result.averageScores.binary?.weighted) || 0;
+        return {
+          engine,
+          score,
+          result
+        };
+      })
       .sort((a, b) => b.score - a.score);
 
     if (validEngines.length === 0) {
@@ -367,13 +398,25 @@ export class EvaluationManager {
       const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : '  ';
       
       console.log(`\n${medal} 第${rank}名: ${engine} - 总分: ${score.toFixed(2)}`);
-      console.log(`   📈 结果数量: ${result.scoredResults?.length || 0}`);
+      console.log(`   📈 结果数量: ${result.totalResults || 0}`);
       
-      // 显示各维度得分
-      if (result.averageScores?.five_point?.dimensions) {
-        Object.entries(result.averageScores.five_point.dimensions).forEach(([dimension, dimScore]) => {
-          console.log(`   📏 ${dimension}: ${dimScore.toFixed(2)}`);
-        });
+      // 分别显示二分制和五分制的评分结果
+      if (binaryEnabled && result.averageScores?.binary) {
+        console.log(`   📊 二分制评分: ${result.averageScores.binary.weighted?.toFixed(2) || '无'}分`);
+        if (result.averageScores.binary.dimensions) {
+          Object.entries(result.averageScores.binary.dimensions).forEach(([dimension, dimScore]) => {
+            console.log(`      - ${dimension}: ${dimScore.toFixed(2)}分`);
+          });
+        }
+      }
+      
+      if (fivePointEnabled && result.averageScores?.five_point) {
+        console.log(`   📊 五分制评分: ${result.averageScores.five_point.weighted?.toFixed(2) || '无'}分`);
+        if (result.averageScores.five_point.dimensions) {
+          Object.entries(result.averageScores.five_point.dimensions).forEach(([dimension, dimScore]) => {
+            console.log(`      - ${dimension}: ${dimScore.toFixed(2)}分`);
+          });
+        }
       }
     });
 
