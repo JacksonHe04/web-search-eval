@@ -1,0 +1,2496 @@
+{
+  "metadata": {
+    "total_rounds": 1,
+    "total_queries": 1,
+    "generation_time": "2025-09-17T05:52:30.747Z",
+    "test_start_time": "2025-09-17T05:51:01.991Z",
+    "test_end_time": "2025-09-17T05:52:30.747Z",
+    "query_info": {
+      "query": "泸州康涵"
+    },
+    "config_summary": {
+      "enabled_engines": [
+        "serper"
+      ],
+      "dimensions": [
+        "权威性",
+        "相关性",
+        "时效性"
+      ],
+      "repeat_times": 3
+    }
+  },
+  "engine_rankings": {
+    "binary": [
+      {
+        "rank": 1,
+        "engine": "serper",
+        "score": 0
+      }
+    ],
+    "five_point": [
+      {
+        "rank": 1,
+        "engine": "serper",
+        "score": 1
+      }
+    ]
+  },
+  "aggregated_results": {
+    "engine_performance": {
+      "serper": {
+        "success_rate": 1,
+        "average_scores": {
+          "binary": {
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "std_dev": 0
+          },
+          "five_point": {
+            "mean": 1,
+            "min": 1,
+            "max": 1,
+            "std_dev": 0
+          }
+        }
+      }
+    }
+  },
+  "original_result": {
+    "query": "泸州康涵",
+    "timestamp": "2025-09-17T05:51:03.365Z",
+    "engines": {
+      "serper": {
+        "engine": "serper",
+        "totalResults": 10,
+        "scores": {
+          "binary": [
+            {
+              "round": 1,
+              "results": [
+                {
+                  "rank": 1,
+                  "title": "福州高端外围经纪人微心11856811 高端外围只做极品学生 ...",
+                  "url": "https://twitter.com/search?lang=zh-Hant&src=imger&q=%E7%A6%8F%E5%B7%9E%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E5%AD%A6%E7%94%9F%20%E7%A9%BA%E5%A7%90%20%E7%99%BD%E9%A2%86%20%E6%B8%85%E7%BA%AF%20%E5%BE%A1%E5%A7%90.ugn",
+                  "snippet": "康涵 · @_only_the_brav3. ·. 3 分鐘. ️ ☔ 厦门外围 你想要我吗？ 快来 ... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:51:23.644Z",
+                  "score": 1,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（没有符合权威媒体标准的来源）\n- **非权威媒体**：10条（所有结果均不符合权威媒体标准）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:06.352Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:09.791Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "批量评分失败: 二分制批量评分失败: AI模型调用失败: HTTP 400: Bad Request",
+                      "dimension": "时效性",
+                      "error": true,
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 2,
+                  "title": "Sheet1",
+                  "url": "http://tjj.sc.gov.cn/scstjj/c105843/2021/1/5/9890ea0006af4c6d9e43fef57713b59a/files/%E9%99%84%E4%BB%B62%EF%BC%9A2020%E5%B9%B4%E4%B8%AD%E7%BA%A7%E9%80%9A%E8%BF%87%E4%BA%BA%E5%91%98%E5%90%8D%E5%8D%95.xlsx",
+                  "snippet": "邱涵, 中级统计, 15101, 四川省成都市, 女, 76, 151010101808, 84 ... 四川省泸州市, 女, 95, 151040100415, 88, 251040100420. 115, 114, 蔡倩, 中级 ...",
+                  "source": "tjj.sc.gov.cn",
+                  "timestamp": "2025-09-17T05:51:23.644Z",
+                  "score": 2,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（没有符合权威媒体标准的来源）\n- **非权威媒体**：10条（所有结果均不符合权威媒体标准）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:06.352Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:09.791Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "批量评分失败: 二分制批量评分失败: AI模型调用失败: HTTP 400: Bad Request",
+                      "dimension": "时效性",
+                      "error": true,
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 3,
+                  "title": "面试公告附表 - 四川省税务局",
+                  "url": "https://sichuan.chinatax.gov.cn/module/download/downfile.jsp?classid=0&filename=d71268d029904ccba9e0abf815154475.xls",
+                  "snippet": "康紫姻, 130353040402614. 648, 杨志文, 130364011302722. 649, 国家税务总局攀枝花 ... 国家税务总局泸州市江阳区税务局一级行政执法员（一） （300110036001）, 126.9 ...",
+                  "source": "sichuan.chinatax.gov.cn",
+                  "timestamp": "2025-09-17T05:51:23.644Z",
+                  "score": 3,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（没有符合权威媒体标准的来源）\n- **非权威媒体**：10条（所有结果均不符合权威媒体标准）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:06.352Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:09.791Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "批量评分失败: 二分制批量评分失败: AI模型调用失败: HTTP 400: Bad Request",
+                      "dimension": "时效性",
+                      "error": true,
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 4,
+                  "title": "第二届全国大学生职业规划大赛全国总决赛成长赛道获奖名单",
+                  "url": "http://www.moe.gov.cn/srcsite/A15/s7063/202508/W020250826366701498008.docx",
+                  "snippet": "郑涵. 北京市. 中国地质大学(北京). 杨爽、于琦、黄政淇. 银奖. 47. 高教组. 沈启航 ... 泸州职业技术学院. 夏培惠、徐月梅. 铜奖. 365. 职教组. 郭千山. 四川省. 四川司法 ...",
+                  "source": "www.moe.gov.cn",
+                  "timestamp": "2025-09-17T05:51:23.644Z",
+                  "score": 4,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（没有符合权威媒体标准的来源）\n- **非权威媒体**：10条（所有结果均不符合权威媒体标准）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:06.352Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:09.791Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "批量评分失败: 二分制批量评分失败: AI模型调用失败: HTTP 400: Bad Request",
+                      "dimension": "时效性",
+                      "error": true,
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 5,
+                  "title": "烟台外围外国人微心11856811 高端外围只做极品见人付款. ...",
+                  "url": "https://twitter.com/search?lang=ar&src=live&q=%E7%83%9F%E5%8F%B0%E5%A4%96%E5%9B%B4%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E8%A7%81%E4%BA%BA%E4%BB%98%E6%AC%BE.gqk",
+                  "snippet": "... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ... 康涵 · @_only_the_brav3. ·. ١٤ س. ☔⚠ 烟台外围 我好想被~Xxo0 家里酒店 ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:51:23.644Z",
+                  "score": 5,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（没有符合权威媒体标准的来源）\n- **非权威媒体**：10条（所有结果均不符合权威媒体标准）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:06.352Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:09.791Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "批量评分失败: 二分制批量评分失败: AI模型调用失败: HTTP 400: Bad Request",
+                      "dimension": "时效性",
+                      "error": true,
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 6,
+                  "title": "Luna-Universal-qPCR-Master-Mix-Sample-Request",
+                  "url": "https://www.neb.com/en/forms/luna-universal-qpcr-master-mix-sample-request?srsltid=AfmBOormhzK9yLHUPnZ863ZMlhYxi9U7ELzqY9twXcKXZBsXf1RN-2uC",
+                  "snippet": "泸州市, 德阳市, 绵阳市, 广元市, 遂宁市, 内江市, 乐山市, 南充市, 宜宾市, 广安市, 达州市 ... 康保县, 沽源县, 尚义县, 蔚县, 阳原县, 怀安县, 怀来县, 涿鹿县, 赤城县 ...",
+                  "source": "www.neb.com",
+                  "timestamp": "2025-09-17T05:51:23.644Z",
+                  "score": 6,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（没有符合权威媒体标准的来源）\n- **非权威媒体**：10条（所有结果均不符合权威媒体标准）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:06.352Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:09.791Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "批量评分失败: 二分制批量评分失败: AI模型调用失败: HTTP 400: Bad Request",
+                      "dimension": "时效性",
+                      "error": true,
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 7,
+                  "title": "外商投资综合管理- 商务部",
+                  "url": "https://wzxxbg.mofcom.gov.cn/wzLrztz/un/register",
+                  "snippet": "外商投资综合管理企业端. 境外投资者以分配利润直接投资税收抵免申报企业用户注册. *企业名称. *统一社会信用代码. *企业属地. 请选择企业属地, 11000000 - 北京市 ...",
+                  "source": "wzxxbg.mofcom.gov.cn",
+                  "timestamp": "2025-09-17T05:51:23.644Z",
+                  "score": 7,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（没有符合权威媒体标准的来源）\n- **非权威媒体**：10条（所有结果均不符合权威媒体标准）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:06.352Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:09.791Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "批量评分失败: 二分制批量评分失败: AI模型调用失败: HTTP 400: Bad Request",
+                      "dimension": "时效性",
+                      "error": true,
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 8,
+                  "title": "重庆市建设项目",
+                  "url": "https://documents1.worldbank.org/curated/en/917221468216585596/pdf/E22470v110CHIN0ruction0Subcomponent.pdf",
+                  "snippet": "康社会目标的实现。对于完善道路交通运输功能，发展本镇的加工业、. 旅游业和农牧养殖业，发展农村经济，改善小城镇形象，提高城镇化率，. 缩小城乡差别，实现城乡统筹 ...",
+                  "source": "documents1.worldbank.org",
+                  "timestamp": "2025-09-17T05:51:23.644Z",
+                  "score": 8,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（没有符合权威媒体标准的来源）\n- **非权威媒体**：10条（所有结果均不符合权威媒体标准）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:06.352Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:09.791Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "批量评分失败: 二分制批量评分失败: AI模型调用失败: HTTP 400: Bad Request",
+                      "dimension": "时效性",
+                      "error": true,
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 9,
+                  "title": "習近平「中國夢」之探討",
+                  "url": "https://www.mjib.gov.tw/FileUploads/eBooks/ad40fc946b834f2a98a56b36250388c0/Section_file/3fad76d16df9419591a70fd464be2dc7.pdf",
+                  "snippet": "政府部門的. 宣傳亦不可少；四川成都、綿陽和瀘州等地成立了「建設美麗繁榮和諧四川領. 導小組辦公室」即為例子。值得注意的是，「中國夢」也進入宗教領域。四川省. 達州市 ...",
+                  "source": "www.mjib.gov.tw",
+                  "timestamp": "2025-09-17T05:51:23.644Z",
+                  "score": 9,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（没有符合权威媒体标准的来源）\n- **非权威媒体**：10条（所有结果均不符合权威媒体标准）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:06.352Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:09.791Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "批量评分失败: 二分制批量评分失败: AI模型调用失败: HTTP 400: Bad Request",
+                      "dimension": "时效性",
+                      "error": true,
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 10,
+                  "title": "传祺向往S7 - 家庭大五座智能SUV",
+                  "url": "https://www.gacmotor.com/s7",
+                  "snippet": "传祺向往S7 · M6 · 预约试驾 · 预约试驾.",
+                  "source": "www.gacmotor.com",
+                  "timestamp": "2025-09-17T05:51:23.644Z",
+                  "score": 10,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（没有符合权威媒体标准的来源）\n- **非权威媒体**：10条（所有结果均不符合权威媒体标准）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:06.352Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:09.791Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "批量评分失败: 二分制批量评分失败: AI模型调用失败: HTTP 400: Bad Request",
+                      "dimension": "时效性",
+                      "error": true,
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                }
+              ],
+              "overallScores": {
+                "权威性": {
+                  "score": 0,
+                  "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（没有符合权威媒体标准的来源）\n- **非权威媒体**：10条（所有结果均不符合权威媒体标准）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                  "dimension": "权威性",
+                  "scoringSystem": "binary",
+                  "timestamp": "2025-09-17T05:51:06.352Z",
+                  "resultCount": 10
+                },
+                "相关性": {
+                  "score": 0,
+                  "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                  "dimension": "相关性",
+                  "scoringSystem": "binary",
+                  "timestamp": "2025-09-17T05:51:09.791Z",
+                  "resultCount": 10
+                },
+                "时效性": {
+                  "score": 0,
+                  "reasoning": "批量评分失败: 二分制批量评分失败: AI模型调用失败: HTTP 400: Bad Request",
+                  "dimension": "时效性",
+                  "error": true,
+                  "resultCount": 10
+                }
+              },
+              "weightedScore": 0,
+              "timestamp": "2025-09-17T05:51:23.644Z"
+            },
+            {
+              "round": 2,
+              "results": [
+                {
+                  "rank": 1,
+                  "title": "福州高端外围经纪人微心11856811 高端外围只做极品学生 ...",
+                  "url": "https://twitter.com/search?lang=zh-Hant&src=imger&q=%E7%A6%8F%E5%B7%9E%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E5%AD%A6%E7%94%9F%20%E7%A9%BA%E5%A7%90%20%E7%99%BD%E9%A2%86%20%E6%B8%85%E7%BA%AF%20%E5%BE%A1%E5%A7%90.ugn",
+                  "snippet": "康涵 · @_only_the_brav3. ·. 3 分鐘. ️ ☔ 厦门外围 你想要我吗？ 快来 ... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:51:40.487Z",
+                  "score": 1,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（无官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客、无关内容等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:28.120Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n\n- **高度相关结果**：0条（能直接回答查询问题）\n- **部分相关结果**：0条（与主题相关但不完整）\n- **不相关结果**：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:31.395Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（查询内容无明显时效关键词，且内容特征不属于高或中时效敏感度范畴）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:40.486Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 2,
+                  "title": "Sheet1",
+                  "url": "http://tjj.sc.gov.cn/scstjj/c105843/2021/1/5/9890ea0006af4c6d9e43fef57713b59a/files/%E9%99%84%E4%BB%B62%EF%BC%9A2020%E5%B9%B4%E4%B8%AD%E7%BA%A7%E9%80%9A%E8%BF%87%E4%BA%BA%E5%91%98%E5%90%8D%E5%8D%95.xlsx",
+                  "snippet": "邱涵, 中级统计, 15101, 四川省成都市, 女, 76, 151010101808, 84 ... 四川省泸州市, 女, 95, 151040100415, 88, 251040100420. 115, 114, 蔡倩, 中级 ...",
+                  "source": "tjj.sc.gov.cn",
+                  "timestamp": "2025-09-17T05:51:40.487Z",
+                  "score": 2,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（无官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客、无关内容等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:28.120Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n\n- **高度相关结果**：0条（能直接回答查询问题）\n- **部分相关结果**：0条（与主题相关但不完整）\n- **不相关结果**：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:31.395Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（查询内容无明显时效关键词，且内容特征不属于高或中时效敏感度范畴）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:40.486Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 3,
+                  "title": "面试公告附表 - 四川省税务局",
+                  "url": "https://sichuan.chinatax.gov.cn/module/download/downfile.jsp?classid=0&filename=d71268d029904ccba9e0abf815154475.xls",
+                  "snippet": "康紫姻, 130353040402614. 648, 杨志文, 130364011302722. 649, 国家税务总局攀枝花 ... 国家税务总局泸州市江阳区税务局一级行政执法员（一） （300110036001）, 126.9 ...",
+                  "source": "sichuan.chinatax.gov.cn",
+                  "timestamp": "2025-09-17T05:51:40.487Z",
+                  "score": 3,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（无官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客、无关内容等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:28.120Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n\n- **高度相关结果**：0条（能直接回答查询问题）\n- **部分相关结果**：0条（与主题相关但不完整）\n- **不相关结果**：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:31.395Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（查询内容无明显时效关键词，且内容特征不属于高或中时效敏感度范畴）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:40.486Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 4,
+                  "title": "第二届全国大学生职业规划大赛全国总决赛成长赛道获奖名单",
+                  "url": "http://www.moe.gov.cn/srcsite/A15/s7063/202508/W020250826366701498008.docx",
+                  "snippet": "郑涵. 北京市. 中国地质大学(北京). 杨爽、于琦、黄政淇. 银奖. 47. 高教组. 沈启航 ... 泸州职业技术学院. 夏培惠、徐月梅. 铜奖. 365. 职教组. 郭千山. 四川省. 四川司法 ...",
+                  "source": "www.moe.gov.cn",
+                  "timestamp": "2025-09-17T05:51:40.487Z",
+                  "score": 4,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（无官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客、无关内容等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:28.120Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n\n- **高度相关结果**：0条（能直接回答查询问题）\n- **部分相关结果**：0条（与主题相关但不完整）\n- **不相关结果**：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:31.395Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（查询内容无明显时效关键词，且内容特征不属于高或中时效敏感度范畴）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:40.486Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 5,
+                  "title": "烟台外围外国人微心11856811 高端外围只做极品见人付款. ...",
+                  "url": "https://twitter.com/search?lang=ar&src=live&q=%E7%83%9F%E5%8F%B0%E5%A4%96%E5%9B%B4%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E8%A7%81%E4%BA%BA%E4%BB%98%E6%AC%BE.gqk",
+                  "snippet": "... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ... 康涵 · @_only_the_brav3. ·. ١٤ س. ☔⚠ 烟台外围 我好想被~Xxo0 家里酒店 ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:51:40.487Z",
+                  "score": 5,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（无官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客、无关内容等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:28.120Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n\n- **高度相关结果**：0条（能直接回答查询问题）\n- **部分相关结果**：0条（与主题相关但不完整）\n- **不相关结果**：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:31.395Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（查询内容无明显时效关键词，且内容特征不属于高或中时效敏感度范畴）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:40.486Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 6,
+                  "title": "Luna-Universal-qPCR-Master-Mix-Sample-Request",
+                  "url": "https://www.neb.com/en/forms/luna-universal-qpcr-master-mix-sample-request?srsltid=AfmBOormhzK9yLHUPnZ863ZMlhYxi9U7ELzqY9twXcKXZBsXf1RN-2uC",
+                  "snippet": "泸州市, 德阳市, 绵阳市, 广元市, 遂宁市, 内江市, 乐山市, 南充市, 宜宾市, 广安市, 达州市 ... 康保县, 沽源县, 尚义县, 蔚县, 阳原县, 怀安县, 怀来县, 涿鹿县, 赤城县 ...",
+                  "source": "www.neb.com",
+                  "timestamp": "2025-09-17T05:51:40.487Z",
+                  "score": 6,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（无官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客、无关内容等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:28.120Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n\n- **高度相关结果**：0条（能直接回答查询问题）\n- **部分相关结果**：0条（与主题相关但不完整）\n- **不相关结果**：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:31.395Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（查询内容无明显时效关键词，且内容特征不属于高或中时效敏感度范畴）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:40.486Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 7,
+                  "title": "外商投资综合管理- 商务部",
+                  "url": "https://wzxxbg.mofcom.gov.cn/wzLrztz/un/register",
+                  "snippet": "外商投资综合管理企业端. 境外投资者以分配利润直接投资税收抵免申报企业用户注册. *企业名称. *统一社会信用代码. *企业属地. 请选择企业属地, 11000000 - 北京市 ...",
+                  "source": "wzxxbg.mofcom.gov.cn",
+                  "timestamp": "2025-09-17T05:51:40.487Z",
+                  "score": 7,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（无官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客、无关内容等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:28.120Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n\n- **高度相关结果**：0条（能直接回答查询问题）\n- **部分相关结果**：0条（与主题相关但不完整）\n- **不相关结果**：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:31.395Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（查询内容无明显时效关键词，且内容特征不属于高或中时效敏感度范畴）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:40.486Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 8,
+                  "title": "重庆市建设项目",
+                  "url": "https://documents1.worldbank.org/curated/en/917221468216585596/pdf/E22470v110CHIN0ruction0Subcomponent.pdf",
+                  "snippet": "康社会目标的实现。对于完善道路交通运输功能，发展本镇的加工业、. 旅游业和农牧养殖业，发展农村经济，改善小城镇形象，提高城镇化率，. 缩小城乡差别，实现城乡统筹 ...",
+                  "source": "documents1.worldbank.org",
+                  "timestamp": "2025-09-17T05:51:40.487Z",
+                  "score": 8,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（无官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客、无关内容等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:28.120Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n\n- **高度相关结果**：0条（能直接回答查询问题）\n- **部分相关结果**：0条（与主题相关但不完整）\n- **不相关结果**：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:31.395Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（查询内容无明显时效关键词，且内容特征不属于高或中时效敏感度范畴）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:40.486Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 9,
+                  "title": "習近平「中國夢」之探討",
+                  "url": "https://www.mjib.gov.tw/FileUploads/eBooks/ad40fc946b834f2a98a56b36250388c0/Section_file/3fad76d16df9419591a70fd464be2dc7.pdf",
+                  "snippet": "政府部門的. 宣傳亦不可少；四川成都、綿陽和瀘州等地成立了「建設美麗繁榮和諧四川領. 導小組辦公室」即為例子。值得注意的是，「中國夢」也進入宗教領域。四川省. 達州市 ...",
+                  "source": "www.mjib.gov.tw",
+                  "timestamp": "2025-09-17T05:51:40.487Z",
+                  "score": 9,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（无官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客、无关内容等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:28.120Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n\n- **高度相关结果**：0条（能直接回答查询问题）\n- **部分相关结果**：0条（与主题相关但不完整）\n- **不相关结果**：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:31.395Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（查询内容无明显时效关键词，且内容特征不属于高或中时效敏感度范畴）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:40.486Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 10,
+                  "title": "传祺向往S7 - 家庭大五座智能SUV",
+                  "url": "https://www.gacmotor.com/s7",
+                  "snippet": "传祺向往S7 · M6 · 预约试驾 · 预约试驾.",
+                  "source": "www.gacmotor.com",
+                  "timestamp": "2025-09-17T05:51:40.487Z",
+                  "score": 10,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（无官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客、无关内容等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:28.120Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n\n- **高度相关结果**：0条（能直接回答查询问题）\n- **部分相关结果**：0条（与主题相关但不完整）\n- **不相关结果**：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:31.395Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（查询内容无明显时效关键词，且内容特征不属于高或中时效敏感度范畴）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:40.486Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                }
+              ],
+              "overallScores": {
+                "权威性": {
+                  "score": 0,
+                  "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（无官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客、无关内容等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                  "dimension": "权威性",
+                  "scoringSystem": "binary",
+                  "timestamp": "2025-09-17T05:51:28.120Z",
+                  "resultCount": 10
+                },
+                "相关性": {
+                  "score": 0,
+                  "reasoning": "根据相关性评分标准分析搜索结果：\n\n- **高度相关结果**：0条（能直接回答查询问题）\n- **部分相关结果**：0条（与主题相关但不完整）\n- **不相关结果**：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                  "dimension": "相关性",
+                  "scoringSystem": "binary",
+                  "timestamp": "2025-09-17T05:51:31.395Z",
+                  "resultCount": 10
+                },
+                "时效性": {
+                  "score": 0,
+                  "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（查询内容无明显时效关键词，且内容特征不属于高或中时效敏感度范畴）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                  "dimension": "时效性",
+                  "scoringSystem": "binary",
+                  "timestamp": "2025-09-17T05:51:40.486Z",
+                  "resultCount": 10
+                }
+              },
+              "weightedScore": 0,
+              "timestamp": "2025-09-17T05:51:40.487Z"
+            },
+            {
+              "round": 3,
+              "results": [
+                {
+                  "rank": 1,
+                  "title": "福州高端外围经纪人微心11856811 高端外围只做极品学生 ...",
+                  "url": "https://twitter.com/search?lang=zh-Hant&src=imger&q=%E7%A6%8F%E5%B7%9E%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E5%AD%A6%E7%94%9F%20%E7%A9%BA%E5%A7%90%20%E7%99%BD%E9%A2%86%20%E6%B8%85%E7%BA%AF%20%E5%BE%A1%E5%A7%90.ugn",
+                  "snippet": "康涵 · @_only_the_brav3. ·. 3 分鐘. ️ ☔ 厦门外围 你想要我吗？ 快来 ... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:51:56.384Z",
+                  "score": 1,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（包括官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:44.119Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:47.617Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（因为\"泸州康涵\"没有明显的时效关键词，且内容特征不明确指向高或中时效敏感度，推测为低时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:56.384Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 2,
+                  "title": "Sheet1",
+                  "url": "http://tjj.sc.gov.cn/scstjj/c105843/2021/1/5/9890ea0006af4c6d9e43fef57713b59a/files/%E9%99%84%E4%BB%B62%EF%BC%9A2020%E5%B9%B4%E4%B8%AD%E7%BA%A7%E9%80%9A%E8%BF%87%E4%BA%BA%E5%91%98%E5%90%8D%E5%8D%95.xlsx",
+                  "snippet": "邱涵, 中级统计, 15101, 四川省成都市, 女, 76, 151010101808, 84 ... 四川省泸州市, 女, 95, 151040100415, 88, 251040100420. 115, 114, 蔡倩, 中级 ...",
+                  "source": "tjj.sc.gov.cn",
+                  "timestamp": "2025-09-17T05:51:56.384Z",
+                  "score": 2,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（包括官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:44.119Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:47.617Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（因为\"泸州康涵\"没有明显的时效关键词，且内容特征不明确指向高或中时效敏感度，推测为低时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:56.384Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 3,
+                  "title": "面试公告附表 - 四川省税务局",
+                  "url": "https://sichuan.chinatax.gov.cn/module/download/downfile.jsp?classid=0&filename=d71268d029904ccba9e0abf815154475.xls",
+                  "snippet": "康紫姻, 130353040402614. 648, 杨志文, 130364011302722. 649, 国家税务总局攀枝花 ... 国家税务总局泸州市江阳区税务局一级行政执法员（一） （300110036001）, 126.9 ...",
+                  "source": "sichuan.chinatax.gov.cn",
+                  "timestamp": "2025-09-17T05:51:56.384Z",
+                  "score": 3,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（包括官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:44.119Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:47.617Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（因为\"泸州康涵\"没有明显的时效关键词，且内容特征不明确指向高或中时效敏感度，推测为低时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:56.384Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 4,
+                  "title": "第二届全国大学生职业规划大赛全国总决赛成长赛道获奖名单",
+                  "url": "http://www.moe.gov.cn/srcsite/A15/s7063/202508/W020250826366701498008.docx",
+                  "snippet": "郑涵. 北京市. 中国地质大学(北京). 杨爽、于琦、黄政淇. 银奖. 47. 高教组. 沈启航 ... 泸州职业技术学院. 夏培惠、徐月梅. 铜奖. 365. 职教组. 郭千山. 四川省. 四川司法 ...",
+                  "source": "www.moe.gov.cn",
+                  "timestamp": "2025-09-17T05:51:56.384Z",
+                  "score": 4,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（包括官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:44.119Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:47.617Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（因为\"泸州康涵\"没有明显的时效关键词，且内容特征不明确指向高或中时效敏感度，推测为低时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:56.384Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 5,
+                  "title": "烟台外围外国人微心11856811 高端外围只做极品见人付款. ...",
+                  "url": "https://twitter.com/search?lang=ar&src=live&q=%E7%83%9F%E5%8F%B0%E5%A4%96%E5%9B%B4%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E8%A7%81%E4%BA%BA%E4%BB%98%E6%AC%BE.gqk",
+                  "snippet": "... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ... 康涵 · @_only_the_brav3. ·. ١٤ س. ☔⚠ 烟台外围 我好想被~Xxo0 家里酒店 ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:51:56.384Z",
+                  "score": 5,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（包括官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:44.119Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:47.617Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（因为\"泸州康涵\"没有明显的时效关键词，且内容特征不明确指向高或中时效敏感度，推测为低时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:56.384Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 6,
+                  "title": "Luna-Universal-qPCR-Master-Mix-Sample-Request",
+                  "url": "https://www.neb.com/en/forms/luna-universal-qpcr-master-mix-sample-request?srsltid=AfmBOormhzK9yLHUPnZ863ZMlhYxi9U7ELzqY9twXcKXZBsXf1RN-2uC",
+                  "snippet": "泸州市, 德阳市, 绵阳市, 广元市, 遂宁市, 内江市, 乐山市, 南充市, 宜宾市, 广安市, 达州市 ... 康保县, 沽源县, 尚义县, 蔚县, 阳原县, 怀安县, 怀来县, 涿鹿县, 赤城县 ...",
+                  "source": "www.neb.com",
+                  "timestamp": "2025-09-17T05:51:56.384Z",
+                  "score": 6,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（包括官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:44.119Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:47.617Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（因为\"泸州康涵\"没有明显的时效关键词，且内容特征不明确指向高或中时效敏感度，推测为低时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:56.384Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 7,
+                  "title": "外商投资综合管理- 商务部",
+                  "url": "https://wzxxbg.mofcom.gov.cn/wzLrztz/un/register",
+                  "snippet": "外商投资综合管理企业端. 境外投资者以分配利润直接投资税收抵免申报企业用户注册. *企业名称. *统一社会信用代码. *企业属地. 请选择企业属地, 11000000 - 北京市 ...",
+                  "source": "wzxxbg.mofcom.gov.cn",
+                  "timestamp": "2025-09-17T05:51:56.384Z",
+                  "score": 7,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（包括官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:44.119Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:47.617Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（因为\"泸州康涵\"没有明显的时效关键词，且内容特征不明确指向高或中时效敏感度，推测为低时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:56.384Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 8,
+                  "title": "重庆市建设项目",
+                  "url": "https://documents1.worldbank.org/curated/en/917221468216585596/pdf/E22470v110CHIN0ruction0Subcomponent.pdf",
+                  "snippet": "康社会目标的实现。对于完善道路交通运输功能，发展本镇的加工业、. 旅游业和农牧养殖业，发展农村经济，改善小城镇形象，提高城镇化率，. 缩小城乡差别，实现城乡统筹 ...",
+                  "source": "documents1.worldbank.org",
+                  "timestamp": "2025-09-17T05:51:56.384Z",
+                  "score": 8,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（包括官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:44.119Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:47.617Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（因为\"泸州康涵\"没有明显的时效关键词，且内容特征不明确指向高或中时效敏感度，推测为低时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:56.384Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 9,
+                  "title": "習近平「中國夢」之探討",
+                  "url": "https://www.mjib.gov.tw/FileUploads/eBooks/ad40fc946b834f2a98a56b36250388c0/Section_file/3fad76d16df9419591a70fd464be2dc7.pdf",
+                  "snippet": "政府部門的. 宣傳亦不可少；四川成都、綿陽和瀘州等地成立了「建設美麗繁榮和諧四川領. 導小組辦公室」即為例子。值得注意的是，「中國夢」也進入宗教領域。四川省. 達州市 ...",
+                  "source": "www.mjib.gov.tw",
+                  "timestamp": "2025-09-17T05:51:56.384Z",
+                  "score": 9,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（包括官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:44.119Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:47.617Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（因为\"泸州康涵\"没有明显的时效关键词，且内容特征不明确指向高或中时效敏感度，推测为低时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:56.384Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                },
+                {
+                  "rank": 10,
+                  "title": "传祺向往S7 - 家庭大五座智能SUV",
+                  "url": "https://www.gacmotor.com/s7",
+                  "snippet": "传祺向往S7 · M6 · 预约试驾 · 预约试驾.",
+                  "source": "www.gacmotor.com",
+                  "timestamp": "2025-09-17T05:51:56.384Z",
+                  "score": 10,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 0,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（包括官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:44.119Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 0,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:47.617Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 0,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（因为\"泸州康涵\"没有明显的时效关键词，且内容特征不明确指向高或中时效敏感度，推测为低时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "binary",
+                      "timestamp": "2025-09-17T05:51:56.384Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 0
+                }
+              ],
+              "overallScores": {
+                "权威性": {
+                  "score": 0,
+                  "reasoning": "根据权威性评分标准分析搜索结果：\n\n- **权威媒体**：0条（包括官方机构、学术库、专业媒体等）\n- **非权威媒体**：10条（包括社区论坛、个人博客等）\n\n评分依据：非权威来源数量为10条，根据评分标准得分为0分。",
+                  "dimension": "权威性",
+                  "scoringSystem": "binary",
+                  "timestamp": "2025-09-17T05:51:44.119Z",
+                  "resultCount": 10
+                },
+                "相关性": {
+                  "score": 0,
+                  "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条（能直接回答查询问题）\n- 部分相关结果：0条（与主题相关但不完整）\n- 不相关结果：10条（与查询无关）\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为0分。",
+                  "dimension": "相关性",
+                  "scoringSystem": "binary",
+                  "timestamp": "2025-09-17T05:51:47.617Z",
+                  "resultCount": 10
+                },
+                "时效性": {
+                  "score": 0,
+                  "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效敏感度：低（因为\"泸州康涵\"没有明显的时效关键词，且内容特征不明确指向高或中时效敏感度，推测为低时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效敏感度，符合时效性要求结果数量为0条，根据评分标准得分为0分。",
+                  "dimension": "时效性",
+                  "scoringSystem": "binary",
+                  "timestamp": "2025-09-17T05:51:56.384Z",
+                  "resultCount": 10
+                }
+              },
+              "weightedScore": 0,
+              "timestamp": "2025-09-17T05:51:56.384Z"
+            }
+          ],
+          "five_point": [
+            {
+              "round": 1,
+              "results": [
+                {
+                  "rank": 1,
+                  "title": "福州高端外围经纪人微心11856811 高端外围只做极品学生 ...",
+                  "url": "https://twitter.com/search?lang=zh-Hant&src=imger&q=%E7%A6%8F%E5%B7%9E%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E5%AD%A6%E7%94%9F%20%E7%A9%BA%E5%A7%90%20%E7%99%BD%E9%A2%86%20%E6%B8%85%E7%BA%AF%20%E5%BE%A1%E5%A7%90.ugn",
+                  "snippet": "康涵 · @_only_the_brav3. ·. 3 分鐘. ️ ☔ 厦门外围 你想要我吗？ 快来 ... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:52:07.502Z",
+                  "score": 1,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:51:58.943Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:02.140Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:07.502Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 2,
+                  "title": "Sheet1",
+                  "url": "http://tjj.sc.gov.cn/scstjj/c105843/2021/1/5/9890ea0006af4c6d9e43fef57713b59a/files/%E9%99%84%E4%BB%B62%EF%BC%9A2020%E5%B9%B4%E4%B8%AD%E7%BA%A7%E9%80%9A%E8%BF%87%E4%BA%BA%E5%91%98%E5%90%8D%E5%8D%95.xlsx",
+                  "snippet": "邱涵, 中级统计, 15101, 四川省成都市, 女, 76, 151010101808, 84 ... 四川省泸州市, 女, 95, 151040100415, 88, 251040100420. 115, 114, 蔡倩, 中级 ...",
+                  "source": "tjj.sc.gov.cn",
+                  "timestamp": "2025-09-17T05:52:07.502Z",
+                  "score": 2,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:51:58.943Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:02.140Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:07.502Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 3,
+                  "title": "面试公告附表 - 四川省税务局",
+                  "url": "https://sichuan.chinatax.gov.cn/module/download/downfile.jsp?classid=0&filename=d71268d029904ccba9e0abf815154475.xls",
+                  "snippet": "康紫姻, 130353040402614. 648, 杨志文, 130364011302722. 649, 国家税务总局攀枝花 ... 国家税务总局泸州市江阳区税务局一级行政执法员（一） （300110036001）, 126.9 ...",
+                  "source": "sichuan.chinatax.gov.cn",
+                  "timestamp": "2025-09-17T05:52:07.502Z",
+                  "score": 3,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:51:58.943Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:02.140Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:07.502Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 4,
+                  "title": "第二届全国大学生职业规划大赛全国总决赛成长赛道获奖名单",
+                  "url": "http://www.moe.gov.cn/srcsite/A15/s7063/202508/W020250826366701498008.docx",
+                  "snippet": "郑涵. 北京市. 中国地质大学(北京). 杨爽、于琦、黄政淇. 银奖. 47. 高教组. 沈启航 ... 泸州职业技术学院. 夏培惠、徐月梅. 铜奖. 365. 职教组. 郭千山. 四川省. 四川司法 ...",
+                  "source": "www.moe.gov.cn",
+                  "timestamp": "2025-09-17T05:52:07.502Z",
+                  "score": 4,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:51:58.943Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:02.140Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:07.502Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 5,
+                  "title": "烟台外围外国人微心11856811 高端外围只做极品见人付款. ...",
+                  "url": "https://twitter.com/search?lang=ar&src=live&q=%E7%83%9F%E5%8F%B0%E5%A4%96%E5%9B%B4%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E8%A7%81%E4%BA%BA%E4%BB%98%E6%AC%BE.gqk",
+                  "snippet": "... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ... 康涵 · @_only_the_brav3. ·. ١٤ س. ☔⚠ 烟台外围 我好想被~Xxo0 家里酒店 ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:52:07.502Z",
+                  "score": 5,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:51:58.943Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:02.140Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:07.502Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 6,
+                  "title": "Luna-Universal-qPCR-Master-Mix-Sample-Request",
+                  "url": "https://www.neb.com/en/forms/luna-universal-qpcr-master-mix-sample-request?srsltid=AfmBOormhzK9yLHUPnZ863ZMlhYxi9U7ELzqY9twXcKXZBsXf1RN-2uC",
+                  "snippet": "泸州市, 德阳市, 绵阳市, 广元市, 遂宁市, 内江市, 乐山市, 南充市, 宜宾市, 广安市, 达州市 ... 康保县, 沽源县, 尚义县, 蔚县, 阳原县, 怀安县, 怀来县, 涿鹿县, 赤城县 ...",
+                  "source": "www.neb.com",
+                  "timestamp": "2025-09-17T05:52:07.502Z",
+                  "score": 6,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:51:58.943Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:02.140Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:07.502Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 7,
+                  "title": "外商投资综合管理- 商务部",
+                  "url": "https://wzxxbg.mofcom.gov.cn/wzLrztz/un/register",
+                  "snippet": "外商投资综合管理企业端. 境外投资者以分配利润直接投资税收抵免申报企业用户注册. *企业名称. *统一社会信用代码. *企业属地. 请选择企业属地, 11000000 - 北京市 ...",
+                  "source": "wzxxbg.mofcom.gov.cn",
+                  "timestamp": "2025-09-17T05:52:07.502Z",
+                  "score": 7,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:51:58.943Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:02.140Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:07.502Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 8,
+                  "title": "重庆市建设项目",
+                  "url": "https://documents1.worldbank.org/curated/en/917221468216585596/pdf/E22470v110CHIN0ruction0Subcomponent.pdf",
+                  "snippet": "康社会目标的实现。对于完善道路交通运输功能，发展本镇的加工业、. 旅游业和农牧养殖业，发展农村经济，改善小城镇形象，提高城镇化率，. 缩小城乡差别，实现城乡统筹 ...",
+                  "source": "documents1.worldbank.org",
+                  "timestamp": "2025-09-17T05:52:07.502Z",
+                  "score": 8,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:51:58.943Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:02.140Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:07.502Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 9,
+                  "title": "習近平「中國夢」之探討",
+                  "url": "https://www.mjib.gov.tw/FileUploads/eBooks/ad40fc946b834f2a98a56b36250388c0/Section_file/3fad76d16df9419591a70fd464be2dc7.pdf",
+                  "snippet": "政府部門的. 宣傳亦不可少；四川成都、綿陽和瀘州等地成立了「建設美麗繁榮和諧四川領. 導小組辦公室」即為例子。值得注意的是，「中國夢」也進入宗教領域。四川省. 達州市 ...",
+                  "source": "www.mjib.gov.tw",
+                  "timestamp": "2025-09-17T05:52:07.502Z",
+                  "score": 9,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:51:58.943Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:02.140Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:07.502Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 10,
+                  "title": "传祺向往S7 - 家庭大五座智能SUV",
+                  "url": "https://www.gacmotor.com/s7",
+                  "snippet": "传祺向往S7 · M6 · 预约试驾 · 预约试驾.",
+                  "source": "www.gacmotor.com",
+                  "timestamp": "2025-09-17T05:52:07.502Z",
+                  "score": 10,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:51:58.943Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:02.140Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:07.502Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                }
+              ],
+              "overallScores": {
+                "权威性": {
+                  "score": 1,
+                  "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                  "dimension": "权威性",
+                  "scoringSystem": "five_point",
+                  "timestamp": "2025-09-17T05:51:58.943Z",
+                  "resultCount": 10
+                },
+                "相关性": {
+                  "score": 1,
+                  "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                  "dimension": "相关性",
+                  "scoringSystem": "five_point",
+                  "timestamp": "2025-09-17T05:52:02.140Z",
+                  "resultCount": 10
+                },
+                "时效性": {
+                  "score": 1,
+                  "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                  "dimension": "时效性",
+                  "scoringSystem": "five_point",
+                  "timestamp": "2025-09-17T05:52:07.502Z",
+                  "resultCount": 10
+                }
+              },
+              "weightedScore": 1,
+              "timestamp": "2025-09-17T05:52:07.503Z"
+            },
+            {
+              "round": 2,
+              "results": [
+                {
+                  "rank": 1,
+                  "title": "福州高端外围经纪人微心11856811 高端外围只做极品学生 ...",
+                  "url": "https://twitter.com/search?lang=zh-Hant&src=imger&q=%E7%A6%8F%E5%B7%9E%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E5%AD%A6%E7%94%9F%20%E7%A9%BA%E5%A7%90%20%E7%99%BD%E9%A2%86%20%E6%B8%85%E7%BA%AF%20%E5%BE%A1%E5%A7%90.ugn",
+                  "snippet": "康涵 · @_only_the_brav3. ·. 3 分鐘. ️ ☔ 厦门外围 你想要我吗？ 快来 ... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:52:19.683Z",
+                  "score": 1,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:11.540Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:15.202Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- **查询时效类型**：低时效（查询内容无明显时效关键词，且涉及地名和人名，推测为一般信息查询）\n- **符合时效性要求结果**：0条\n- **不符合时效性要求结果**：10条\n\n**评分依据**：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:19.683Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 2,
+                  "title": "Sheet1",
+                  "url": "http://tjj.sc.gov.cn/scstjj/c105843/2021/1/5/9890ea0006af4c6d9e43fef57713b59a/files/%E9%99%84%E4%BB%B62%EF%BC%9A2020%E5%B9%B4%E4%B8%AD%E7%BA%A7%E9%80%9A%E8%BF%87%E4%BA%BA%E5%91%98%E5%90%8D%E5%8D%95.xlsx",
+                  "snippet": "邱涵, 中级统计, 15101, 四川省成都市, 女, 76, 151010101808, 84 ... 四川省泸州市, 女, 95, 151040100415, 88, 251040100420. 115, 114, 蔡倩, 中级 ...",
+                  "source": "tjj.sc.gov.cn",
+                  "timestamp": "2025-09-17T05:52:19.683Z",
+                  "score": 2,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:11.540Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:15.202Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- **查询时效类型**：低时效（查询内容无明显时效关键词，且涉及地名和人名，推测为一般信息查询）\n- **符合时效性要求结果**：0条\n- **不符合时效性要求结果**：10条\n\n**评分依据**：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:19.683Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 3,
+                  "title": "面试公告附表 - 四川省税务局",
+                  "url": "https://sichuan.chinatax.gov.cn/module/download/downfile.jsp?classid=0&filename=d71268d029904ccba9e0abf815154475.xls",
+                  "snippet": "康紫姻, 130353040402614. 648, 杨志文, 130364011302722. 649, 国家税务总局攀枝花 ... 国家税务总局泸州市江阳区税务局一级行政执法员（一） （300110036001）, 126.9 ...",
+                  "source": "sichuan.chinatax.gov.cn",
+                  "timestamp": "2025-09-17T05:52:19.683Z",
+                  "score": 3,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:11.540Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:15.202Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- **查询时效类型**：低时效（查询内容无明显时效关键词，且涉及地名和人名，推测为一般信息查询）\n- **符合时效性要求结果**：0条\n- **不符合时效性要求结果**：10条\n\n**评分依据**：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:19.683Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 4,
+                  "title": "第二届全国大学生职业规划大赛全国总决赛成长赛道获奖名单",
+                  "url": "http://www.moe.gov.cn/srcsite/A15/s7063/202508/W020250826366701498008.docx",
+                  "snippet": "郑涵. 北京市. 中国地质大学(北京). 杨爽、于琦、黄政淇. 银奖. 47. 高教组. 沈启航 ... 泸州职业技术学院. 夏培惠、徐月梅. 铜奖. 365. 职教组. 郭千山. 四川省. 四川司法 ...",
+                  "source": "www.moe.gov.cn",
+                  "timestamp": "2025-09-17T05:52:19.683Z",
+                  "score": 4,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:11.540Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:15.202Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- **查询时效类型**：低时效（查询内容无明显时效关键词，且涉及地名和人名，推测为一般信息查询）\n- **符合时效性要求结果**：0条\n- **不符合时效性要求结果**：10条\n\n**评分依据**：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:19.683Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 5,
+                  "title": "烟台外围外国人微心11856811 高端外围只做极品见人付款. ...",
+                  "url": "https://twitter.com/search?lang=ar&src=live&q=%E7%83%9F%E5%8F%B0%E5%A4%96%E5%9B%B4%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E8%A7%81%E4%BA%BA%E4%BB%98%E6%AC%BE.gqk",
+                  "snippet": "... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ... 康涵 · @_only_the_brav3. ·. ١٤ س. ☔⚠ 烟台外围 我好想被~Xxo0 家里酒店 ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:52:19.683Z",
+                  "score": 5,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:11.540Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:15.202Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- **查询时效类型**：低时效（查询内容无明显时效关键词，且涉及地名和人名，推测为一般信息查询）\n- **符合时效性要求结果**：0条\n- **不符合时效性要求结果**：10条\n\n**评分依据**：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:19.683Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 6,
+                  "title": "Luna-Universal-qPCR-Master-Mix-Sample-Request",
+                  "url": "https://www.neb.com/en/forms/luna-universal-qpcr-master-mix-sample-request?srsltid=AfmBOormhzK9yLHUPnZ863ZMlhYxi9U7ELzqY9twXcKXZBsXf1RN-2uC",
+                  "snippet": "泸州市, 德阳市, 绵阳市, 广元市, 遂宁市, 内江市, 乐山市, 南充市, 宜宾市, 广安市, 达州市 ... 康保县, 沽源县, 尚义县, 蔚县, 阳原县, 怀安县, 怀来县, 涿鹿县, 赤城县 ...",
+                  "source": "www.neb.com",
+                  "timestamp": "2025-09-17T05:52:19.683Z",
+                  "score": 6,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:11.540Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:15.202Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- **查询时效类型**：低时效（查询内容无明显时效关键词，且涉及地名和人名，推测为一般信息查询）\n- **符合时效性要求结果**：0条\n- **不符合时效性要求结果**：10条\n\n**评分依据**：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:19.683Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 7,
+                  "title": "外商投资综合管理- 商务部",
+                  "url": "https://wzxxbg.mofcom.gov.cn/wzLrztz/un/register",
+                  "snippet": "外商投资综合管理企业端. 境外投资者以分配利润直接投资税收抵免申报企业用户注册. *企业名称. *统一社会信用代码. *企业属地. 请选择企业属地, 11000000 - 北京市 ...",
+                  "source": "wzxxbg.mofcom.gov.cn",
+                  "timestamp": "2025-09-17T05:52:19.683Z",
+                  "score": 7,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:11.540Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:15.202Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- **查询时效类型**：低时效（查询内容无明显时效关键词，且涉及地名和人名，推测为一般信息查询）\n- **符合时效性要求结果**：0条\n- **不符合时效性要求结果**：10条\n\n**评分依据**：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:19.683Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 8,
+                  "title": "重庆市建设项目",
+                  "url": "https://documents1.worldbank.org/curated/en/917221468216585596/pdf/E22470v110CHIN0ruction0Subcomponent.pdf",
+                  "snippet": "康社会目标的实现。对于完善道路交通运输功能，发展本镇的加工业、. 旅游业和农牧养殖业，发展农村经济，改善小城镇形象，提高城镇化率，. 缩小城乡差别，实现城乡统筹 ...",
+                  "source": "documents1.worldbank.org",
+                  "timestamp": "2025-09-17T05:52:19.683Z",
+                  "score": 8,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:11.540Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:15.202Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- **查询时效类型**：低时效（查询内容无明显时效关键词，且涉及地名和人名，推测为一般信息查询）\n- **符合时效性要求结果**：0条\n- **不符合时效性要求结果**：10条\n\n**评分依据**：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:19.683Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 9,
+                  "title": "習近平「中國夢」之探討",
+                  "url": "https://www.mjib.gov.tw/FileUploads/eBooks/ad40fc946b834f2a98a56b36250388c0/Section_file/3fad76d16df9419591a70fd464be2dc7.pdf",
+                  "snippet": "政府部門的. 宣傳亦不可少；四川成都、綿陽和瀘州等地成立了「建設美麗繁榮和諧四川領. 導小組辦公室」即為例子。值得注意的是，「中國夢」也進入宗教領域。四川省. 達州市 ...",
+                  "source": "www.mjib.gov.tw",
+                  "timestamp": "2025-09-17T05:52:19.683Z",
+                  "score": 9,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:11.540Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:15.202Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- **查询时效类型**：低时效（查询内容无明显时效关键词，且涉及地名和人名，推测为一般信息查询）\n- **符合时效性要求结果**：0条\n- **不符合时效性要求结果**：10条\n\n**评分依据**：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:19.683Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 10,
+                  "title": "传祺向往S7 - 家庭大五座智能SUV",
+                  "url": "https://www.gacmotor.com/s7",
+                  "snippet": "传祺向往S7 · M6 · 预约试驾 · 预约试驾.",
+                  "source": "www.gacmotor.com",
+                  "timestamp": "2025-09-17T05:52:19.683Z",
+                  "score": 10,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:11.540Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:15.202Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- **查询时效类型**：低时效（查询内容无明显时效关键词，且涉及地名和人名，推测为一般信息查询）\n- **符合时效性要求结果**：0条\n- **不符合时效性要求结果**：10条\n\n**评分依据**：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:19.683Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                }
+              ],
+              "overallScores": {
+                "权威性": {
+                  "score": 1,
+                  "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                  "dimension": "权威性",
+                  "scoringSystem": "five_point",
+                  "timestamp": "2025-09-17T05:52:11.540Z",
+                  "resultCount": 10
+                },
+                "相关性": {
+                  "score": 1,
+                  "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                  "dimension": "相关性",
+                  "scoringSystem": "five_point",
+                  "timestamp": "2025-09-17T05:52:15.202Z",
+                  "resultCount": 10
+                },
+                "时效性": {
+                  "score": 1,
+                  "reasoning": "根据时效性评分标准分析搜索结果：\n\n- **查询时效类型**：低时效（查询内容无明显时效关键词，且涉及地名和人名，推测为一般信息查询）\n- **符合时效性要求结果**：0条\n- **不符合时效性要求结果**：10条\n\n**评分依据**：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                  "dimension": "时效性",
+                  "scoringSystem": "five_point",
+                  "timestamp": "2025-09-17T05:52:19.683Z",
+                  "resultCount": 10
+                }
+              },
+              "weightedScore": 1,
+              "timestamp": "2025-09-17T05:52:19.683Z"
+            },
+            {
+              "round": 3,
+              "results": [
+                {
+                  "rank": 1,
+                  "title": "福州高端外围经纪人微心11856811 高端外围只做极品学生 ...",
+                  "url": "https://twitter.com/search?lang=zh-Hant&src=imger&q=%E7%A6%8F%E5%B7%9E%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E5%AD%A6%E7%94%9F%20%E7%A9%BA%E5%A7%90%20%E7%99%BD%E9%A2%86%20%E6%B8%85%E7%BA%AF%20%E5%BE%A1%E5%A7%90.ugn",
+                  "snippet": "康涵 · @_only_the_brav3. ·. 3 分鐘. ️ ☔ 厦门外围 你想要我吗？ 快来 ... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:52:30.697Z",
+                  "score": 1,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:23.317Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:26.355Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:30.696Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 2,
+                  "title": "Sheet1",
+                  "url": "http://tjj.sc.gov.cn/scstjj/c105843/2021/1/5/9890ea0006af4c6d9e43fef57713b59a/files/%E9%99%84%E4%BB%B62%EF%BC%9A2020%E5%B9%B4%E4%B8%AD%E7%BA%A7%E9%80%9A%E8%BF%87%E4%BA%BA%E5%91%98%E5%90%8D%E5%8D%95.xlsx",
+                  "snippet": "邱涵, 中级统计, 15101, 四川省成都市, 女, 76, 151010101808, 84 ... 四川省泸州市, 女, 95, 151040100415, 88, 251040100420. 115, 114, 蔡倩, 中级 ...",
+                  "source": "tjj.sc.gov.cn",
+                  "timestamp": "2025-09-17T05:52:30.697Z",
+                  "score": 2,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:23.317Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:26.355Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:30.696Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 3,
+                  "title": "面试公告附表 - 四川省税务局",
+                  "url": "https://sichuan.chinatax.gov.cn/module/download/downfile.jsp?classid=0&filename=d71268d029904ccba9e0abf815154475.xls",
+                  "snippet": "康紫姻, 130353040402614. 648, 杨志文, 130364011302722. 649, 国家税务总局攀枝花 ... 国家税务总局泸州市江阳区税务局一级行政执法员（一） （300110036001）, 126.9 ...",
+                  "source": "sichuan.chinatax.gov.cn",
+                  "timestamp": "2025-09-17T05:52:30.697Z",
+                  "score": 3,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:23.317Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:26.355Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:30.696Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 4,
+                  "title": "第二届全国大学生职业规划大赛全国总决赛成长赛道获奖名单",
+                  "url": "http://www.moe.gov.cn/srcsite/A15/s7063/202508/W020250826366701498008.docx",
+                  "snippet": "郑涵. 北京市. 中国地质大学(北京). 杨爽、于琦、黄政淇. 银奖. 47. 高教组. 沈启航 ... 泸州职业技术学院. 夏培惠、徐月梅. 铜奖. 365. 职教组. 郭千山. 四川省. 四川司法 ...",
+                  "source": "www.moe.gov.cn",
+                  "timestamp": "2025-09-17T05:52:30.697Z",
+                  "score": 4,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:23.317Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:26.355Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:30.696Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 5,
+                  "title": "烟台外围外国人微心11856811 高端外围只做极品见人付款. ...",
+                  "url": "https://twitter.com/search?lang=ar&src=live&q=%E7%83%9F%E5%8F%B0%E5%A4%96%E5%9B%B4%E5%A4%96%E5%9B%BD%E4%BA%BA%E5%BE%AE%E5%BF%83%2011856811%20%E9%AB%98%E7%AB%AF%E5%A4%96%E5%9B%B4%20%E5%8F%AA%E5%81%9A%E6%9E%81%E5%93%81%20%E8%A7%81%E4%BA%BA%E4%BB%98%E6%AC%BE.gqk",
+                  "snippet": "... 泸州面付！不套路包真实靠谱 嘴炮昆明东莞广州咸宁上海. A woman with long ... 康涵 · @_only_the_brav3. ·. ١٤ س. ☔⚠ 烟台外围 我好想被~Xxo0 家里酒店 ...",
+                  "source": "twitter.com",
+                  "timestamp": "2025-09-17T05:52:30.697Z",
+                  "score": 5,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:23.317Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:26.355Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:30.696Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 6,
+                  "title": "Luna-Universal-qPCR-Master-Mix-Sample-Request",
+                  "url": "https://www.neb.com/en/forms/luna-universal-qpcr-master-mix-sample-request?srsltid=AfmBOormhzK9yLHUPnZ863ZMlhYxi9U7ELzqY9twXcKXZBsXf1RN-2uC",
+                  "snippet": "泸州市, 德阳市, 绵阳市, 广元市, 遂宁市, 内江市, 乐山市, 南充市, 宜宾市, 广安市, 达州市 ... 康保县, 沽源县, 尚义县, 蔚县, 阳原县, 怀安县, 怀来县, 涿鹿县, 赤城县 ...",
+                  "source": "www.neb.com",
+                  "timestamp": "2025-09-17T05:52:30.697Z",
+                  "score": 6,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:23.317Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:26.355Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:30.696Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 7,
+                  "title": "外商投资综合管理- 商务部",
+                  "url": "https://wzxxbg.mofcom.gov.cn/wzLrztz/un/register",
+                  "snippet": "外商投资综合管理企业端. 境外投资者以分配利润直接投资税收抵免申报企业用户注册. *企业名称. *统一社会信用代码. *企业属地. 请选择企业属地, 11000000 - 北京市 ...",
+                  "source": "wzxxbg.mofcom.gov.cn",
+                  "timestamp": "2025-09-17T05:52:30.697Z",
+                  "score": 7,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:23.317Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:26.355Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:30.696Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 8,
+                  "title": "重庆市建设项目",
+                  "url": "https://documents1.worldbank.org/curated/en/917221468216585596/pdf/E22470v110CHIN0ruction0Subcomponent.pdf",
+                  "snippet": "康社会目标的实现。对于完善道路交通运输功能，发展本镇的加工业、. 旅游业和农牧养殖业，发展农村经济，改善小城镇形象，提高城镇化率，. 缩小城乡差别，实现城乡统筹 ...",
+                  "source": "documents1.worldbank.org",
+                  "timestamp": "2025-09-17T05:52:30.697Z",
+                  "score": 8,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:23.317Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:26.355Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:30.696Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 9,
+                  "title": "習近平「中國夢」之探討",
+                  "url": "https://www.mjib.gov.tw/FileUploads/eBooks/ad40fc946b834f2a98a56b36250388c0/Section_file/3fad76d16df9419591a70fd464be2dc7.pdf",
+                  "snippet": "政府部門的. 宣傳亦不可少；四川成都、綿陽和瀘州等地成立了「建設美麗繁榮和諧四川領. 導小組辦公室」即為例子。值得注意的是，「中國夢」也進入宗教領域。四川省. 達州市 ...",
+                  "source": "www.mjib.gov.tw",
+                  "timestamp": "2025-09-17T05:52:30.697Z",
+                  "score": 9,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:23.317Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:26.355Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:30.696Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                },
+                {
+                  "rank": 10,
+                  "title": "传祺向往S7 - 家庭大五座智能SUV",
+                  "url": "https://www.gacmotor.com/s7",
+                  "snippet": "传祺向往S7 · M6 · 预约试驾 · 预约试驾.",
+                  "source": "www.gacmotor.com",
+                  "timestamp": "2025-09-17T05:52:30.697Z",
+                  "score": 10,
+                  "dimensionScores": {
+                    "权威性": {
+                      "score": 1,
+                      "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                      "dimension": "权威性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:23.317Z",
+                      "resultCount": 10
+                    },
+                    "相关性": {
+                      "score": 1,
+                      "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "相关性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:26.355Z",
+                      "resultCount": 10
+                    },
+                    "时效性": {
+                      "score": 1,
+                      "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                      "dimension": "时效性",
+                      "scoringSystem": "five_point",
+                      "timestamp": "2025-09-17T05:52:30.696Z",
+                      "resultCount": 10
+                    }
+                  },
+                  "weightedScore": 1
+                }
+              ],
+              "overallScores": {
+                "权威性": {
+                  "score": 1,
+                  "reasoning": "根据权威性评分标准分析搜索结果：\n\n- 权威来源（核心+垂直+辅助）：0条\n- 非权威来源（优质社区+基础信息）：10条\n\n评分依据：非权威来源数量为10条，根据扣分规则得分为1分。",
+                  "dimension": "权威性",
+                  "scoringSystem": "five_point",
+                  "timestamp": "2025-09-17T05:52:23.317Z",
+                  "resultCount": 10
+                },
+                "相关性": {
+                  "score": 1,
+                  "reasoning": "根据相关性评分标准分析搜索结果：\n- 高度相关结果：0条\n- 部分相关结果：0条\n- 不相关结果：10条\n\n评分依据：高度相关结果数量为0条，根据评分标准得分为1分。",
+                  "dimension": "相关性",
+                  "scoringSystem": "five_point",
+                  "timestamp": "2025-09-17T05:52:26.355Z",
+                  "resultCount": 10
+                },
+                "时效性": {
+                  "score": 1,
+                  "reasoning": "根据时效性评分标准分析搜索结果：\n\n- 查询时效类型：低时效（查询内容无明显时效关键词，且内容特征不明确指向高或中时效敏感度）\n- 符合时效性要求结果：0条\n- 不符合时效性要求结果：10条\n\n评分依据：查询为低时效类型，符合时效性要求结果数量为0条，根据评分标准得分为1分。",
+                  "dimension": "时效性",
+                  "scoringSystem": "five_point",
+                  "timestamp": "2025-09-17T05:52:30.696Z",
+                  "resultCount": 10
+                }
+              },
+              "weightedScore": 1,
+              "timestamp": "2025-09-17T05:52:30.697Z"
+            }
+          ]
+        },
+        "averageScores": {
+          "binary": {
+            "dimensions": {},
+            "weighted": 0,
+            "rounds": [
+              {
+                "round": 1,
+                "weighted": 0,
+                "timestamp": "2025-09-17T05:51:23.644Z"
+              },
+              {
+                "round": 2,
+                "weighted": 0,
+                "timestamp": "2025-09-17T05:51:40.487Z"
+              },
+              {
+                "round": 3,
+                "weighted": 0,
+                "timestamp": "2025-09-17T05:51:56.384Z"
+              }
+            ],
+            "totalRounds": 3,
+            "validRounds": 3,
+            "errorRounds": 0
+          },
+          "five_point": {
+            "dimensions": {},
+            "weighted": 1,
+            "rounds": [
+              {
+                "round": 1,
+                "weighted": 1,
+                "timestamp": "2025-09-17T05:52:07.503Z"
+              },
+              {
+                "round": 2,
+                "weighted": 1,
+                "timestamp": "2025-09-17T05:52:19.683Z"
+              },
+              {
+                "round": 3,
+                "weighted": 1,
+                "timestamp": "2025-09-17T05:52:30.697Z"
+              }
+            ],
+            "totalRounds": 3,
+            "validRounds": 3,
+            "errorRounds": 0
+          }
+        },
+        "timestamp": "2025-09-17T05:51:03.366Z",
+        "repeatTimes": 3
+      }
+    },
+    "summary": {
+      "totalEngines": 1,
+      "successfulEngines": 1,
+      "failedEngines": 0,
+      "rankings": {
+        "binary": [
+          {
+            "rank": 1,
+            "engine": "serper",
+            "score": 0
+          }
+        ],
+        "five_point": [
+          {
+            "rank": 1,
+            "engine": "serper",
+            "score": 1
+          }
+        ]
+      }
+    }
+  }
+}
