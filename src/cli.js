@@ -2,6 +2,7 @@
 
 import { Command } from 'commander';
 import { createEvaluationSystem } from './index.js';
+import { logManager } from './utils/LogManager.js';
 import path from 'path';
 import fs from 'fs/promises';
 
@@ -69,10 +70,15 @@ program
   .option('-o, --output <dir>', '输出目录', './results')
   .option('--no-report', '不生成报告')
   .action(async (query, options) => {
+    // 启动日志记录
+    logManager.startLogging();
+    
     try {
       const system = await createEvaluationSystem(options.config);
       
       console.log(`🔍 评估查询: "${query}"`);
+      logManager.writeCustomLog(`开始单次评估 - 查询: ${query}`, 'INFO');
+      
       const result = await system.evaluateSingleQuery(query);
       
       // 保存结果
@@ -84,15 +90,63 @@ program
       
       await fs.writeFile(resultFile, JSON.stringify(result, null, 2));
       console.log(`💾 结果已保存到: ${resultFile}`);
+      logManager.writeCustomLog(`评估结果已保存到: ${resultFile}`, 'INFO');
       
       // 生成报告
       if (options.report) {
-        const reportFiles = await system.generateReports(
-          { queries: [result] },
-          outputDir,
-          { format: ['html', 'markdown'] }
-        );
-        console.log('📝 报告已生成:', reportFiles);
+        try {
+          // 将单次查询结果转换为报告格式
+          const reportData = {
+            metadata: {
+              total_rounds: 1,
+              total_queries: 1,
+              generation_time: new Date().toISOString(),
+              config_summary: {
+                enabled_engines: Object.keys(result.engines),
+                dimensions: ['权威性', '相关性', '时效性'],
+                repeat_times: result.engines[Object.keys(result.engines)[0]]?.repeatTimes || 3
+              }
+            },
+            engine_rankings: result.summary.rankings,
+            aggregated_results: {
+              engine_performance: {}
+            }
+          };
+
+          // 构建引擎性能数据
+          Object.entries(result.engines).forEach(([engineName, engineData]) => {
+            if (!engineData.error && engineData.averageScores) {
+              reportData.aggregated_results.engine_performance[engineName] = {
+                success_rate: 1.0,
+                average_scores: {
+                  binary: {
+                    mean: engineData.averageScores.binary?.weighted || 0,
+                    min: engineData.averageScores.binary?.weighted || 0,
+                    max: engineData.averageScores.binary?.weighted || 0,
+                    std_dev: 0
+                  },
+                  five_point: {
+                    mean: engineData.averageScores.five_point?.weighted || 0,
+                    min: engineData.averageScores.five_point?.weighted || 0,
+                    max: engineData.averageScores.five_point?.weighted || 0,
+                    std_dev: 0
+                  }
+                }
+              };
+            }
+          });
+
+          const reportFiles = await system.generateReports(
+            reportData,
+            outputDir,
+            { format: ['html', 'markdown'] }
+          );
+          console.log('📝 报告已生成:', reportFiles);
+          logManager.writeCustomLog(`报告已生成: ${JSON.stringify(reportFiles)}`, 'INFO');
+        } catch (reportError) {
+          console.error('❌ 报告生成失败:', reportError.message);
+          logManager.writeCustomLog(`报告生成失败: ${reportError.message}`, 'ERROR');
+        }
       }
       
       // 显示简要结果
@@ -101,9 +155,15 @@ program
         console.log(`   ${engine}: ${engineResult.finalScore.toFixed(2)}分`);
       });
       
+      logManager.writeCustomLog(`单次评估完成 - 查询: ${query}`, 'INFO');
+      
     } catch (error) {
       console.error('❌ 评估失败:', error.message);
+      logManager.writeCustomLog(`评估失败: ${error.message}`, 'ERROR');
       process.exit(1);
+    } finally {
+      // 停止日志记录
+      logManager.stopLogging();
     }
   });
 
@@ -120,6 +180,9 @@ program
   .option('--format <formats>', '报告格式（html,markdown,json）', 'html,markdown')
   .option('--no-report', '不生成报告')
   .action(async (queries, options) => {
+    // 启动日志记录
+    logManager.startLogging();
+    
     try {
       const system = await createEvaluationSystem(options.config);
       
@@ -143,10 +206,13 @@ program
       };
       
       console.log('📊 开始批量评估...');
+      logManager.writeCustomLog(`开始批量评估 - 查询: ${JSON.stringify(queriesInput)}, 重复次数: ${options.repeat}`, 'INFO');
+      
       const result = await system.runBatchEvaluation(queriesInput, batchOptions);
       
       console.log('\n🎉 批量评估完成！');
       console.log(`📁 结果保存在: ${options.output}`);
+      logManager.writeCustomLog(`批量评估完成 - 结果保存在: ${options.output}`, 'INFO');
       
       // 显示排名
       console.log('\n🏆 搜索引擎排名:');
@@ -155,9 +221,15 @@ program
         console.log(`   ${medal} ${index + 1}. ${engine.name}: ${engine.averageScore.toFixed(2)}分`);
       });
       
+      logManager.writeCustomLog(`搜索引擎排名: ${JSON.stringify(result.finalReport.engineRanking.map(e => ({name: e.name, score: e.averageScore})))}`, 'INFO');
+      
     } catch (error) {
       console.error('❌ 批量评估失败:', error.message);
+      logManager.writeCustomLog(`批量评估失败: ${error.message}`, 'ERROR');
       process.exit(1);
+    } finally {
+      // 停止日志记录
+      logManager.stopLogging();
     }
   });
 

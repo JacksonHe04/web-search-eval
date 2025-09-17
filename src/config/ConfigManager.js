@@ -102,8 +102,71 @@ export class ConfigManager {
    * 获取提示词模板
    * @returns {Object} 提示词配置
    */
-  getPrompts() {
-    return this.config?.evaluation?.prompts || {};
+  async getPrompts() {
+    // 尝试从外部文件加载提示词
+    try {
+      const promptsDir = path.join(process.cwd(), 'prompts');
+      const prompts = {};
+      
+      // 检查prompts目录是否存在
+      try {
+        await fs.access(promptsDir);
+      } catch (error) {
+        // 如果prompts目录不存在，回退到配置文件中的提示词
+        console.log('⚠️  prompts目录不存在，使用配置文件中的提示词');
+        return this.config?.evaluation?.prompts || {};
+      }
+      
+      // 加载binary评分系统的提示词
+      const binaryDir = path.join(promptsDir, 'binary');
+      try {
+        await fs.access(binaryDir);
+        prompts.binary = {};
+        
+        const binaryFiles = await fs.readdir(binaryDir);
+        for (const file of binaryFiles) {
+          if (file.endsWith('.txt')) {
+            const dimension = path.basename(file, '.txt');
+            const filePath = path.join(binaryDir, file);
+            prompts.binary[dimension] = await fs.readFile(filePath, 'utf8');
+          }
+        }
+      } catch (error) {
+        console.log('⚠️  binary提示词目录不存在，跳过加载');
+      }
+      
+      // 加载five_point评分系统的提示词
+      const fivePointDir = path.join(promptsDir, 'five_point');
+      try {
+        await fs.access(fivePointDir);
+        prompts.five_point = {};
+        
+        const fivePointFiles = await fs.readdir(fivePointDir);
+        for (const file of fivePointFiles) {
+          if (file.endsWith('.txt')) {
+            const dimension = path.basename(file, '.txt');
+            const filePath = path.join(fivePointDir, file);
+            prompts.five_point[dimension] = await fs.readFile(filePath, 'utf8');
+          }
+        }
+      } catch (error) {
+        console.log('⚠️  five_point提示词目录不存在，跳过加载');
+      }
+      
+      // 如果成功加载了外部提示词，返回加载的内容
+      if (Object.keys(prompts).length > 0) {
+        console.log('✅ 成功从外部文件加载提示词');
+        return prompts;
+      }
+      
+      // 如果没有加载到任何外部提示词，回退到配置文件
+      console.log('⚠️  未找到外部提示词文件，使用配置文件中的提示词');
+      return this.config?.evaluation?.prompts || {};
+      
+    } catch (error) {
+      console.error('❌ 加载外部提示词失败，回退到配置文件:', error.message);
+      return this.config?.evaluation?.prompts || {};
+    }
   }
 
   /**

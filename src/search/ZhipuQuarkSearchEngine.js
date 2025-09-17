@@ -2,29 +2,31 @@ import fetch from 'node-fetch';
 import { SearchEngine } from './SearchEngine.js';
 
 /**
- * 智谱搜索引擎实现
- * 调用智谱API进行网络搜索
+ * 智谱Quark搜索引擎实现
+ * 使用search_pro_quark引擎进行网络搜索
  */
-export class ZhipuSearchEngine extends SearchEngine {
+export class ZhipuQuarkSearchEngine extends SearchEngine {
   constructor(config) {
-    super('zhipu', config);
+    super('zhipu_quark', config);
   }
 
   /**
-   * 执行智谱搜索
+   * 执行智谱Quark搜索
    * @param {string} query - 搜索查询
    * @param {Object} options - 搜索选项
    * @returns {Promise<Object>} 搜索结果
    */
   async search(query, options = {}) {
     if (!this.validateConfig()) {
-      throw new Error('智谱搜索引擎配置无效');
+      throw new Error('智谱Quark搜索引擎配置无效');
     }
 
     try {
+      console.log(`使用 zhipu_quark 搜索: ${query}`);
+      
       const requestData = {
         search_query: query,
-        search_engine: options.engine || 'search_pro',
+        search_engine: 'search_pro_quark',
         search_intent: false,
         count: options.maxResults || 10,
         search_domain_filter: options.domainFilter || '',
@@ -33,6 +35,8 @@ export class ZhipuSearchEngine extends SearchEngine {
         request_id: this.generateRequestId(),
         user_id: options.userId || 'default'
       };
+
+      console.log(`智谱Quark请求数据:`, JSON.stringify(requestData, null, 2));
 
       const response = await fetch(this.config.base_url, {
         method: 'POST',
@@ -45,21 +49,27 @@ export class ZhipuSearchEngine extends SearchEngine {
       });
 
       if (!response.ok) {
+        const errorText = await response.text();
+        console.error(`智谱Quark API错误响应: ${response.status} ${response.statusText}`, errorText);
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
 
       const data = await response.json();
+      console.log(`智谱Quark响应摘要: 返回${data.search_result?.length || 0}条结果`);
+
+      const results = this.parseZhipuResults(data?.search_result || []);
+      console.log(`zhipu_quark 搜索完成，返回 ${results.length} 条结果`);
 
       return this.formatResults({
         query,
-        total: data?.data?.length || 0,
-        results: this.parseZhipuResults(data?.data || []),
+        total: results.length,
+        results: results,
         raw: data
       });
 
     } catch (error) {
-      console.error(`智谱搜索失败: ${error.message}`);
-      throw new Error(`智谱搜索失败: ${error.message}`);
+      console.error(`智谱Quark搜索失败: ${error.message}`);
+      throw new Error(`智谱Quark搜索失败: ${error.message}`);
     }
   }
 
@@ -70,6 +80,7 @@ export class ZhipuSearchEngine extends SearchEngine {
    */
   parseZhipuResults(rawResults) {
     if (!Array.isArray(rawResults)) {
+      console.log('智谱Quark返回的数据不是数组:', rawResults);
       return [];
     }
 
@@ -77,7 +88,7 @@ export class ZhipuSearchEngine extends SearchEngine {
     const limitedResults = rawResults.slice(0, 10);
     
     if (rawResults.length > 10) {
-      console.log(`智谱搜索返回了${rawResults.length}条结果，已限制为10条`);
+      console.log(`智谱Quark返回了${rawResults.length}条结果，已限制为10条`);
     }
 
     return limitedResults.map((item, index) => ({
@@ -85,30 +96,29 @@ export class ZhipuSearchEngine extends SearchEngine {
       title: item.title || '',
       url: item.url || item.link || '',
       snippet: item.content || item.snippet || '',
-      source: item.source || this.extractDomain(item.url || item.link),
-      timestamp: item.publish_time || item.date || null,
-      score: item.relevance_score || null
+      source: this.extractDomain(item.url || item.link || ''),
+      timestamp: new Date().toISOString()
     }));
   }
 
   /**
-   * 从URL提取域名
-   * @param {string} url - 完整URL
+   * 从URL中提取域名
+   * @param {string} url - URL地址
    * @returns {string} 域名
    */
   extractDomain(url) {
     try {
       return new URL(url).hostname;
     } catch {
-      return '';
+      return url;
     }
   }
 
   /**
    * 生成请求ID
-   * @returns {string} 唯一请求ID
+   * @returns {string} 请求ID
    */
   generateRequestId() {
-    return `req_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    return `zhipu_quark_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
   }
 }

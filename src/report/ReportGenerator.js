@@ -93,9 +93,10 @@ export class ReportGenerator {
    * @returns {string} HTML内容
    */
   buildHtmlContent(finalReport) {
-    const metadata = finalReport.metadata;
-    const engineRankings = finalReport.engine_rankings;
-    const aggregatedResults = finalReport.aggregated_results;
+    const metadata = finalReport.metadata || {};
+    const engineRankings = finalReport.engine_rankings || {};
+    const aggregatedResults = finalReport.aggregated_results || {};
+    const configSummary = metadata.config_summary || {};
 
     return `
 <!DOCTYPE html>
@@ -129,15 +130,16 @@ export class ReportGenerator {
         
         <div class="metadata">
             <h3>📊 测试概览</h3>
-            <p><strong>测试轮次:</strong> ${metadata.total_rounds}</p>
-            <p><strong>查询数量:</strong> ${metadata.total_queries}</p>
-            <p><strong>生成时间:</strong> ${new Date(metadata.generation_time).toLocaleString('zh-CN')}</p>
-            <p><strong>启用引擎:</strong> ${metadata.config_summary.enabled_engines.join(', ')}</p>
-            <p><strong>评估维度:</strong> ${metadata.config_summary.dimensions.join(', ')}</p>
+            <p><strong>测试轮次:</strong> ${metadata.total_rounds || 1}</p>
+            <p><strong>查询数量:</strong> ${metadata.total_queries || 1}</p>
+            <p><strong>生成时间:</strong> ${metadata.generation_time ? new Date(metadata.generation_time).toLocaleString('zh-CN') : new Date().toLocaleString('zh-CN')}</p>
+            <p><strong>启用引擎:</strong> ${(configSummary.enabled_engines || []).join(', ')}</p>
+            <p><strong>评估维度:</strong> ${(configSummary.dimensions || ['权威性', '相关性', '时效性']).join(', ')}</p>
         </div>
 
         <h2>🏆 引擎排名</h2>
         
+        ${engineRankings.binary && engineRankings.binary.length > 0 ? `
         <h3>二分制评分排名</h3>
         <table class="ranking-table">
             <thead>
@@ -145,15 +147,15 @@ export class ReportGenerator {
                     <th>排名</th>
                     <th>搜索引擎</th>
                     <th>平均得分</th>
-                    <th>稳定性</th>
-                    <th>成功率</th>
                 </tr>
             </thead>
             <tbody>
                 ${this.generateRankingTableRows(engineRankings.binary)}
             </tbody>
         </table>
+        ` : ''}
 
+        ${engineRankings.five_point && engineRankings.five_point.length > 0 ? `
         <h3>五分制评分排名</h3>
         <table class="ranking-table">
             <thead>
@@ -161,15 +163,15 @@ export class ReportGenerator {
                     <th>排名</th>
                     <th>搜索引擎</th>
                     <th>平均得分</th>
-                    <th>稳定性</th>
-                    <th>成功率</th>
                 </tr>
             </thead>
             <tbody>
                 ${this.generateRankingTableRows(engineRankings.five_point)}
             </tbody>
         </table>
+        ` : ''}
 
+        ${engineRankings.combined && engineRankings.combined.length > 0 ? `
         <h3>综合排名</h3>
         <table class="ranking-table">
             <thead>
@@ -184,16 +186,19 @@ export class ReportGenerator {
                 ${this.generateCombinedRankingTableRows(engineRankings.combined)}
             </tbody>
         </table>
+        ` : ''}
 
+        ${aggregatedResults.engine_performance && Object.keys(aggregatedResults.engine_performance).length > 0 ? `
         <h2>📈 详细性能分析</h2>
         ${this.generatePerformanceAnalysis(aggregatedResults.engine_performance)}
+        ` : ''}
 
         <h2>📋 测试配置</h2>
         <div class="metadata">
-            <p><strong>重复测试次数:</strong> ${metadata.config_summary.repeat_times}</p>
+            <p><strong>重复测试次数:</strong> ${configSummary.repeat_times || 3}</p>
             <p><strong>评分维度权重:</strong></p>
             <ul>
-                ${metadata.config_summary.dimensions.map(dim => `<li>${dim}: 权重待配置</li>`).join('')}
+                ${(configSummary.dimensions || ['权威性', '相关性', '时效性']).map(dim => `<li>${dim}: 权重待配置</li>`).join('')}
             </ul>
         </div>
     </div>
@@ -262,37 +267,54 @@ export class ReportGenerator {
    * @returns {string} Markdown内容
    */
   buildMarkdownContent(finalReport) {
-    const metadata = finalReport.metadata;
-    const engineRankings = finalReport.engine_rankings;
+    const metadata = finalReport.metadata || {};
+    const engineRankings = finalReport.engine_rankings || {};
+    const configSummary = metadata.config_summary || {};
+    const aggregatedResults = finalReport.aggregated_results || {};
+    const enginePerformance = aggregatedResults.engine_performance || {};
 
-    return `# 🔍 搜索引擎评估报告
+    let content = `# 🔍 搜索引擎评估报告
 
 ## 📊 测试概览
 
-- **测试轮次:** ${metadata.total_rounds}
-- **查询数量:** ${metadata.total_queries}
-- **生成时间:** ${new Date(metadata.generation_time).toLocaleString('zh-CN')}
-- **启用引擎:** ${metadata.config_summary.enabled_engines.join(', ')}
-- **评估维度:** ${metadata.config_summary.dimensions.join(', ')}
+- **测试轮次:** ${metadata.total_rounds || 1}
+- **查询数量:** ${metadata.total_queries || 1}
+- **生成时间:** ${metadata.generation_time ? new Date(metadata.generation_time).toLocaleString('zh-CN') : new Date().toLocaleString('zh-CN')}
+- **启用引擎:** ${(configSummary.enabled_engines || []).join(', ')}
+- **评估维度:** ${(configSummary.dimensions || ['权威性', '相关性', '时效性']).join(', ')}
 
 ## 🏆 引擎排名
+`;
 
+    // 添加二分制排名
+    if (engineRankings.binary && engineRankings.binary.length > 0) {
+      content += `
 ### 二分制评分排名
 
-| 排名 | 搜索引擎 | 平均得分 | 稳定性 | 成功率 |
-|------|----------|----------|--------|--------|
+| 排名 | 搜索引擎 | 平均得分 |
+|------|----------|----------|
 ${engineRankings.binary.map(item => 
-  `| ${item.rank} | ${item.engine} | ${item.score.toFixed(3)} | ${(item.stability * 100).toFixed(1)}% | ${(item.success_rate * 100).toFixed(1)}% |`
+  `| ${item.rank} | ${item.engine} | ${item.score.toFixed(3)} |`
 ).join('\n')}
+`;
+    }
 
+    // 添加五分制排名
+    if (engineRankings.five_point && engineRankings.five_point.length > 0) {
+      content += `
 ### 五分制评分排名
 
-| 排名 | 搜索引擎 | 平均得分 | 稳定性 | 成功率 |
-|------|----------|----------|--------|--------|
+| 排名 | 搜索引擎 | 平均得分 |
+|------|----------|----------|
 ${engineRankings.five_point.map(item => 
-  `| ${item.rank} | ${item.engine} | ${item.score.toFixed(3)} | ${(item.stability * 100).toFixed(1)}% | ${(item.success_rate * 100).toFixed(1)}% |`
+  `| ${item.rank} | ${item.engine} | ${item.score.toFixed(3)} |`
 ).join('\n')}
+`;
+    }
 
+    // 添加综合排名（如果存在）
+    if (engineRankings.combined && engineRankings.combined.length > 0) {
+      content += `
 ### 综合排名
 
 | 排名 | 搜索引擎 | 综合得分 | 成功率 |
@@ -300,21 +322,31 @@ ${engineRankings.five_point.map(item =>
 ${engineRankings.combined.map(item => 
   `| ${item.rank} | ${item.engine} | ${item.combined_score.toFixed(3)} | ${(item.success_rate * 100).toFixed(1)}% |`
 ).join('\n')}
+`;
+    }
 
+    // 添加性能分析（如果存在）
+    if (Object.keys(enginePerformance).length > 0) {
+      content += `
 ## 📈 详细性能分析
 
-${Object.entries(finalReport.aggregated_results.engine_performance).map(([engineName, performance]) => `
+${Object.entries(enginePerformance).map(([engineName, performance]) => `
 ### ${engineName}
 
 - **成功率:** ${(performance.success_rate * 100).toFixed(1)}%
-${Object.entries(performance.average_scores).map(([scoringType, scores]) => `
+${Object.entries(performance.average_scores || {}).map(([scoringType, scores]) => `
 - **${scoringType === 'binary' ? '二分制' : '五分制'}平均分:** ${scores.mean.toFixed(3)} (范围: ${scores.min.toFixed(3)} - ${scores.max.toFixed(3)})
 - **标准差:** ${scores.std_dev.toFixed(3)}`).join('')}
 `).join('')}
+`;
+    }
 
+    content += `
 ---
 *报告生成时间: ${new Date().toLocaleString('zh-CN')}*
 `;
+
+    return content;
   }
 
   /**
@@ -323,36 +355,57 @@ ${Object.entries(performance.average_scores).map(([scoringType, scores]) => `
    * @returns {string} 文本内容
    */
   buildTextSummary(finalReport) {
-    const metadata = finalReport.metadata;
-    const engineRankings = finalReport.engine_rankings;
+    const metadata = finalReport.metadata || {};
+    const engineRankings = finalReport.engine_rankings || {};
 
-    return `搜索引擎评估报告摘要
+    // 安全获取配置信息
+    const configSummary = metadata.config_summary || {};
+    const enabledEngines = configSummary.enabled_engines || [];
+    
+    let summary = `搜索引擎评估报告摘要
 ${'='.repeat(50)}
 
 测试概览:
-- 测试轮次: ${metadata.total_rounds}
-- 查询数量: ${metadata.total_queries}
-- 生成时间: ${new Date(metadata.generation_time).toLocaleString('zh-CN')}
-- 启用引擎: ${metadata.config_summary.enabled_engines.join(', ')}
+- 测试轮次: ${metadata.total_rounds || 1}
+- 查询数量: ${metadata.total_queries || 1}
+- 生成时间: ${metadata.generation_time ? new Date(metadata.generation_time).toLocaleString('zh-CN') : new Date().toLocaleString('zh-CN')}
+- 启用引擎: ${enabledEngines.join(', ')}
+`;
 
+    // 添加综合排名（如果存在）
+    if (engineRankings.combined && engineRankings.combined.length > 0) {
+      summary += `
 综合排名 (前3名):
 ${engineRankings.combined.slice(0, 3).map((item, index) => 
   `${index + 1}. ${item.engine} - 综合得分: ${item.combined_score.toFixed(3)} (成功率: ${(item.success_rate * 100).toFixed(1)}%)`
-).join('\n')}
+).join('\n')}`;
+    }
 
+    // 添加二分制排名
+    if (engineRankings.binary && engineRankings.binary.length > 0) {
+      summary += `
 二分制评分排名 (前3名):
 ${engineRankings.binary.slice(0, 3).map((item, index) => 
   `${index + 1}. ${item.engine} - 平均得分: ${item.score.toFixed(3)}`
-).join('\n')}
+).join('\n')}`;
+    }
 
+    // 添加五分制排名
+    if (engineRankings.five_point && engineRankings.five_point.length > 0) {
+      summary += `
 五分制评分排名 (前3名):
 ${engineRankings.five_point.slice(0, 3).map((item, index) => 
   `${index + 1}. ${item.engine} - 平均得分: ${item.score.toFixed(3)}`
-).join('\n')}
+).join('\n')}`;
+    }
+
+    summary += `
 
 ${'='.repeat(50)}
 报告生成时间: ${new Date().toLocaleString('zh-CN')}
 `;
+
+    return summary;
   }
 
   /**

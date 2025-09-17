@@ -1,0 +1,1531 @@
+{
+  "query": "JavaScript异步编程最佳实践",
+  "timestamp": "2025-09-17T02:27:27.699Z",
+  "engines": {
+    "jina": {
+      "engine": "jina",
+      "totalResults": 10,
+      "scores": {
+        "binary": [
+          {
+            "rank": 1,
+            "title": "JavaScript异步编程与实践指南- 个人空间- OSCHINA - 中文开源技术 ...",
+            "url": "https://my.oschina.net/emacs_8677878/blog/16966019",
+            "snippet": "在本文中，我们深入探讨了JavaScript异步编程的概念、技术和最佳实践。我们首先介绍了JavaScript异步编程的基础，包括回调函数和Promise对象，以及如何避免回调地狱。",
+            "source": "my.oschina.net",
+            "timestamp": "2025-09-17T02:27:36.396Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。虽然文章深入探讨了JavaScript异步编程的概念、技术和最佳实践，且内容看起来较为全面，但来源是个人博客（OSCHINA的个人空间），并非来自官方或知名技术权威机构。个人博客的内容质量和准确性可能不如官方或权威机构发布的内容，因此给予1分。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:27:30.362Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果完全符合查询要求。标题明确包含了'JavaScript异步编程'和'实践'关键词，摘要中详细提到了异步编程的概念、技术和最佳实践，还特别提到了回调函数和Promise对象，这些都是JavaScript异步编程的核心内容。此外，还提到了如何避免回调地狱，这是异步编程中的一个重要问题。因此，该结果在相关性维度上得分满分。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:27:33.207Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合时效性要求。虽然文章深入探讨了JavaScript异步编程的概念、技术和最佳实践，但未提供明确的发布日期或更新时间，无法判断其内容的时效性。考虑到JavaScript异步编程的基本概念和技术相对稳定，文章可能仍具有一定的参考价值，但缺乏时效性信息使其无法完全符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:27:36.395Z"
+              }
+            },
+            "weightedScore": 1.35
+          },
+          {
+            "rank": 2,
+            "title": "JavaScript异步编程最佳实践 - CSDN博客",
+            "url": "https://blog.csdn.net/m0_47581052/article/details/140211618",
+            "snippet": "JavaScript异步编程最佳实践：掌握Promise和async/await，合理使用回调函数，避免回调地狱。优化事件循环，使用定时器控制异步执行顺序，确保代码可读性和 ...",
+            "source": "blog.csdn.net",
+            "timestamp": "2025-09-17T02:27:45.947Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果来自CSDN博客，CSDN是一个知名的程序员社区，具有一定的技术权威性。文章标题与查询关键词完全匹配，内容涉及JavaScript异步编程的最佳实践，包括Promise、async/await和回调函数的使用，这些都是相关领域的重要知识点。然而，博客文章的权威性通常不如官方文档或知名技术专家的出版物，且未提供作者的专业背景或文章的审核信息，因此只能部分符合权威性要求。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:27:40.405Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果的标题直接匹配了查询关键词 'JavaScript异步编程最佳实践'，摘要内容也详细提到了相关技术如Promise、async/await、回调函数的使用以及优化事件循环等，这些都是JavaScript异步编程中的重要实践。因此，该结果完全符合查询要求。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:27:43.062Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果提供了JavaScript异步编程的最佳实践，包括Promise、async/await和回调函数的使用，这些都是当前广泛认可的技术。然而，由于JavaScript和相关技术不断发展，最佳实践也可能随时间而变化。文章发布日期未明确显示，无法确定其时效性是否完全符合当前最新的技术趋势和实践。因此，给予1分，表示部分符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:27:45.946Z"
+              }
+            },
+            "weightedScore": 1.35
+          },
+          {
+            "rank": 3,
+            "title": "AsyncContext：JavaScript 异步编程的新纪元 - 稀土掘金",
+            "url": "https://juejin.cn/post/7327835887701557300",
+            "snippet": "一文搞定JS异步编程最佳实践 · 异步编程是JavaScript 的核心特性，用于处理网络请求、文件I/O、定时任务等非阻塞操作。由于JavaScript 是单线程语言 ...",
+            "source": "juejin.cn",
+            "timestamp": "2025-09-17T02:27:54.324Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。稀土掘金是一个知名的中文技术社区，发布的内容通常具有一定的参考价值，但并非官方或顶级学术机构发布的权威资料。文章标题和摘要表明内容与JavaScript异步编程相关，但'新纪元'等词汇可能带有一定的营销性质，影响了其权威性评分。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:27:48.649Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果标题明确提到了JavaScript异步编程的新技术（AsyncContext），并且摘要中直接提到了'JS异步编程最佳实践'，与查询关键词高度匹配。内容涉及异步编程的核心特性和应用场景，完全符合查询要求。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:27:50.750Z"
+              },
+              "时效性": {
+                "score": 2,
+                "reasoning": "该搜索结果标题中提到'AsyncContext：JavaScript 异步编程的新纪元'，表明内容涉及最新的异步编程技术或方法，符合'最佳实践'的时效性要求。同时，来源为'稀土掘金'，这是一个专注于前端技术且更新频繁的平台，进一步增强了内容的时效性。摘要中也提到了异步编程的核心特性和应用场景，说明内容较为全面和前沿。因此，给予2分的满分评价。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:27:54.319Z"
+              }
+            },
+            "weightedScore": 1.6
+          },
+          {
+            "rank": 4,
+            "title": "JavaScript 异步魔法：解密回调地狱的秘密武器 - 稀土掘金",
+            "url": "https://juejin.cn/post/7331070745923174410",
+            "snippet": "在同步编程中，代码会按照顺序执行，每个操作都要等待前一个操作完成才能继续。相比之下，异步编程的代码不是按顺序执行的，允许程序在执行某个操作时不必等待 ...",
+            "source": "juejin.cn",
+            "timestamp": "2025-09-17T02:28:02.353Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。稀土掘金是一个较为知名的技术社区，内容质量相对较高，但并非官方或顶级学术机构发布，因此在权威性上有所欠缺。文章标题和摘要显示其内容与JavaScript异步编程相关，但未明确提及是否包含最佳实践，故给予1分。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:27:57.224Z"
+              },
+              "相关性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合要求。标题和摘要都提到了JavaScript异步编程的概念，并且提到了解决回调地狱的问题，这是异步编程中的一个重要议题。然而，标题和摘要并没有明确指出这是关于'最佳实践'的内容，而是更偏向于解释异步编程的基本概念和问题。因此，给予1分，表示部分符合要求。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:00.167Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合时效性要求。虽然标题和摘要内容涉及JavaScript异步编程的相关话题，但并未明确指出是否包含最新的最佳实践。此外，文章发布日期未提供，无法判断其内容是否及时更新。因此，给予1分，表示部分符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:02.350Z"
+              }
+            },
+            "weightedScore": 1
+          },
+          {
+            "rank": 5,
+            "title": "JS 异步编程六种方案· Issue #53 · ljianshu/Blog - GitHub",
+            "url": "https://github.com/ljianshu/Blog/issues/53",
+            "snippet": "为了解决这个问题，Javascript语言将任务的执行模式分成两种：同步和异步。本文主要介绍异步编程几种办法，并通过比较，得到最佳异步编程的解决方案！ 一、同步 ...",
+            "source": "github.com",
+            "timestamp": "2025-09-17T02:28:12.221Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。虽然GitHub是一个广泛使用的代码托管平台，且该文章提供了多种JavaScript异步编程方案的介绍和比较，但GitHub上的个人博客或issue的权威性相较于官方文档或知名技术网站要低。此外，作者的专业背景和文章的审核机制不明确，可能影响内容的准确性和权威性。因此，给予1分。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:06.169Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果完全符合查询要求。标题明确指出是关于JS异步编程的六种方案，摘要中提到介绍异步编程的几种方法，并通过比较得到最佳解决方案，这与查询的'JavaScript异步编程最佳实践'高度相关。来源是GitHub，具有一定的权威性和可信度。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:08.557Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合时效性要求。虽然文章讨论了JavaScript异步编程的多种方案并试图找到最佳实践，但GitHub Issue的发布日期和更新频率不明确，无法确保内容的时效性。此外，技术领域发展迅速，最佳实践可能会随时间而变化，因此需要更具体的时间信息来判断其时效性。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:12.220Z"
+              }
+            },
+            "weightedScore": 1.35
+          },
+          {
+            "rank": 6,
+            "title": "Asynch JS - $.Deferred 的强大功能| Articles - web.dev",
+            "url": "https://web.dev/articles/async-deferred?hl=zh-cn",
+            "snippet": "对于基于回调的异步API，最佳实践是提供第二个参数，该参数接受一个函数，在失败时会调用该函数，并将相应的错误信息作为参数。",
+            "source": "web.dev",
+            "timestamp": "2025-09-17T02:28:19.908Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 2,
+                "reasoning": "该搜索结果来自web.dev，这是一个由Google维护的官方开发者资源网站，具有较高的权威性。文章内容聚焦于JavaScript异步编程的最佳实践，特别是$.Deferred的功能，这与查询主题高度相关。此外，提供的实践建议具体且有实际应用价值，进一步增强了其权威性。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:14.540Z"
+              },
+              "相关性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合要求。标题和URL表明文章涉及JavaScript的异步编程，特别是$.Deferred的功能，这与查询的'JavaScript异步编程'相关。然而，摘要中提到的内容更侧重于基于回调的异步API的错误处理，并未直接涵盖'最佳实践'的全面讨论，因此不能完全符合查询要求，评分为1分。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:17.308Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果提供了关于JavaScript异步编程中$.Deferred的强大功能的信息，但并未明确指出是否为当前的最佳实践。文章可能包含一些过时或不完全符合当前最佳实践的内容，因此部分符合要求。为了完全符合要求，需要确认该实践是否仍然被认为是当前的行业标准或最佳实践。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:19.907Z"
+              }
+            },
+            "weightedScore": 1.4
+          },
+          {
+            "rank": 7,
+            "title": "[PDF] JavaScript异步编程:设计快速响应的网络应用 - GitHub",
+            "url": "https://raw.githubusercontent.com/johnnynode/ebooks-javascript/master/JavaScript%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.pdf",
+            "snippet": "本书讲述基本的异步处理技巧，包括PubSub、事件模式、Promises 等，通过这. 些技巧，可以更好地应对大型Web 应用程序的复杂性，交付快速响应的代码。理解. 了Javascript 的 ...",
+            "source": "raw.githubusercontent.com",
+            "timestamp": "2025-09-17T02:28:28.084Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果提供了一份关于JavaScript异步编程的PDF文档，内容涵盖了基本的异步处理技巧，具有一定的参考价值。然而，来源为GitHub的raw.githubusercontent.com，虽然GitHub是一个广泛使用的代码托管平台，但该链接直接指向一个PDF文件，缺乏明确的作者或出版信息，难以验证其内容的权威性和准确性。因此，给予1分，表示部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:22.522Z"
+              },
+              "相关性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合要求。标题和摘要明确提到了JavaScript异步编程及其相关技巧，如PubSub、事件模式和Promises，这些都是异步编程中的重要概念。然而，该结果是一个PDF文件，可能不是用户期望的易于阅读和实践的最佳实践文章或教程，且来源为GitHub的raw文件链接，可能不够权威和易用。因此，给予1分，表示部分符合要求。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:25.697Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果提供了一本关于JavaScript异步编程的书籍，涵盖了基本的异步处理技巧，这在一定程度上符合查询的时效性要求。然而，由于是PDF书籍而非最新的文章或教程，可能不包含最新的最佳实践和技术更新，因此只能部分符合时效性要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:28.084Z"
+              }
+            },
+            "weightedScore": 1
+          },
+          {
+            "rank": 8,
+            "title": "深入解析JavaScript异步编程多异步请求处理与最佳实践指南 ...",
+            "url": "https://my.oschina.net/emacs_8461215/blog/16451912",
+            "snippet": "JavaScript异步编程是现代Web开发的核心，特别是在处理多个异步请求时。通过理解异步编程的基础，掌握多异步请求的处理技巧，并遵循最佳实践指南，开发者可以构建出高效、 ...",
+            "source": "my.oschina.net",
+            "timestamp": "2025-09-17T02:28:37.882Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。虽然标题和摘要显示内容与查询相关，且提到了'最佳实践指南'，但来源为个人博客（my.oschina.net），并非公认的权威机构或知名技术平台。个人博客的内容质量和准确性可能参差不齐，缺乏权威背书。因此，给予1分，表示部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:31.874Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果标题明确提到了'JavaScript异步编程'和'最佳实践'，摘要中也详细描述了处理多个异步请求的技巧和最佳实践指南，完全符合查询要求。来源网站也是一个技术博客平台，增加了内容的可信度。因此，给予2分的满分评价。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:34.132Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合时效性要求。虽然标题和摘要内容看起来与查询相关，但缺乏明确的发布日期或更新时间信息，无法确定其内容的时效性。考虑到JavaScript异步编程是一个持续发展的领域，最佳实践可能会随时间而变化，因此没有明确时间戳的内容可能不够最新。然而，由于JavaScript异步编程的基础知识和一些核心实践相对稳定，该结果仍具有一定的参考价值，故给予1分。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:37.882Z"
+              }
+            },
+            "weightedScore": 1.35
+          },
+          {
+            "rank": 9,
+            "title": "一篇文章让你搞懂Javascript异步编程（最全面最详细） 原创",
+            "url": "https://blog.csdn.net/xuanfather/article/details/144765342",
+            "snippet": "异步操作的核心思想是不阻塞主线程，将耗时任务的执行交给系统（比如I/O、定时器、HTTP 请求等），当任务完成后，再通过回调函数通知主线程继续处理。",
+            "source": "blog.csdn.net",
+            "timestamp": "2025-09-17T02:28:47.238Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该文章来自CSDN博客，CSDN是一个知名的程序员社区，具有一定的技术权威性，但博客文章的质量和作者的背景可能参差不齐。文章标题声称是最全面最详细的，但缺乏具体的权威认证或行业专家背书。摘要部分对JavaScript异步编程的核心思想进行了简要说明，显示出一定的专业性，但仍不足以完全确信其权威性。因此，给予1分，表示部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:42.071Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果标题明确指出是关于JavaScript异步编程的全面详细文章，摘要部分也准确描述了异步操作的核心思想及其应用场景（如I/O、定时器、HTTP请求等），完全符合查询关键词'JavaScript异步编程最佳实践'的要求，提供了相关性和实用性的内容。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:44.214Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该文章提供了JavaScript异步编程的核心思想和一些基础概念，但标题中的'最全面最详细'可能过于绝对，且没有明确指出文章的发布时间或最后更新时间，难以判断其内容的时效性。考虑到JavaScript异步编程的最佳实践可能会随着技术的发展而更新，缺乏时间信息使得该结果在时效性上只能部分符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:47.238Z"
+              }
+            },
+            "weightedScore": 1.35
+          },
+          {
+            "rank": 10,
+            "title": "012 程序中的错误处理：异步编程和最佳实践 - 技术摘抄",
+            "url": "https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E/012%20%20%E7%A8%8B%E5%BA%8F%E4%B8%AD%E7%9A%84%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86%EF%BC%9A%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E5%92%8C%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md",
+            "snippet": "对于异步的方式，推荐使用Promise 模式处理错误。对于这一点，JavaScript 中有很好的实践。 对于分布式的系统，推荐使用APM 相关的软件。尤其是使用Zipkin 这样的服务 ...",
+            "source": "learn.lianglianglee.com",
+            "timestamp": "2025-09-17T02:28:56.195Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。标题和URL显示内容与查询相关，但来源网站learn.lianglianglee.com并非广为人知的权威技术平台，且摘要内容较为简略，未深入展示其在JavaScript异步编程最佳实践方面的权威性和深度。因此，给予1分，表示部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:50.430Z"
+              },
+              "相关性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合要求。标题和URL中提到了'异步编程'和'最佳实践'，但摘要内容主要侧重于错误处理和Promise模式，并未全面覆盖JavaScript异步编程的最佳实践。因此，给予1分，表示部分符合要求。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:52.685Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合时效性要求。标题和摘要中提到了JavaScript异步编程和最佳实践，但未明确指出内容是否为最新或近期更新。考虑到技术领域的快速变化，缺乏明确的更新时间或版本信息使得其时效性无法完全确认。然而，提到的Promise模式和APM相关软件在当前技术环境中仍具有一定相关性，因此给予1分。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:28:56.195Z"
+              }
+            },
+            "weightedScore": 1
+          }
+        ],
+        "five_point": [
+          {
+            "rank": 1,
+            "title": "JavaScript异步编程与实践指南- 个人空间- OSCHINA - 中文开源技术 ...",
+            "url": "https://my.oschina.net/emacs_8677878/blog/16966019",
+            "snippet": "在本文中，我们深入探讨了JavaScript异步编程的概念、技术和最佳实践。我们首先介绍了JavaScript异步编程的基础，包括回调函数和Promise对象，以及如何避免回调地狱。",
+            "source": "my.oschina.net",
+            "timestamp": "2025-09-17T02:29:06.616Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果来自OSCHINA的个人空间，虽然内容涵盖了JavaScript异步编程的概念、技术和最佳实践，但个人博客的权威性相对较低。文章提到了回调函数和Promise对象等基础内容，有助于理解异步编程，但缺乏更高级或权威的背书（如知名技术专家、官方文档等）。因此，评分给予3分，表示其权威性一般，部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:28:59.535Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果较好地符合了查询要求。标题明确包含了'JavaScript异步编程'和'实践'关键词，摘要部分详细介绍了异步编程的基础概念、技术和最佳实践，特别是提到了回调函数、Promise对象以及如何避免回调地狱，这些都是JavaScript异步编程中的关键知识点。虽然来源是一个个人博客，可能权威性稍逊于官方文档或知名技术网站，但内容的相关性和实用性较高，因此给予4分。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:02.895Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果在时效性方面表现一般。虽然文章深入探讨了JavaScript异步编程的概念、技术和最佳实践，但缺乏明确的发布日期或更新时间信息，无法判断内容的时效性。JavaScript技术发展迅速，最佳实践可能会随时间变化，因此没有时间戳的信息使得其时效性存疑。然而，基础概念和部分技术如回调函数和Promise对象相对稳定，仍具有一定的参考价值，故给予3分评价。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:06.616Z"
+              }
+            },
+            "weightedScore": 3.35
+          },
+          {
+            "rank": 2,
+            "title": "JavaScript异步编程最佳实践 - CSDN博客",
+            "url": "https://blog.csdn.net/m0_47581052/article/details/140211618",
+            "snippet": "JavaScript异步编程最佳实践：掌握Promise和async/await，合理使用回调函数，避免回调地狱。优化事件循环，使用定时器控制异步执行顺序，确保代码可读性和 ...",
+            "source": "blog.csdn.net",
+            "timestamp": "2025-09-17T02:29:18.218Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果来自CSDN博客，CSDN是一个较为知名的编程社区平台，具有一定的技术权威性。文章标题直接对应查询内容，摘要也提到了JavaScript异步编程的关键技术和实践建议，如Promise、async/await和回调函数的使用，显示出一定的专业性。然而，博客文章的权威性通常不如官方文档、知名技术专家的文章或权威技术网站的内容，且未提供作者的具体背景信息，难以进一步验证其专业性和权威性。因此，给予3分（一般）的评价。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:10.571Z"
+              },
+              "相关性": {
+                "score": 5,
+                "reasoning": "该搜索结果标题直接匹配查询关键词 'JavaScript异步编程最佳实践'，URL和来源显示这是一个专业的技术博客，摘要中提到了关键的技术点如 'Promise'、'async/await'、'回调函数' 和 '回调地狱'，这些都是JavaScript异步编程的核心内容。此外，还提到了 '优化事件循环' 和 '使用定时器控制异步执行顺序'，这些都是高级实践，进一步增强了结果的相关性。整体来看，该搜索结果完全符合查询要求，提供了具体且有价值的实践建议，因此评分为5分。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:14.535Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果在时效性方面表现一般。虽然标题和摘要内容与查询关键词高度相关，但缺乏明确的发布日期或更新时间信息，无法判断内容的时效性。JavaScript异步编程的最佳实践可能会随着技术的发展而变化，因此没有时间戳的信息使得难以评估其是否包含了最新的实践和技巧。考虑到CSDN博客通常会有较新的技术文章，给予3分的评价，但建议进一步查看文章内部是否有时间信息以确认其时效性。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:18.218Z"
+              }
+            },
+            "weightedScore": 3.7
+          },
+          {
+            "rank": 3,
+            "title": "AsyncContext：JavaScript 异步编程的新纪元 - 稀土掘金",
+            "url": "https://juejin.cn/post/7327835887701557300",
+            "snippet": "一文搞定JS异步编程最佳实践 · 异步编程是JavaScript 的核心特性，用于处理网络请求、文件I/O、定时任务等非阻塞操作。由于JavaScript 是单线程语言 ...",
+            "source": "juejin.cn",
+            "timestamp": "2025-09-17T02:29:29.861Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 4,
+                "reasoning": "该搜索结果来自稀土掘金，这是一个在开发者社区中较为知名的平台，通常发布高质量的技术文章，具有一定的权威性。文章标题明确指出是关于JavaScript异步编程的新技术（AsyncContext），并且摘要中提到‘一文搞定JS异步编程最佳实践’，表明内容针对性和实用性较强。然而，由于掘金平台上的内容虽然质量较高，但并非所有文章都经过严格的同行评审或官方认证，因此在权威性上略逊于顶级学术期刊或官方文档。综合考虑，给予4分评价，认为其在权威性维度上较好，大部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:22.471Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果标题明确提到了'JavaScript 异步编程'，并且摘要中提到了'异步编程是JavaScript 的核心特性'以及'最佳实践'，这与查询关键词高度相关。然而，标题中的'AsyncContext'可能让部分用户误以为文章只专注于一个新的库或概念，而不是全面的最佳实践。尽管如此，整体上该结果大部分符合查询要求，因此评分为4分。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:25.630Z"
+              },
+              "时效性": {
+                "score": 4,
+                "reasoning": "该搜索结果在时效性方面表现较好。标题中提到'AsyncContext'是JavaScript异步编程的新纪元，暗示了这是较新的技术和实践。文章发布在稀土掘金，这是一个技术社区平台，通常会有较新的技术文章。URL中的'post/7327835887701557300'也表明这是一篇较新的文章。摘要中提到异步编程是JavaScript的核心特性，但没有明确指出具体的时间点或版本信息，因此不能完全确定其时效性。综合考虑，给予4分，表示大部分符合要求，但仍有提升空间。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:29.861Z"
+              }
+            },
+            "weightedScore": 4
+          },
+          {
+            "rank": 4,
+            "title": "JavaScript 异步魔法：解密回调地狱的秘密武器 - 稀土掘金",
+            "url": "https://juejin.cn/post/7331070745923174410",
+            "snippet": "在同步编程中，代码会按照顺序执行，每个操作都要等待前一个操作完成才能继续。相比之下，异步编程的代码不是按顺序执行的，允许程序在执行某个操作时不必等待 ...",
+            "source": "juejin.cn",
+            "timestamp": "2025-09-17T02:29:40.917Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 4,
+                "reasoning": "该搜索结果来自稀土掘金，这是一个在中国开发者社区中较为知名的平台，通常发布高质量的技术文章，具有一定的权威性。文章标题明确指向JavaScript异步编程的主题，且摘要内容简要介绍了异步编程的基本概念，显示出文章内容与查询主题相关。然而，由于掘金平台上的内容可能包含用户投稿，其权威性相较于官方文档或顶级技术博客稍逊一筹，因此给予4分评价。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:33.175Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果较好地符合了查询要求。标题明确提到了'JavaScript 异步魔法'，暗示了与异步编程相关的内容，并且提到了'解密回调地狱的秘密武器'，这表明文章可能会讨论异步编程中的常见问题及其解决方案，这与'最佳实践'有一定的相关性。摘要部分简要介绍了同步与异步编程的区别，为进一步探讨异步编程的最佳实践提供了基础。然而，标题和摘要中并未直接出现'最佳实践'这一关键词，因此不能给予满分5分，但整体上内容与查询意图较为契合，故评分为4分。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:37.798Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果的标题和摘要内容虽然涉及了JavaScript异步编程的基本概念，但并未明确提及'最佳实践'这一关键词，且没有提供具体的实践方法或案例。此外，文章的发布日期和更新情况不明确，难以判断其时效性。因此，在时效性维度上，该结果只能被评为一般，部分符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:40.917Z"
+              }
+            },
+            "weightedScore": 3.75
+          },
+          {
+            "rank": 5,
+            "title": "JS 异步编程六种方案· Issue #53 · ljianshu/Blog - GitHub",
+            "url": "https://github.com/ljianshu/Blog/issues/53",
+            "snippet": "为了解决这个问题，Javascript语言将任务的执行模式分成两种：同步和异步。本文主要介绍异步编程几种办法，并通过比较，得到最佳异步编程的解决方案！ 一、同步 ...",
+            "source": "github.com",
+            "timestamp": "2025-09-17T02:29:51.713Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 4,
+                "reasoning": "该搜索结果来自GitHub，虽然GitHub本身是一个代码托管平台，但其上的内容往往由开发者社区贡献，具有一定的技术权威性。文章标题明确指出介绍JavaScript异步编程的六种方案，并通过比较得出最佳实践，这表明内容具有一定的深度和实用性。然而，GitHub上的内容质量可能参差不齐，且缺乏传统出版物的严格审核流程，因此不能给予满分5分，但总体上是一个较好的资源，故评分为4分。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:44.539Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果较好地符合了查询要求。标题明确提到了'JS 异步编程六种方案'，与查询中的'JavaScript异步编程'高度相关。摘要部分也明确指出文章将介绍并比较几种异步编程方法，并得出最佳解决方案，这与查询中的'最佳实践'相契合。虽然来源是GitHub的一个Issue，可能不如正式的技术文章权威，但其内容直接针对查询主题，提供了具体的方法和比较，具有较高的实用价值。因此，给予4分评价。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:48.369Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果在时效性方面表现一般。虽然GitHub上的内容通常具有一定的参考价值，但无法从标题和摘要中直接判断该文章的发布时间或最后更新时间，因此无法确定其内容是否包含了最新的JavaScript异步编程最佳实践。此外，技术领域更新迅速，缺乏明确的时间戳可能导致信息过时。然而，考虑到GitHub项目的活跃性，该内容可能仍具有一定的时效性，故给予3分评价。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:51.712Z"
+              }
+            },
+            "weightedScore": 3.75
+          },
+          {
+            "rank": 6,
+            "title": "Asynch JS - $.Deferred 的强大功能| Articles - web.dev",
+            "url": "https://web.dev/articles/async-deferred?hl=zh-cn",
+            "snippet": "对于基于回调的异步API，最佳实践是提供第二个参数，该参数接受一个函数，在失败时会调用该函数，并将相应的错误信息作为参数。",
+            "source": "web.dev",
+            "timestamp": "2025-09-17T02:30:04.145Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 4,
+                "reasoning": "该搜索结果来自web.dev，这是一个由Google维护的官方开发者资源网站，具有较高的权威性和可信度。文章标题明确指出了讨论的主题是$.Deferred的强大功能，这与查询的'JavaScript异步编程最佳实践'相关，但并非完全聚焦于广泛的异步编程最佳实践，而是专注于一个具体的工具或方法。摘要中提到的内容确实涉及异步API的最佳实践，但并未涵盖所有相关的最佳实践。因此，整体上该结果在权威性方面较好，但仍有提升空间，故评分为4分。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:29:55.724Z"
+              },
+              "相关性": {
+                "score": 3,
+                "reasoning": "该搜索结果部分符合查询要求。标题和URL表明文章讨论了JavaScript中的异步编程，特别是$.Deferred的功能，这与查询的'JavaScript异步编程'主题相关。摘要中提到的'基于回调的异步API'和'最佳实践'也部分契合查询中的'最佳实践'部分。然而，文章似乎更专注于$.Deferred的具体功能，而不是全面讨论JavaScript异步编程的最佳实践，因此相关性有限，评分为3分（一般）。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:00.296Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果提供了关于JavaScript异步编程中$.Deferred的强大功能的信息，但并未明确指出这是当前的最佳实践。文章可能包含一些过时的信息，尤其是考虑到JavaScript异步编程领域的发展迅速，例如Promise和async/await等现代方法可能更为推荐。此外，文章来源web.dev虽然具有一定的权威性，但没有明确的时间戳或更新日期，难以判断其时效性。因此，给予3分，表示其时效性一般，部分符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:04.145Z"
+              }
+            },
+            "weightedScore": 3.4
+          },
+          {
+            "rank": 7,
+            "title": "[PDF] JavaScript异步编程:设计快速响应的网络应用 - GitHub",
+            "url": "https://raw.githubusercontent.com/johnnynode/ebooks-javascript/master/JavaScript%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.pdf",
+            "snippet": "本书讲述基本的异步处理技巧，包括PubSub、事件模式、Promises 等，通过这. 些技巧，可以更好地应对大型Web 应用程序的复杂性，交付快速响应的代码。理解. 了Javascript 的 ...",
+            "source": "raw.githubusercontent.com",
+            "timestamp": "2025-09-17T02:30:15.632Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果提供了一份关于JavaScript异步编程的PDF文档，来源为GitHub，这表明内容可能具有一定的专业性和实用性。摘要中提到了关键的异步处理技巧如PubSub、事件模式和Promises，这些都是异步编程中的重要概念。然而，由于文档托管在GitHub且未明确作者或出版信息，其权威性难以完全确认。此外，PDF格式可能限制了用户的即时阅读体验。综合来看，该结果在权威性上属于一般水平，部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:08.339Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果提供了关于JavaScript异步编程的详细内容，包括基本的异步处理技巧如PubSub、事件模式和Promises等，这些都是异步编程中的关键概念。虽然标题中的'[PDF]'表明这是一个文档下载链接，可能不如直接的可阅读网页方便，但其内容与查询关键词'JavaScript异步编程最佳实践'高度相关，能够为用户在理解和应用异步编程方面提供有价值的参考。因此，给予4分，表示较好，大部分符合要求。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:11.851Z"
+              },
+              "时效性": {
+                "score": 2,
+                "reasoning": "该搜索结果提供的是一本关于JavaScript异步编程的PDF书籍，虽然内容可能包含一些经典的异步编程技巧和方法，但缺乏时效性。JavaScript技术栈和相关最佳实践在近年来发展迅速，新的框架和库（如Async/Await、RxJS等）不断涌现，而书籍内容可能未能及时更新以反映这些最新趋势和实践。此外，GitHub上的PDF文件可能不是最新的版本，进一步降低了其在时效性方面的评分。因此，该结果在时效性维度上评分较低。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:15.632Z"
+              }
+            },
+            "weightedScore": 3.1
+          },
+          {
+            "rank": 8,
+            "title": "深入解析JavaScript异步编程多异步请求处理与最佳实践指南 ...",
+            "url": "https://my.oschina.net/emacs_8461215/blog/16451912",
+            "snippet": "JavaScript异步编程是现代Web开发的核心，特别是在处理多个异步请求时。通过理解异步编程的基础，掌握多异步请求的处理技巧，并遵循最佳实践指南，开发者可以构建出高效、 ...",
+            "source": "my.oschina.net",
+            "timestamp": "2025-09-17T02:30:25.977Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果来自个人博客（my.oschina.net），虽然标题和摘要表明内容涵盖了JavaScript异步编程的多异步请求处理与最佳实践，但个人博客的权威性相对较低，可能缺乏专业编辑和同行评审的保障。此外，没有明确显示作者的专业背景或文章的引用情况，难以完全信赖其内容的准确性和深度。因此，给予3分（一般）的评分，表示部分符合权威性要求。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:19.200Z"
+              },
+              "相关性": {
+                "score": 5,
+                "reasoning": "该搜索结果标题明确包含了'JavaScript异步编程'和'最佳实践'这两个核心关键词，URL和来源也显示出这是一篇技术博客，具有较高的可信度。摘要部分详细提到了处理多个异步请求的技巧和最佳实践指南，完全符合查询要求，能够为开发者提供有价值的参考信息。因此，给予5分的最高评分。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:22.452Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果在时效性方面表现一般。虽然文章内容涉及JavaScript异步编程这一持续关注的话题，但缺乏明确的发布日期或更新时间，无法判断其内容是否包含最新的技术趋势和实践。此外，来源为个人博客，可能不如权威技术网站或官方文档在时效性上更有保障。因此，给予3分的评价，表示部分符合时效性要求。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:25.977Z"
+              }
+            },
+            "weightedScore": 3.7
+          },
+          {
+            "rank": 9,
+            "title": "一篇文章让你搞懂Javascript异步编程（最全面最详细） 原创",
+            "url": "https://blog.csdn.net/xuanfather/article/details/144765342",
+            "snippet": "异步操作的核心思想是不阻塞主线程，将耗时任务的执行交给系统（比如I/O、定时器、HTTP 请求等），当任务完成后，再通过回调函数通知主线程继续处理。",
+            "source": "blog.csdn.net",
+            "timestamp": "2025-09-17T02:30:37.833Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果来自CSDN博客，CSDN是一个知名的编程和技术社区，具有一定的权威性。文章标题声称是最全面最详细的，但仅凭标题和摘要无法完全验证其内容的全面性和准确性。摘要部分简要介绍了异步编程的核心思想，显示出一定的专业性。然而，博客文章的权威性通常不如官方文档、知名技术出版社或行业专家的著作。因此，给予3分（一般）的评分，表示部分符合权威性要求。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:30.283Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果标题明确指出是关于JavaScript异步编程的全面详细文章，摘要部分也准确描述了异步操作的核心思想及其应用场景（如I/O、定时器、HTTP请求等），这与查询关键词'JavaScript异步编程最佳实践'高度相关。尽管标题和摘要没有直接提到'最佳实践'，但全面详细的教程通常包含最佳实践的内容。因此，给予4分，表示较好，大部分符合要求。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:33.733Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果在时效性方面表现一般。虽然文章标题声称是最全面最详细的，但URL中的文章ID（144765342）和来源（CSDN博客）并未明确显示发布日期或最后更新时间，无法直接判断内容的时效性。JavaScript异步编程是一个不断发展的领域，最佳实践可能会随着新技术的出现而变化。因此，没有明确的更新时间使得难以确定这篇文章是否包含了最新的实践和趋势。考虑到这些因素，给予3分的评价，表示部分符合时效性要求。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:37.833Z"
+              }
+            },
+            "weightedScore": 3.35
+          },
+          {
+            "rank": 10,
+            "title": "012 程序中的错误处理：异步编程和最佳实践 - 技术摘抄",
+            "url": "https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E5%B7%A6%E8%80%B3%E5%90%AC%E9%A3%8E/012%20%20%E7%A8%8B%E5%BA%8F%E4%B8%AD%E7%9A%84%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86%EF%BC%9A%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E5%92%8C%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5.md",
+            "snippet": "对于异步的方式，推荐使用Promise 模式处理错误。对于这一点，JavaScript 中有很好的实践。 对于分布式的系统，推荐使用APM 相关的软件。尤其是使用Zipkin 这样的服务 ...",
+            "source": "learn.lianglianglee.com",
+            "timestamp": "2025-09-17T02:30:49.204Z",
+            "score": null,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果部分符合权威性要求。标题和URL显示内容与查询相关，但来源网站 'learn.lianglianglee.com' 并非广为人知的权威技术平台，可能影响其可信度。摘要中提到了使用Promise模式处理错误，这是JavaScript异步编程中的一个重要实践，显示出一定的专业性。然而，缺乏更详细的背景信息、作者资质或外部引用，难以完全确认其权威性。因此，给予3分，表示其权威性为一般水平。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:42.489Z"
+              },
+              "相关性": {
+                "score": 3,
+                "reasoning": "该搜索结果的标题和摘要部分提到了异步编程和最佳实践，但主要内容似乎更侧重于错误处理，而非全面的JavaScript异步编程最佳实践。虽然涉及到了Promise模式，但并未涵盖其他重要的异步编程技术如Async/Await、事件循环等。因此，该结果部分符合查询要求，但不够全面，故评分为3分（一般）。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:45.557Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果在时效性方面表现一般。标题和摘要内容涉及JavaScript异步编程的最佳实践，特别是错误处理部分，这是一个持续关注的话题，具有一定的时效性。然而，从URL和来源来看，没有明确的时间戳或发布日期，无法判断内容的最新程度。此外，异步编程的技术和实践在不断演进，缺乏具体时间信息可能导致内容不够前沿。因此，给予3分的评价，表示部分符合时效性要求。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:30:49.204Z"
+              }
+            },
+            "weightedScore": 3
+          }
+        ]
+      },
+      "averageScores": {
+        "binary": {
+          "dimensions": {
+            "权威性": 1.1,
+            "相关性": 1.6,
+            "时效性": 1.1
+          },
+          "weighted": 1.275
+        },
+        "five_point": {
+          "dimensions": {
+            "权威性": 3.4,
+            "相关性": 4,
+            "时效性": 3
+          },
+          "weighted": 3.5100000000000002
+        }
+      },
+      "timestamp": "2025-09-17T02:27:27.699Z"
+    },
+    "serper": {
+      "engine": "serper",
+      "totalResults": 10,
+      "scores": {
+        "binary": [
+          {
+            "rank": 1,
+            "title": "JavaScript异步编程最佳实践原创",
+            "url": "https://blog.csdn.net/m0_47581052/article/details/140211618",
+            "snippet": "JavaScript异步编程最佳实践：掌握Promise和async/await，合理使用回调函数，避免回调地狱。优化事件循环，使用定时器控制异步执行顺序，确保代码可读性和 ...",
+            "source": "blog.csdn.net",
+            "timestamp": "2025-09-17T02:30:58.585Z",
+            "score": 1,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。虽然文章标题和摘要内容与查询高度相关，且提供了具体的异步编程实践建议，但来源为个人博客（CSDN），并非官方或广泛认可的技术权威机构。个人博客的内容质量和准确性可能参差不齐，缺乏官方背书或同行评审，因此不能完全确信其权威性。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:30:52.670Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果的标题和摘要都明确提到了'JavaScript异步编程最佳实践'，并且摘要中详细列出了相关技术和方法，如掌握Promise和async/await、合理使用回调函数、避免回调地狱等，完全符合查询要求。来源也是一个知名的编程博客平台，增加了结果的可信度。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:30:55.300Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果提供了JavaScript异步编程的最佳实践，包括Promise、async/await和回调函数的使用，以及优化事件循环和定时器的建议，这些都是当前广泛认可的最佳实践。然而，由于技术领域更新迅速，无法确定文章的发布时间是否较近，可能存在部分内容已过时的情况。因此，给予1分，表示部分符合时效性要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:30:58.585Z"
+              }
+            },
+            "weightedScore": 1.35
+          },
+          {
+            "rank": 2,
+            "title": "JavaScript异步编程与实践指南- 个人空间",
+            "url": "https://my.oschina.net/emacs_8677878/blog/16966019",
+            "snippet": "在本文中，我们深入探讨了JavaScript异步编程的概念、技术和最佳实践。我们首先介绍了JavaScript异步编程的基础，包括回调函数和Promise对象，以及如何避免回调地狱。",
+            "source": "my.oschina.net",
+            "timestamp": "2025-09-17T02:31:08.558Z",
+            "score": 2,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。虽然文章深入探讨了JavaScript异步编程的概念、技术和最佳实践，并且介绍了相关基础知识和如何避免常见问题，但来源为个人博客（my.oschina.net），缺乏官方或知名技术社区的背书，因此权威性有限。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:02.096Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果完全符合查询要求。标题明确包含了'JavaScript异步编程'和'实践'关键词，摘要中详细提到了异步编程的基础概念、技术和最佳实践，特别是提到了回调函数、Promise对象以及如何避免回调地狱，这些都是JavaScript异步编程中的关键内容。因此，该结果对查询者寻找JavaScript异步编程最佳实践非常有帮助。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:05.444Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合时效性要求。虽然文章深入探讨了JavaScript异步编程的概念、技术和最佳实践，但未提供明确的发布日期或更新时间，无法判断其内容的时效性。考虑到JavaScript异步编程的基本概念和技术相对稳定，文章可能仍具有一定的参考价值，但缺乏时效性信息使其无法完全符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:08.558Z"
+              }
+            },
+            "weightedScore": 1.35
+          },
+          {
+            "rank": 3,
+            "title": "AsyncContext：JavaScript 异步编程的新纪元",
+            "url": "https://juejin.cn/post/7327835887701557300",
+            "snippet": "一文搞定JS异步编程最佳实践 · 异步编程是JavaScript 的核心特性，用于处理网络请求、文件I/O、定时任务等非阻塞操作。由于JavaScript 是单线程语言 ...",
+            "source": "juejin.cn",
+            "timestamp": "2025-09-17T02:31:17.384Z",
+            "score": 3,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。文章标题和摘要表明内容与JavaScript异步编程相关，且来源为juejin.cn，这是一个较为知名的技术社区平台，具有一定的可信度。然而，juejin.cn并非官方或顶级学术机构，文章的作者和具体内容质量也未明确，因此不能完全确定其权威性，故评分为1分。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:11.706Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果标题明确提到了JavaScript异步编程的新技术（AsyncContext），摘要中直接提到了'JS异步编程最佳实践'，并且详细描述了异步编程在JavaScript中的重要性及其应用场景，完全符合查询'JavaScript异步编程最佳实践'的要求。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:13.853Z"
+              },
+              "时效性": {
+                "score": 2,
+                "reasoning": "该搜索结果标题中提到'AsyncContext'，暗示了JavaScript异步编程的新技术或方法，且文章发布在知名技术社区juejin.cn，具有较高的时效性和参考价值。摘要中明确提到'异步编程是JavaScript的核心特性'，并列举了其应用场景，表明内容与查询高度相关。整体来看，该结果在时效性维度上完全符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:17.384Z"
+              }
+            },
+            "weightedScore": 1.6
+          },
+          {
+            "rank": 4,
+            "title": "JavaScript异步编程:设计快速响应的网络应用 - GitHub",
+            "url": "https://raw.githubusercontent.com/johnnynode/ebooks-javascript/master/JavaScript%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.pdf",
+            "snippet": "本书讲述基本的异步处理技巧，包括PubSub、事件模式、Promises 等，通过这. 些技巧，可以更好地应对大型Web 应用程序的复杂性，交付快速响应的代码。理解. 了Javascript 的 ...",
+            "source": "raw.githubusercontent.com",
+            "timestamp": "2025-09-17T02:31:27.580Z",
+            "score": 4,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。虽然GitHub是一个广泛使用的代码托管平台，并且该文档可能包含有价值的异步编程实践，但URL指向的是一个PDF文件，缺乏明确的作者或出版信息，难以验证其内容的准确性和权威性。此外，raw.githubusercontent.com作为来源，通常用于存储代码和文档，但不一定代表官方或权威发布。因此，给予1分，表示部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:21.516Z"
+              },
+              "相关性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合要求。标题和摘要明确提到了JavaScript异步编程及其相关技巧，如PubSub、事件模式和Promises，这些都是异步编程中的重要概念。然而，该结果是一个PDF文件链接，可能不是用户期望的直接可读的网页内容，且没有明确提及'最佳实践'这一关键词，因此不能完全满足查询的精准需求。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:24.511Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果提供了一本关于JavaScript异步编程的书籍，涵盖了基本的异步处理技巧，这对于学习最佳实践是有帮助的。然而，由于书籍的出版日期和更新频率不明确，无法确定其内容是否包含了最新的技术和最佳实践，因此在时效性上只能部分符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:27.580Z"
+              }
+            },
+            "weightedScore": 1
+          },
+          {
+            "rank": 5,
+            "title": "JS 异步编程六种方案· Issue #53 · ljianshu/Blog",
+            "url": "https://github.com/ljianshu/Blog/issues/53",
+            "snippet": "为了解决这个问题，Javascript语言将任务的执行模式分成两种：同步和异步。本文主要介绍异步编程几种办法，并通过比较，得到最佳异步编程的解决方案！ 一、同步 ...",
+            "source": "github.com",
+            "timestamp": "2025-09-17T02:31:36.390Z",
+            "score": 5,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。虽然GitHub是一个广泛使用的代码托管平台，并且该文章可能包含有价值的实践信息，但GitHub上的个人博客或Issue并不总是被视为权威来源。文章的作者和内容的准确性未经权威机构验证，因此不能完全保证其权威性。然而，GitHub上的内容通常由开发者社区贡献和审查，具有一定的参考价值，故给予1分。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:31.087Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果完全符合查询要求。标题明确指出是关于JS异步编程的六种方案，摘要中提到介绍异步编程的几种方法，并通过比较得到最佳解决方案，这与查询的'JavaScript异步编程最佳实践'高度相关。来源是github.com，具有一定的可信度和专业性。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:33.477Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合时效性要求。虽然文章介绍了JavaScript异步编程的几种方案并试图得出最佳实践，但缺乏明确的发布日期或更新时间，无法判断其内容是否反映了最新的技术趋势和实践。此外，GitHub Issue的内容可能不如专业技术博客或官方文档那样频繁更新。因此，给予1分，表示部分符合时效性要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:36.390Z"
+              }
+            },
+            "weightedScore": 1.35
+          },
+          {
+            "rank": 6,
+            "title": "程序中的错误处理：异步编程以及我的最佳实践-左耳听风",
+            "url": "https://time.geekbang.org/column/article/693",
+            "snippet": "异步编程中的错误处理方法包括回调函数、Promise模式和async/await关键字。Go语言中也可实现Promise模式。错误处理最佳实践包括统一分类错误、定义错误严重程度、使用 ...",
+            "source": "time.geekbang.org",
+            "timestamp": "2025-09-17T02:31:46.970Z",
+            "score": 6,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。虽然文章来源于geekbang.org，这是一个有一定技术含量的平台，但标题和摘要并未完全聚焦于'JavaScript异步编程最佳实践'，而是更多地讨论了错误处理，并且还涉及了Go语言的内容，与查询主题的相关性和专一度不够高。因此，给予1分，表示部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:39.642Z"
+              },
+              "相关性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合要求。标题和摘要中提到了异步编程和最佳实践，但主要侧重于错误处理方面，并未全面覆盖JavaScript异步编程的最佳实践。此外，摘要中还提到了Go语言，这与查询关键词'JavaScript'不完全相关。因此，给予1分，表示部分符合要求。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:42.511Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合时效性要求。虽然文章涵盖了JavaScript异步编程中的错误处理方法和一些最佳实践，但并未明确指出这些实践是否为当前最新的或广泛认可的方法。此外，文章提及Go语言的Promise模式，这可能偏离了查询主题的焦点。考虑到JavaScript异步编程领域的技术和最佳实践在不断更新，缺乏明确的时效性信息使得该结果只能部分符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:46.969Z"
+              }
+            },
+            "weightedScore": 1
+          },
+          {
+            "rank": 7,
+            "title": "异步JavaScript - 学习Web 开发 - MDN",
+            "url": "https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Extensions/Async_JS",
+            "snippet": "在这篇文章中我们将介绍同步编程和异步编程是什么，为什么我们总是需要异步编程技术，异步函数过去是怎样在JavaScript 上实现的，以及这些方式的问题有哪些。",
+            "source": "developer.mozilla.org",
+            "timestamp": "2025-09-17T02:31:56.226Z",
+            "score": 7,
+            "scores": {
+              "权威性": {
+                "score": 2,
+                "reasoning": "该搜索结果来自MDN（Mozilla Developer Network），这是一个广受认可且权威的Web开发资源网站。文章内容涵盖了JavaScript异步编程的基础知识、实现方式及其问题，符合查询主题的要求。MDN的内容通常由专业开发者审核和维护，具有较高的准确性和可靠性，因此在权威性维度上完全符合要求，评分为2分。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:50.417Z"
+              },
+              "相关性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合要求。虽然标题和URL表明内容与异步JavaScript相关，摘要中也提到了异步编程的概念及其在JavaScript中的实现，但并未明确指出'最佳实践'，而是更多地介绍了异步编程的基础知识和历史。因此，它在相关性上只能部分满足查询关于'最佳实践'的具体需求。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:53.694Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果提供了关于JavaScript异步编程的基础知识和历史实现方式，但并未明确提及当前的最佳实践。虽然内容具有一定的参考价值，但缺乏最新的实践方法和趋势，因此在时效性上只能部分符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:56.226Z"
+              }
+            },
+            "weightedScore": 1.4
+          },
+          {
+            "rank": 8,
+            "title": "JavaScript中如何实现异步编程的最佳实践？ 原创",
+            "url": "https://blog.csdn.net/LindRoland/article/details/137997887",
+            "snippet": "回调函数是JavaScript中实现异步编程的一种基本方法。它允许我们将一个函数作为参数传递给另一个函数，并在某个异步操作完成后调用该函数。然而，回调函数也存在一些问题， ...",
+            "source": "blog.csdn.net",
+            "timestamp": "2025-09-17T02:32:05.695Z",
+            "score": 8,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。虽然文章来自CSDN博客，CSDN是一个知名的编程社区平台，但文章的作者是个人博主，并非官方或行业权威机构。文章内容涉及JavaScript异步编程的基本方法和问题，具有一定的参考价值，但由于缺乏更高级别权威背书，不能完全确信其内容的准确性和全面性。因此，给予1分，表示部分符合权威性要求。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:31:59.547Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果的标题直接回应了查询问题，明确指出是关于JavaScript中实现异步编程的最佳实践。摘要部分也详细介绍了回调函数这一异步编程的基本方法及其存在的问题，这与查询内容高度相关。来源为技术博客，增加了内容的可信度。因此，完全符合查询要求，评分为2分。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:32:02.497Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合时效性要求。虽然文章讨论了JavaScript异步编程的最佳实践，但未明确提及内容的更新时间或与当前技术趋势的关联性。考虑到JavaScript技术栈的快速更新，缺乏明确时效信息可能导致内容不够最新。然而，文章来源为知名技术博客CSDN，通常会有一定程度的时效保障，因此给予1分。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:32:05.695Z"
+              }
+            },
+            "weightedScore": 1.35
+          },
+          {
+            "rank": 9,
+            "title": "深入解析JavaScript异步编程多异步请求处理与最佳实践指南",
+            "url": "https://my.oschina.net/emacs_8461215/blog/16451912",
+            "snippet": "JavaScript异步编程是现代Web开发的核心，特别是在处理多个异步请求时。通过理解异步编程的基础，掌握多异步请求的处理技巧，并遵循最佳实践指南，开发者可以构建出高效、 ...",
+            "source": "my.oschina.net",
+            "timestamp": "2025-09-17T02:32:13.608Z",
+            "score": 9,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。标题明确提到了'JavaScript异步编程'和'最佳实践指南'，表明内容与查询相关。来源为my.oschina.net，这是一个技术社区平台，具有一定的技术专业性，但并非顶级权威机构或知名技术媒体。因此，给予1分，表示部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:32:08.607Z"
+              },
+              "相关性": {
+                "score": 2,
+                "reasoning": "该搜索结果的标题和摘要都明确提到了JavaScript异步编程及其最佳实践，特别是强调了多异步请求的处理技巧，这与查询关键词“JavaScript异步编程最佳实践”高度相关。内容涵盖了异步编程的基础和最佳实践指南，完全符合查询要求。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:32:11.082Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果标题和摘要都提到了JavaScript异步编程的最佳实践，表明内容与查询相关。然而，由于缺乏明确的发布日期或更新时间信息，无法确定其时效性，因此只能部分符合要求，评分为1分。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:32:13.608Z"
+              }
+            },
+            "weightedScore": 1.35
+          },
+          {
+            "rank": 10,
+            "title": "JavaScript 异步魔法：解密回调地狱的秘密武器",
+            "url": "https://juejin.cn/post/7331070745923174410",
+            "snippet": "在同步编程中，代码会按照顺序执行，每个操作都要等待前一个操作完成才能继续。相比之下，异步编程的代码不是按顺序执行的，允许程序在执行某个操作时不必等待 ...",
+            "source": "juejin.cn",
+            "timestamp": "2025-09-17T02:32:22.682Z",
+            "score": 10,
+            "scores": {
+              "权威性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合权威性要求。虽然标题和摘要表明文章涉及JavaScript异步编程的内容，但标题略显夸张，且来源为juejin.cn，虽然是一个较为知名的中文技术社区，但相较于官方文档或知名技术专家的博客，其权威性稍显不足。文章内容可能具有一定的参考价值，但缺乏明确的权威背书。",
+                "dimension": "权威性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:32:16.994Z"
+              },
+              "相关性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合要求。标题和摘要都提到了JavaScript异步编程的概念，并且涉及了回调地狱的问题，这是异步编程中的一个重要议题。然而，标题和摘要并没有明确指出'最佳实践'，而是更多地聚焦于解释异步编程的基本概念和问题。因此，虽然内容相关，但并未完全满足查询中对'最佳实践'的具体要求。",
+                "dimension": "相关性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:32:20.027Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果部分符合时效性要求。标题和摘要内容涉及JavaScript异步编程，这是一个持续关注的话题，但文章发布时间和更新时间未提供，无法确定其内容的时效性。考虑到JavaScript异步编程的最佳实践可能会随着技术发展而更新，缺乏具体时间信息使得难以判断其是否包含最新的实践方法。",
+                "dimension": "时效性",
+                "scoringSystem": "binary",
+                "timestamp": "2025-09-17T02:32:22.682Z"
+              }
+            },
+            "weightedScore": 1
+          }
+        ],
+        "five_point": [
+          {
+            "rank": 1,
+            "title": "JavaScript异步编程最佳实践原创",
+            "url": "https://blog.csdn.net/m0_47581052/article/details/140211618",
+            "snippet": "JavaScript异步编程最佳实践：掌握Promise和async/await，合理使用回调函数，避免回调地狱。优化事件循环，使用定时器控制异步执行顺序，确保代码可读性和 ...",
+            "source": "blog.csdn.net",
+            "timestamp": "2025-09-17T02:32:34.336Z",
+            "score": 1,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果来自CSDN博客，CSDN是一个知名的中文技术社区，具有一定的技术权威性。文章标题明确指向了JavaScript异步编程的最佳实践，内容涵盖了Promise、async/await、回调函数等关键概念，这些都是异步编程中的重要知识点。然而，博客文章的权威性通常不如官方文档、知名技术书籍或权威技术网站，且作者的个人背景和经验未明确说明，可能影响内容的深度和准确性。此外，发布时间较新，可能缺乏广泛的社区验证和实践检验。综合考虑，给予3分（一般）的评价。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:32:26.992Z"
+              },
+              "相关性": {
+                "score": 5,
+                "reasoning": "该搜索结果标题直接包含了查询关键词 'JavaScript异步编程最佳实践'，URL和来源也表明这是一篇相关的技术文章。摘要中提到了掌握Promise和async/await、合理使用回调函数、避免回调地狱等关键点，这些都是JavaScript异步编程中的最佳实践内容。此外，还提到了优化事件循环和使用定时器控制异步执行顺序，进一步增强了相关性和实用性。发布时间较新，保证了信息的时效性。综上所述，该搜索结果在相关性维度上完全符合要求，因此评分为5分。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:32:31.612Z"
+              },
+              "时效性": {
+                "score": 4,
+                "reasoning": "该搜索结果在时效性方面表现较好。文章发布于2024年7月5日，距离当前时间较近，内容较为新鲜，能够反映当前JavaScript异步编程的最佳实践。然而，由于JavaScript和相关技术更新迅速，最佳实践可能会有所变化，因此不能给予满分5分，但整体上仍然具有较高的时效性。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:32:34.336Z"
+              }
+            },
+            "weightedScore": 3.95
+          },
+          {
+            "rank": 2,
+            "title": "JavaScript异步编程与实践指南- 个人空间",
+            "url": "https://my.oschina.net/emacs_8677878/blog/16966019",
+            "snippet": "在本文中，我们深入探讨了JavaScript异步编程的概念、技术和最佳实践。我们首先介绍了JavaScript异步编程的基础，包括回调函数和Promise对象，以及如何避免回调地狱。",
+            "source": "my.oschina.net",
+            "timestamp": "2025-09-17T02:32:45.657Z",
+            "score": 2,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果在权威性方面表现一般。虽然文章深入探讨了JavaScript异步编程的概念、技术和最佳实践，并且涵盖了回调函数和Promise对象等重要内容，但来源是一个个人博客（my.oschina.net），缺乏官方或知名技术社区的背书。个人博客的内容质量和准确性可能参差不齐，难以完全信赖。因此，给予3分的评价，表示部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:32:37.975Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果较好地符合了查询要求。标题明确包含了'JavaScript异步编程'和'实践'关键词，摘要部分详细介绍了异步编程的基础概念、技术和最佳实践，特别是提到了回调函数、Promise对象以及如何避免回调地狱，这些都是JavaScript异步编程中的关键知识点。虽然来源是一个个人博客，可能权威性稍逊于官方文档或知名技术网站，但内容的相关性较高，对查询者寻找最佳实践有较大帮助。因此，给予4分评价。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:32:41.536Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果在时效性方面表现一般。虽然文章深入探讨了JavaScript异步编程的概念、技术和最佳实践，但未提供明确的发布日期或更新时间，无法判断内容的时效性。JavaScript异步编程是一个不断发展的领域，新的技术和方法可能会不断涌现，因此缺乏时间信息会影响结果的时效性评分。此外，来源为个人博客，可能不如官方文档或权威平台更新及时。综合考虑，给予3分（一般）的评分。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:32:45.657Z"
+              }
+            },
+            "weightedScore": 3.35
+          },
+          {
+            "rank": 3,
+            "title": "AsyncContext：JavaScript 异步编程的新纪元",
+            "url": "https://juejin.cn/post/7327835887701557300",
+            "snippet": "一文搞定JS异步编程最佳实践 · 异步编程是JavaScript 的核心特性，用于处理网络请求、文件I/O、定时任务等非阻塞操作。由于JavaScript 是单线程语言 ...",
+            "source": "juejin.cn",
+            "timestamp": "2025-09-17T02:32:57.733Z",
+            "score": 3,
+            "scores": {
+              "权威性": {
+                "score": 4,
+                "reasoning": "该搜索结果在权威性方面表现较好。首先，来源网站 juejin.cn 是一个知名的中文技术社区，聚集了大量开发者，内容质量相对较高。其次，文章标题明确指出是关于JavaScript异步编程的新技术，且发布时间较新（2024年1月24日），具有一定的时效性。摘要部分也清晰地提到了异步编程的核心特性和应用场景，显示出内容的针对性和专业性。然而，由于juejin.cn是一个社区平台，内容可能不如官方文档或顶级技术博客那样权威，因此未达到最高分5分，但整体上是一个值得参考的优质资源。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:32:50.629Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果较好地符合了查询要求。标题明确提到了JavaScript异步编程的新技术（AsyncContext），并且摘要中提到了异步编程是JavaScript的核心特性，并列举了其应用场景（网络请求、文件I/O、定时任务等），这与查询关键词“JavaScript异步编程最佳实践”高度相关。虽然标题中的“新纪元”可能让人误以为主要是介绍新技术而非最佳实践，但摘要内容明确指向了最佳实践的讨论。因此，给予4分，表示大部分符合要求。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:32:54.811Z"
+              },
+              "时效性": {
+                "score": 4,
+                "reasoning": "该搜索结果在时效性方面表现较好。文章发布于2024年1月24日，距离当前时间较近，能够反映最新的JavaScript异步编程最佳实践。然而，由于无法确定当前具体日期，无法完全确认其时效性是否完全符合最新技术动态，因此给予4分。如果当前日期非常接近发布日期，甚至可以视为5分。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:32:57.733Z"
+              }
+            },
+            "weightedScore": 4
+          },
+          {
+            "rank": 4,
+            "title": "JavaScript异步编程:设计快速响应的网络应用 - GitHub",
+            "url": "https://raw.githubusercontent.com/johnnynode/ebooks-javascript/master/JavaScript%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B.pdf",
+            "snippet": "本书讲述基本的异步处理技巧，包括PubSub、事件模式、Promises 等，通过这. 些技巧，可以更好地应对大型Web 应用程序的复杂性，交付快速响应的代码。理解. 了Javascript 的 ...",
+            "source": "raw.githubusercontent.com",
+            "timestamp": "2025-09-17T02:33:09.114Z",
+            "score": 4,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果提供了一本关于JavaScript异步编程的书籍，涵盖了基本的异步处理技巧，如PubSub、事件模式和Promises等，这对于理解JavaScript异步编程有一定的帮助。然而，来源是GitHub的一个raw文件链接，缺乏官方或权威机构的背书，且没有明确的作者或出版信息，难以验证其内容的准确性和权威性。因此，在权威性维度上评分为3分，表示其内容有一定参考价值，但权威性一般。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:01.697Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果较好地符合了查询要求。标题明确提到了'JavaScript异步编程'，并且副标题'设计快速响应的网络应用'暗示了最佳实践的内容。摘要中提到了具体的异步处理技巧如PubSub、事件模式和Promises，这些都是异步编程中的重要概念，与查询中的'最佳实践'高度相关。然而，该结果是一个PDF文件，可能不如直接的可访问网页方便，且来源是GitHub的raw文件存储，可能对部分用户不够友好。因此，给予4分，表示大部分符合要求，但仍有改进空间。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:05.746Z"
+              },
+              "时效性": {
+                "score": 2,
+                "reasoning": "该搜索结果的时效性较差。首先，GitHub上的PDF文件可能不是最新的，且没有明确的更新时间，难以判断其内容的时效性。其次，JavaScript异步编程的最佳实践随着技术的发展和社区的进步会不断更新，而静态的PDF文件可能无法反映最新的趋势和最佳实践。因此，虽然内容可能有一定价值，但在时效性方面难以满足用户需求。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:09.113Z"
+              }
+            },
+            "weightedScore": 3.1
+          },
+          {
+            "rank": 5,
+            "title": "JS 异步编程六种方案· Issue #53 · ljianshu/Blog",
+            "url": "https://github.com/ljianshu/Blog/issues/53",
+            "snippet": "为了解决这个问题，Javascript语言将任务的执行模式分成两种：同步和异步。本文主要介绍异步编程几种办法，并通过比较，得到最佳异步编程的解决方案！ 一、同步 ...",
+            "source": "github.com",
+            "timestamp": "2025-09-17T02:33:22.154Z",
+            "score": 5,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果来自GitHub，虽然GitHub是一个广泛使用的代码托管平台，但其内容的质量和权威性可能因作者而异。文章标题明确提到了'JS 异步编程六种方案'，并且摘要中提到通过比较得到最佳解决方案，这表明内容具有一定的实用性和参考价值。然而，发布时间相对较旧（2019年），在快速发展的JavaScript领域，可能存在一些新的最佳实践未被涵盖。此外，缺乏作者背景和文章被引用或认可的情况，难以完全确认其权威性。因此，给予3分，表示其权威性为一般水平。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:13.529Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果较好地符合了查询要求。标题明确提到了'JS 异步编程六种方案'，直接关联到查询中的'JavaScript异步编程'。摘要部分也明确指出文章将介绍并比较几种异步编程方法，并试图得出最佳解决方案，这与查询中的'最佳实践'高度相关。虽然发布时间稍早（2019年），但异步编程的基本概念和实践并未过时，因此仍具有较高的参考价值。来源是GitHub，虽然不是传统的博客或教程网站，但作为技术社区，其内容的专业性和可信度较高。综合来看，该结果大部分符合查询要求，但并非完美匹配（如缺乏最新实践），因此评分为4分。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:18.742Z"
+              },
+              "时效性": {
+                "score": 2,
+                "reasoning": "该搜索结果的发布时间为2019年1月12日，距今已有4年多的时间。JavaScript异步编程领域在这段时间内可能会有新的最佳实践和技术发展，因此该结果在时效性上较差，基本不符合当前的需求。虽然内容可能仍有参考价值，但考虑到技术的快速更新，其时效性评分较低。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:22.154Z"
+              }
+            },
+            "weightedScore": 3.1
+          },
+          {
+            "rank": 6,
+            "title": "程序中的错误处理：异步编程以及我的最佳实践-左耳听风",
+            "url": "https://time.geekbang.org/column/article/693",
+            "snippet": "异步编程中的错误处理方法包括回调函数、Promise模式和async/await关键字。Go语言中也可实现Promise模式。错误处理最佳实践包括统一分类错误、定义错误严重程度、使用 ...",
+            "source": "time.geekbang.org",
+            "timestamp": "2025-09-17T02:33:32.432Z",
+            "score": 6,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果部分符合权威性要求。首先，来源网站time.geekbang.org是一个知名的技术学习平台，具有一定的可信度。其次，文章标题和摘要明确提到了异步编程和最佳实践，与查询关键词相关。然而，文章的主要内容集中在错误处理上，而非全面的异步编程最佳实践，这导致其权威性有所折扣。此外，摘要中提到Go语言，虽然与异步编程相关，但偏离了JavaScript的主题。综合考虑，给予3分评价。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:25.910Z"
+              },
+              "相关性": {
+                "score": 3,
+                "reasoning": "该搜索结果的标题和摘要部分提到了异步编程和最佳实践，但主要内容集中在错误处理方面，并未全面覆盖JavaScript异步编程的最佳实践，如事件循环、回调地狱的解决方法等。因此，它在相关性上部分符合查询要求，但不够全面，故评分为3分。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:28.593Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果在时效性方面表现一般。虽然文章涵盖了JavaScript异步编程中的错误处理方法和一些最佳实践，但并未明确指出这些实践是否为当前最新的技术趋势或标准。此外，文章提到了Go语言的Promise模式，这可能对专注于JavaScript的读者来说不是最相关的内容。文章来源为time.geekbang.org，该平台通常发布高质量的技术文章，但缺乏具体的发布日期信息，难以判断内容的时效性。因此，给予3分的评价，表示部分符合要求。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:32.431Z"
+              }
+            },
+            "weightedScore": 3
+          },
+          {
+            "rank": 7,
+            "title": "异步JavaScript - 学习Web 开发 - MDN",
+            "url": "https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Extensions/Async_JS",
+            "snippet": "在这篇文章中我们将介绍同步编程和异步编程是什么，为什么我们总是需要异步编程技术，异步函数过去是怎样在JavaScript 上实现的，以及这些方式的问题有哪些。",
+            "source": "developer.mozilla.org",
+            "timestamp": "2025-09-17T02:33:42.462Z",
+            "score": 7,
+            "scores": {
+              "权威性": {
+                "score": 4,
+                "reasoning": "该搜索结果来自MDN（Mozilla Developer Network），这是一个广受开发者信任的资源网站，专门提供高质量的技术文档和教程。文章内容涵盖了异步编程的基础知识、实现方式及其问题，符合查询主题。然而，发布时间显示为2025年4月27日，这显然是一个未来的日期，可能是一个错误，影响了其时效性和权威性。尽管如此，MDN的声誉和内容的全面性使其在权威性上仍达到较好的水平。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:36.629Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果较好地符合了查询要求。标题明确提到了异步JavaScript，URL和来源显示这是来自MDN的权威内容，摘要中涵盖了异步编程的定义、必要性以及实现方式，这些都是查询'JavaScript异步编程最佳实践'时用户可能感兴趣的内容。然而，摘要中并未直接提及'最佳实践'，而是更多地介绍了基础概念和历史背景，因此未能达到完全符合要求的5分标准。总体来说，这是一个对用户有帮助但还可以更针对性的结果。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:40.286Z"
+              },
+              "时效性": {
+                "score": 1,
+                "reasoning": "该搜索结果的发布时间为2025年4月27日，这明显是一个未来的日期，不符合当前的时间范围。因此，在时效性维度上，该结果非常差，完全不符合要求，评分为1分。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:42.462Z"
+              }
+            },
+            "weightedScore": 3.25
+          },
+          {
+            "rank": 8,
+            "title": "JavaScript中如何实现异步编程的最佳实践？ 原创",
+            "url": "https://blog.csdn.net/LindRoland/article/details/137997887",
+            "snippet": "回调函数是JavaScript中实现异步编程的一种基本方法。它允许我们将一个函数作为参数传递给另一个函数，并在某个异步操作完成后调用该函数。然而，回调函数也存在一些问题， ...",
+            "source": "blog.csdn.net",
+            "timestamp": "2025-09-17T02:33:52.986Z",
+            "score": 8,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果来自CSDN博客，CSDN是一个知名的IT技术社区，具有一定的技术权威性。文章标题明确指向了JavaScript异步编程的最佳实践，符合查询主题。然而，博客文章的权威性通常不如官方文档、知名技术网站或专家撰写的文章，且没有明确作者背景和专业资质，难以完全信赖其内容的准确性和深度。因此，给予3分（一般）的评价。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:46.024Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果的标题直接回应了查询关键词“JavaScript异步编程最佳实践”，并且摘要中提到了回调函数作为实现异步编程的基本方法，这表明内容与查询主题相关。虽然摘要没有详细展开其他最佳实践方法（如Promise、async/await等），但整体上大部分符合查询要求。来源为CSDN博客，具有一定的可信度和参考价值，因此给予4分。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:49.426Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果在时效性方面表现一般。虽然文章标题和内容看起来与查询相关，但缺乏明确的发布日期或更新时间信息，无法判断其内容的时效性。JavaScript异步编程的最佳实践可能会随着技术的发展而变化，因此没有时间戳的文章难以确保其提供的信息是最新的。此外，CSDN博客的内容质量参差不齐，也可能影响其在时效性方面的评分。综合考虑，给予3分（一般）的评分。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:52.985Z"
+              }
+            },
+            "weightedScore": 3.35
+          },
+          {
+            "rank": 9,
+            "title": "深入解析JavaScript异步编程多异步请求处理与最佳实践指南",
+            "url": "https://my.oschina.net/emacs_8461215/blog/16451912",
+            "snippet": "JavaScript异步编程是现代Web开发的核心，特别是在处理多个异步请求时。通过理解异步编程的基础，掌握多异步请求的处理技巧，并遵循最佳实践指南，开发者可以构建出高效、 ...",
+            "source": "my.oschina.net",
+            "timestamp": "2025-09-17T02:34:02.445Z",
+            "score": 9,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果在权威性方面表现一般。首先，来源为个人博客（my.oschina.net），相较于官方文档或知名技术网站，其权威性相对较低。其次，标题和摘要内容较为专业，涉及JavaScript异步编程的核心内容，显示出一定的专业性和实用性，但缺乏明确的作者背景或机构背书，难以进一步确认其权威性。因此，给予3分，表示部分符合要求。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:56.286Z"
+              },
+              "相关性": {
+                "score": 5,
+                "reasoning": "该搜索结果标题明确包含了查询关键词'JavaScript异步编程'和'最佳实践'，且摘要部分详细描述了异步编程在现代Web开发中的重要性，并提到了处理多异步请求的技巧和最佳实践指南，完全符合查询要求。来源也是一个技术博客平台，增加了内容的可信度。因此，给予5分的最高评分。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:33:59.406Z"
+              },
+              "时效性": {
+                "score": 3,
+                "reasoning": "该搜索结果在时效性方面表现一般。虽然标题和摘要内容看起来与查询相关，但缺乏明确的发布日期或更新时间信息，无法判断内容的时效性。对于技术类内容，特别是JavaScript异步编程这样的快速发展的领域，最新的实践和技巧非常重要。因此，没有明确时效信息的结果在时效性评分上只能得到一般评价。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:34:02.444Z"
+              }
+            },
+            "weightedScore": 3.7
+          },
+          {
+            "rank": 10,
+            "title": "JavaScript 异步魔法：解密回调地狱的秘密武器",
+            "url": "https://juejin.cn/post/7331070745923174410",
+            "snippet": "在同步编程中，代码会按照顺序执行，每个操作都要等待前一个操作完成才能继续。相比之下，异步编程的代码不是按顺序执行的，允许程序在执行某个操作时不必等待 ...",
+            "source": "juejin.cn",
+            "timestamp": "2025-09-17T02:34:13.167Z",
+            "score": 10,
+            "scores": {
+              "权威性": {
+                "score": 3,
+                "reasoning": "该搜索结果在权威性方面表现一般。首先，来源网站 juejin.cn 是一个较为知名的技术社区，具有一定的可信度，但并非官方或顶级学术机构。其次，文章标题和摘要显示出对JavaScript异步编程有一定的探讨，但标题中的'魔法'和'解密'等词汇略显夸张，可能影响其专业性和权威感。发布时间较新，但缺乏作者背景和引用权威资料的信息，难以进一步确认其权威性。因此，给予3分评价。",
+                "dimension": "权威性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:34:06.525Z"
+              },
+              "相关性": {
+                "score": 4,
+                "reasoning": "该搜索结果标题明确提到了JavaScript异步编程，并且通过'解密回调地狱的秘密武器'暗示了最佳实践的内容。摘要部分简要介绍了异步编程与同步编程的区别，虽然没有直接提到'最佳实践'，但内容与查询主题相关。来源为juejin.cn，是一个技术社区，发布时间较新，增加了内容的可信度和时效性。总体来看，该结果大部分符合查询要求，但在摘要中没有直接提及'最佳实践'，因此评分为4分。",
+                "dimension": "相关性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:34:10.077Z"
+              },
+              "时效性": {
+                "score": 4,
+                "reasoning": "该搜索结果在时效性方面表现较好。文章发布于2024年2月3日，距离当前时间较近，能够反映最新的JavaScript异步编程最佳实践。然而，由于JavaScript技术栈更新迅速，最佳实践可能会在短时间内发生变化，因此未能达到完全符合要求的5分标准，但整体上仍然具有较高的时效性。",
+                "dimension": "时效性",
+                "scoringSystem": "five_point",
+                "timestamp": "2025-09-17T02:34:13.167Z"
+              }
+            },
+            "weightedScore": 3.6
+          }
+        ]
+      },
+      "averageScores": {
+        "binary": {
+          "dimensions": {
+            "权威性": 1.1,
+            "相关性": 1.6,
+            "时效性": 1.1
+          },
+          "weighted": 1.275
+        },
+        "five_point": {
+          "dimensions": {
+            "权威性": 3.2,
+            "相关性": 4.1,
+            "时效性": 2.9
+          },
+          "weighted": 3.44
+        }
+      },
+      "timestamp": "2025-09-17T02:30:49.213Z"
+    },
+    "zhipu": {
+      "engine": "zhipu",
+      "totalResults": 0,
+      "scores": {
+        "binary": [],
+        "five_point": []
+      },
+      "averageScores": {
+        "binary": {
+          "dimensions": {},
+          "weighted": 0
+        },
+        "five_point": {
+          "dimensions": {},
+          "weighted": 0
+        }
+      },
+      "timestamp": "2025-09-17T02:34:13.169Z"
+    },
+    "zhipu_pro": {
+      "engine": "zhipu_pro",
+      "totalResults": 0,
+      "scores": {
+        "binary": [],
+        "five_point": []
+      },
+      "averageScores": {
+        "binary": {
+          "dimensions": {},
+          "weighted": 0
+        },
+        "five_point": {
+          "dimensions": {},
+          "weighted": 0
+        }
+      },
+      "timestamp": "2025-09-17T02:34:13.170Z"
+    },
+    "zhipu_sogou": {
+      "engine": "zhipu_sogou",
+      "totalResults": 0,
+      "scores": {
+        "binary": [],
+        "five_point": []
+      },
+      "averageScores": {
+        "binary": {
+          "dimensions": {},
+          "weighted": 0
+        },
+        "five_point": {
+          "dimensions": {},
+          "weighted": 0
+        }
+      },
+      "timestamp": "2025-09-17T02:34:13.170Z"
+    },
+    "zhipu_quark": {
+      "engine": "zhipu_quark",
+      "totalResults": 0,
+      "scores": {
+        "binary": [],
+        "five_point": []
+      },
+      "averageScores": {
+        "binary": {
+          "dimensions": {},
+          "weighted": 0
+        },
+        "five_point": {
+          "dimensions": {},
+          "weighted": 0
+        }
+      },
+      "timestamp": "2025-09-17T02:34:13.170Z"
+    }
+  },
+  "summary": {
+    "totalEngines": 6,
+    "successfulEngines": 6,
+    "failedEngines": 0,
+    "rankings": {
+      "binary": [
+        {
+          "rank": 1,
+          "engine": "jina",
+          "score": 1.275
+        },
+        {
+          "rank": 2,
+          "engine": "serper",
+          "score": 1.275
+        },
+        {
+          "rank": 3,
+          "engine": "zhipu",
+          "score": 0
+        },
+        {
+          "rank": 4,
+          "engine": "zhipu_pro",
+          "score": 0
+        },
+        {
+          "rank": 5,
+          "engine": "zhipu_sogou",
+          "score": 0
+        },
+        {
+          "rank": 6,
+          "engine": "zhipu_quark",
+          "score": 0
+        }
+      ],
+      "five_point": [
+        {
+          "rank": 1,
+          "engine": "jina",
+          "score": 3.5100000000000002
+        },
+        {
+          "rank": 2,
+          "engine": "serper",
+          "score": 3.44
+        },
+        {
+          "rank": 3,
+          "engine": "zhipu",
+          "score": 0
+        },
+        {
+          "rank": 4,
+          "engine": "zhipu_pro",
+          "score": 0
+        },
+        {
+          "rank": 5,
+          "engine": "zhipu_sogou",
+          "score": 0
+        },
+        {
+          "rank": 6,
+          "engine": "zhipu_quark",
+          "score": 0
+        }
+      ]
+    }
+  }
+}

@@ -38,7 +38,7 @@ export class WebSearchEvaluationSystem {
       console.log('✅ 搜索引擎管理器初始化完成');
 
       // 初始化评估管理器
-      this.evaluationManager = new EvaluationManager(this.config);
+      this.evaluationManager = await EvaluationManager.create(this.configManager);
       console.log('✅ 评估管理器初始化完成');
 
       // 初始化批量测试管理器

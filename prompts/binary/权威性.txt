@@ -1,0 +1,76 @@
+## 任务描述
+作为专业评测人员，请根据搜索Query和评分标准，对搜索引擎返回的10条结果进行权威性量化评分。
+## 评分标准（满分2分）
+| 非权威来源数量 | 评分 | 说明                     |
+|----------------|------|------------------------|
+| **≤ 2条**      | 2分  | 权威性优秀               |
+| **3-4条**      | 1分  | 权威性可接受             |
+| **≥ 5条**      | 0分  | 权威性差                 |
+
+## 权威媒体判断标准
+满足以下任一条件即视为权威媒体：
+### 1. 核心权威源（官方/监管机构、顶级学术库、付费商业数据库）
+- **官方/监管机构**：国家统计局（stats.gov.cn）、国家健康医疗大数据中心（nhc.gov.cn）、上海证券交易所（sse.com.cn）、深圳证券交易所（szse.cn）
+- **顶级学术库**：Web of Science（webofscience.com）、SCI（webofscience.com）、中国医学数字图书馆（CHKD）（cnki.net）、知网（cnki.net）、万方数据（wanfangdata.com.cn）
+- **付费商业数据库**：Wind终端（wind.com.cn）、巨潮资讯（cninfo.com.cn）、BvD Osiris（bvdinfo.com）、奥维云网（avc-mobile.com）、米内网（menet.com.cn）、东壁文献平台（dbdata.com）、IDC国际数据公司（idc.com）、药智数据（yaozh.com）
+- **企业技术白皮书**：谷歌技术白皮书（ai.google）、微软技术白皮书（microsoft.com/research）、百度技术白皮书（ai.baidu.com）、阿里技术白皮书（alibabacloud.com）
+
+### 2. 垂直权威源（行业机构、高质量智库、需验证的UGC）
+- **专业媒体/智库**：财联社（cls.cn）、东方财富（eastmoney.com）、雪球（xueqiu.com）、SeekingAlpha（seekingalpha.com）、CNBC（cnbc.com）、机器之心（jiqizhixin.com）、亿欧智库（iyiou.com）、Statista（statista.com）、Pew Research（pewresearch.org）、36氪（36kr.com）、虎嗅（huxiu.com）、氨基一周（anjizhoukan.com）、医数据（yidashuju.com）
+- **行业机构**：中国旅游研究院（ctaweb.org）、丁香园（dxy.cn）、STAS科研系统（stas.guokezy.com）、世界卫生组织数据（who.int/data）、IMF数据库（imf.org）
+- **需验证的UGC**：知乎盐选专栏（zhihu.com）、穷游网（qyer.com）、中国国家地理网（dili360.com）
+
+### 3. 辅助权威源（行业机构、高质量智库、需验证的UGC）
+- **行业机构/数据平台**：新浪财经（finance.sina.com.cn）、Questmobile（questmobile.com.cn）、麦肯锡（mckinsey.com）、一贯分析（yiguanfenxi.com）、艾瑞网（iresearch.cn）、易观千帆（qianfan.analysys.cn）、洞见研报（dyyiyan.com）、TalkingData（talkingdata.com）
+- **需验证的UGC**：GitHub趋势库（github.com/trending）、小红书（xiaohongshu.com）、百度文库（wenku.baidu.com）、Kaggle数据集（kaggle.com/datasets）、抖音（douyin.com）、马蜂窝（mafengwo.cn）、谷歌学术（scholar.google.com）、B站（bilibili.com）、各学校院刊（各高校官网）
+
+## 非权威媒体特征（明确排除项）
+### 1. 优质社区源（活跃的专业社区、论坛，具有一定专业性但权威性有限）
+- 知乎（zhihu.com）（普通回答，非盐选专栏）
+- 小红书（xiaohongshu.com）（普通内容，非专业分析）
+- 其他类似专业社区/论坛内容
+
+### 2. 基础信息源（内容缺乏客观性、活跃度较低、缺乏严格验证机制）
+- 微博（weibo.com）
+- 其他类似网站内容
+
+## Few-Shot示例（商业/行业查询场景）
+### 权威媒体示例
+示例1: https://www.stats.gov.cn
+判断: 权威
+理由: 国家统计局官网，官方监管机构，提供权威统计数据
+
+示例2: https://m.chyxx.com/industry
+判断: 权威
+理由: 中国产业信息网，专业行业研究机构，提供行业数据和分析
+
+示例3: https://zhuanlan.zhihu.com
+判断: 权威
+理由: 知乎盐选专栏，需验证的高质量UGC
+
+示例4: https://www.cnki.net
+判断: 权威
+理由: 中国知网，顶级学术数据库，提供权威学术资源
+
+### 非权威媒体示例
+示例5: https://www.zhihu.com/question/xxx
+判断: 非权威
+理由: 知乎普通回答，具有一定专业性但权威性有限
+
+示例6: https://weibo.com/xxx
+判断: 非权威
+理由: 微博，缺乏客观性和严格验证机制的用户生成内容
+
+## 输出要求
+请根据上述评分标准，对搜索结果进行权威性评估。
+
+**重要：请将最终得分放在<result></result>标签内，格式为纯数字（0、1或2）。**
+
+输出格式示例：
+根据权威性评分标准分析搜索结果：
+- 权威媒体：X条（包括官方机构、学术库、专业媒体等）
+- 非权威媒体：Y条（包括社区论坛、个人博客等）
+
+评分依据：非权威来源数量为Y条，根据评分标准得分为Z分。
+
+<result>Z</result>

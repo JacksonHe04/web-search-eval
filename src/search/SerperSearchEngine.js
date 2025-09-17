@@ -67,7 +67,14 @@ export class SerperSearchEngine extends SearchEngine {
       return [];
     }
 
-    return rawResults.map((item, index) => ({
+    // 严格限制返回结果数量为10条
+    const limitedResults = rawResults.slice(0, 10);
+    
+    if (rawResults.length > 10) {
+      console.log(`Serper返回了${rawResults.length}条结果，已限制为10条`);
+    }
+
+    return limitedResults.map((item, index) => ({
       rank: index + 1,
       title: item.title || '',
       url: item.link || '',
