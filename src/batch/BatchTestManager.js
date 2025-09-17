@@ -24,6 +24,9 @@ export class BatchTestManager {
   async runBatchTest(queriesInput, options = {}) {
     console.log('开始批量测试...');
     
+    // 记录开始时间
+    const testStartTime = new Date().toISOString();
+    
     // 获取查询列表
     const queries = await this.getQueries(queriesInput);
     console.log(`共 ${queries.length} 个查询待测试`);
@@ -31,8 +34,11 @@ export class BatchTestManager {
     // 执行测试
     const testResults = await this.executeTests(queries, options);
 
+    // 记录结束时间
+    const testEndTime = new Date().toISOString();
+
     // 生成最终报告
-    const finalReport = this.generateFinalReport(testResults);
+    const finalReport = this.generateFinalReport(testResults, queries, testStartTime, testEndTime);
 
     // 保存结果
     if (options.outputDir) {
@@ -135,9 +141,12 @@ export class BatchTestManager {
   /**
    * 生成最终报告
    * @param {Array} testResults - 所有轮次的测试结果
+   * @param {Array} queries - 查询列表
+   * @param {string} testStartTime - 测试开始时间
+   * @param {string} testEndTime - 测试结束时间
    * @returns {Object} 最终报告
    */
-  generateFinalReport(testResults) {
+  generateFinalReport(testResults, queries = [], testStartTime = null, testEndTime = null) {
     console.log('生成最终报告...');
     
     const report = {
@@ -145,6 +154,12 @@ export class BatchTestManager {
         total_rounds: testResults.length,
         total_queries: 0,
         generation_time: new Date().toISOString(),
+        test_start_time: testStartTime,
+        test_end_time: testEndTime,
+        query_info: {
+          queries: queries,
+          query: queries.length === 1 ? queries[0] : `${queries.length}个查询`
+        },
         config_summary: {
           repeat_times: this.repeatTimes,
           enabled_engines: this.searchEngineManager.getEnabledEngines().map(e => e.getName()),

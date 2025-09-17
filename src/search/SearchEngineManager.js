@@ -126,9 +126,7 @@ export class SearchEngineManager {
         if (result.results.length > 0) {
           console.log(`   🔗 搜索结果详情:`);
           result.results.forEach((item, idx) => {
-            // 格式化发布时间
-            const publishTime = item.publishedDate || item.date || '未知时间';
-            console.log(`      ${idx + 1}. ${item.title}（发布时间：${publishTime}）`);
+            console.log(`      ${idx + 1}. ${item.title}`);
             console.log(`         ${item.url}`);
           });
         }

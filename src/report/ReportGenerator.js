@@ -21,33 +21,58 @@ export class ReportGenerator {
    * @returns {Promise<Object>} 生成的文件路径
    */
   async generateReport(finalReport, outputDir, options = {}) {
-    await fs.mkdir(outputDir, { recursive: true });
-    
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    
+    // 获取查询信息用于创建子目录
+    const queryInfo = finalReport.metadata?.query_info || {};
+    let queryName = '';
+    
+    if (queryInfo.query && queryInfo.query !== '未指定') {
+      // 清理查询字符串，移除特殊字符
+      queryName = queryInfo.query.replace(/[<>:"/\\|?*]/g, '_').substring(0, 50);
+    } else if (queryInfo.queries && queryInfo.queries.length > 0) {
+      // 多个查询的情况，使用第一个查询的前几个字符
+      queryName = queryInfo.queries[0].replace(/[<>:"/\\|?*]/g, '_').substring(0, 30);
+    }
+    
+    // 创建子目录名称：时间戳 + 查询名称
+    const subDirName = queryName ? `${timestamp}_${queryName}` : timestamp;
+    const reportOutputDir = path.join(outputDir, subDirName);
+    
+    await fs.mkdir(reportOutputDir, { recursive: true });
+    
     const generatedFiles = {};
 
     // 生成HTML报告
     if (options.html !== false) {
-      const htmlPath = path.join(outputDir, `evaluation_report_${timestamp}.html`);
+      const htmlPath = path.join(reportOutputDir, `evaluation_report_${timestamp}.html`);
       await this.generateHtmlReport(finalReport, htmlPath);
       generatedFiles.html = htmlPath;
     }
 
     // 生成Markdown报告
     if (options.markdown !== false) {
-      const mdPath = path.join(outputDir, `evaluation_report_${timestamp}.md`);
+      const mdPath = path.join(reportOutputDir, `evaluation_report_${timestamp}.md`);
       await this.generateMarkdownReport(finalReport, mdPath);
       generatedFiles.markdown = mdPath;
     }
 
     // 生成文本摘要
     if (options.summary !== false) {
-      const summaryPath = path.join(outputDir, `evaluation_summary_${timestamp}.txt`);
+      const summaryPath = path.join(reportOutputDir, `evaluation_summary_${timestamp}.txt`);
       await this.generateTextSummary(finalReport, summaryPath);
       generatedFiles.summary = summaryPath;
     }
 
-    console.log(`报告已生成到目录: ${outputDir}`);
+    // 生成JSON结果文件
+    if (options.json !== false) {
+      const jsonPath = path.join(reportOutputDir, `evaluation_result_${timestamp}.json`);
+      await fs.writeFile(jsonPath, JSON.stringify(finalReport, null, 2), 'utf-8');
+      generatedFiles.json = jsonPath;
+      console.log(`JSON结果已生成: ${jsonPath}`);
+    }
+
+    console.log(`报告已生成到目录: ${reportOutputDir}`);
     return generatedFiles;
   }
 
@@ -362,14 +387,32 @@ ${Object.entries(performance.average_scores || {}).map(([scoringType, scores]) =
     const configSummary = metadata.config_summary || {};
     const enabledEngines = configSummary.enabled_engines || [];
     
+    // 获取查询信息和时间信息
+    const queryInfo = metadata.query_info || {};
+    const testStartTime = metadata.test_start_time;
+    const testEndTime = metadata.test_end_time || metadata.generation_time;
+    
     let summary = `搜索引擎评估报告摘要
 ${'='.repeat(50)}
 
 测试概览:
 - 测试轮次: ${metadata.total_rounds || 1}
 - 查询数量: ${metadata.total_queries || 1}
+- 搜索查询: ${queryInfo.query || '未指定'}
 - 生成时间: ${metadata.generation_time ? new Date(metadata.generation_time).toLocaleString('zh-CN') : new Date().toLocaleString('zh-CN')}
-- 启用引擎: ${enabledEngines.join(', ')}
+- 启用引擎: ${enabledEngines.join(', ')}`;
+
+    // 添加总耗时信息
+    if (testStartTime && testEndTime) {
+      const startTime = new Date(testStartTime);
+      const endTime = new Date(testEndTime);
+      const totalTimeMs = endTime - startTime;
+      const totalTimeSeconds = (totalTimeMs / 1000).toFixed(2);
+      summary += `
+- 总耗时: ${totalTimeSeconds}秒`;
+    }
+
+    summary += `
 `;
 
     // 添加综合排名（如果存在）

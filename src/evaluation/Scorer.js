@@ -34,7 +34,7 @@ export class Scorer {
     console.log(`📝 查询: "${query}"`);
     console.log(`📊 待评估结果数量: ${searchResults.length}`);
     console.log(`🔍 评估维度: ${this.dimensions.map(d => `${d.name}(权重:${d.weight})`).join(', ')}`);
-    console.log(`🚀 优化模式: 每个维度仅调用1次API (总共${this.dimensions.length}次调用)`);
+    console.log(`🚀 评估说明: 每个维度仅调用1次API (本轮总共${this.dimensions.length}次调用)`);
     console.log('='.repeat(80));
 
     const scoredResults = [];

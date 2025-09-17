@@ -79,18 +79,13 @@ program
       console.log(`🔍 评估查询: "${query}"`);
       logManager.writeCustomLog(`开始单次评估 - 查询: ${query}`, 'INFO');
       
+      // 记录开始时间
+      const testStartTime = new Date().toISOString();
+      
       const result = await system.evaluateSingleQuery(query);
       
-      // 保存结果
-      const outputDir = options.output;
-      await fs.mkdir(outputDir, { recursive: true });
-      
-      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-      const resultFile = path.join(outputDir, `single_eval_${timestamp}.json`);
-      
-      await fs.writeFile(resultFile, JSON.stringify(result, null, 2));
-      console.log(`💾 结果已保存到: ${resultFile}`);
-      logManager.writeCustomLog(`评估结果已保存到: ${resultFile}`, 'INFO');
+      // 记录结束时间
+      const testEndTime = new Date().toISOString();
       
       // 生成报告
       if (options.report) {
@@ -101,6 +96,11 @@ program
               total_rounds: 1,
               total_queries: 1,
               generation_time: new Date().toISOString(),
+              test_start_time: testStartTime,
+              test_end_time: testEndTime,
+              query_info: {
+                query: query
+              },
               config_summary: {
                 enabled_engines: Object.keys(result.engines),
                 dimensions: ['权威性', '相关性', '时效性'],
@@ -110,7 +110,8 @@ program
             engine_rankings: result.summary.rankings,
             aggregated_results: {
               engine_performance: {}
-            }
+            },
+            original_result: result  // 添加原始结果数据
           };
 
           // 构建引擎性能数据
@@ -138,8 +139,8 @@ program
 
           const reportFiles = await system.generateReports(
             reportData,
-            outputDir,
-            { format: ['html', 'markdown'] }
+            options.output,
+            { html: true, markdown: true, summary: true, json: true }
           );
           console.log('📝 报告已生成:', reportFiles);
           logManager.writeCustomLog(`报告已生成: ${JSON.stringify(reportFiles)}`, 'INFO');
@@ -210,7 +211,10 @@ program
         outputDir: options.output,
         generateReport: options.report,
         reportOptions: {
-          format: options.format.split(',').map(f => f.trim())
+          html: options.format.includes('html'),
+          markdown: options.format.includes('markdown'),
+          summary: true,
+          json: options.format.includes('json') || true  // 默认包含JSON
         }
       };
       
