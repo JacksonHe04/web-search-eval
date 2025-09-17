@@ -1,0 +1,56 @@
+{
+  "name": "web-search-eval",
+  "version": "1.0.0",
+  "description": "网络搜索引擎评估系统 - 评估不同搜索引擎的搜索结果质量",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "web-search-eval": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "cli": "node src/cli.js",
+    "init": "node src/cli.js init",
+    "test": "node src/cli.js test",
+    "eval": "node src/cli.js eval",
+    "batch": "node src/cli.js batch",
+    "samples": "node src/cli.js samples",
+    "status": "node src/cli.js status",
+    "help": "node src/cli.js --help",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "search-engine",
+    "evaluation",
+    "api",
+    "benchmark",
+    "jina",
+    "serper",
+    "zhipu",
+    "搜索引擎",
+    "评估",
+    "测试"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "node-fetch": "^3.3.2",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/web-search-eval.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/web-search-eval/issues"
+  },
+  "homepage": "https://github.com/yourusername/web-search-eval#readme"
+}

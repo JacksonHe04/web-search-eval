@@ -1,0 +1,88 @@
+{
+  "model": {
+    "api_key": "your_model_api_key_here",
+    "base_url": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "model_name": "glm-4",
+    "timeout": 30000,
+    "max_retries": 3
+  },
+  "search_engines": {
+    "jina": {
+      "enabled": true,
+      "api_key": "your_jina_api_key_here",
+      "base_url": "https://s.jina.ai/",
+      "max_results": 10,
+      "timeout": 15000
+    },
+    "serper": {
+      "enabled": true,
+      "api_key": "your_serper_api_key_here",
+      "base_url": "https://google.serper.dev/search",
+      "max_results": 10,
+      "timeout": 15000
+    },
+    "zhipu": {
+      "enabled": true,
+      "api_key": "your_zhipu_api_key_here",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4/web_search",
+      "max_results": 10,
+      "timeout": 15000,
+      "search_engine": "search_pro"
+    }
+  },
+  "evaluation": {
+    "dimensions": [
+      {
+        "name": "权威性",
+        "weight": 0.4,
+        "description": "信息来源的权威性和可信度"
+      },
+      {
+        "name": "相关性",
+        "weight": 0.35,
+        "description": "搜索结果与查询的相关程度"
+      },
+      {
+        "name": "时效性",
+        "weight": 0.25,
+        "description": "信息的时效性和最新程度"
+      }
+    ],
+    "scoring_systems": {
+      "binary": {
+        "min_score": 0,
+        "max_score": 2,
+        "description": "二分制评分（0-2分）",
+        "prompts": {
+          "权威性": "请根据搜索结果的来源权威性进行评分。评分标准：0分-来源不可信或无权威性；1分-来源一般可信；2分-来源高度权威可信。请只返回数字分数。",
+          "相关性": "请根据搜索结果与查询的相关程度进行评分。评分标准：0分-完全不相关；1分-部分相关；2分-高度相关。请只返回数字分数。",
+          "时效性": "请根据搜索结果的时效性进行评分。评分标准：0分-信息过时；1分-信息较新；2分-信息最新。请只返回数字分数。"
+        }
+      },
+      "five_point": {
+        "min_score": 1,
+        "max_score": 5,
+        "description": "五分制评分（1-5分）",
+        "prompts": {
+          "权威性": "请根据搜索结果的来源权威性进行评分。评分标准：1分-来源不可信；2分-来源可信度较低；3分-来源一般可信；4分-来源较为权威；5分-来源高度权威。请只返回数字分数。",
+          "相关性": "请根据搜索结果与查询的相关程度进行评分。评分标准：1分-完全不相关；2分-相关度较低；3分-部分相关；4分-较为相关；5分-高度相关。请只返回数字分数。",
+          "时效性": "请根据搜索结果的时效性进行评分。评分标准：1分-信息严重过时；2分-信息较为过时；3分-信息一般；4分-信息较新；5分-信息最新。请只返回数字分数。"
+        }
+      }
+    },
+    "default_scoring_system": "five_point",
+    "repeat_times": 3,
+    "delay_between_requests": 1000
+  },
+  "output": {
+    "default_format": ["html", "markdown", "json"],
+    "include_raw_results": true,
+    "include_detailed_scores": true,
+    "timestamp_format": "YYYY-MM-DD_HH-mm-ss"
+  },
+  "logging": {
+    "level": "info",
+    "file": "./logs/evaluation.log",
+    "console": true
+  }
+}
