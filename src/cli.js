@@ -151,9 +151,18 @@ program
       
       // 显示简要结果
       console.log('\n📊 评估结果摘要:');
-      Object.entries(result.engineResults).forEach(([engine, engineResult]) => {
-        console.log(`   ${engine}: ${engineResult.finalScore.toFixed(2)}分`);
-      });
+      if (result.engines && typeof result.engines === 'object') {
+        Object.entries(result.engines).forEach(([engine, engineResult]) => {
+          if (engineResult && engineResult.averageScores && engineResult.averageScores.binary) {
+            const score = engineResult.averageScores.binary.weighted || 0;
+            console.log(`   ${engine}: ${score.toFixed(2)}分`);
+          } else {
+            console.log(`   ${engine}: 评估失败`);
+          }
+        });
+      } else {
+        console.log('   ❌ 无可用的评估结果');
+      }
       
       logManager.writeCustomLog(`单次评估完成 - 查询: ${query}`, 'INFO');
       

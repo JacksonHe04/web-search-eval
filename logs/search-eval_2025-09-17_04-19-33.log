@@ -1,0 +1,247 @@
+
+===========================================
+搜索引擎评估系统日志
+开始时间: 2025-09-17T04:19:33.573Z
+日志文件: search-eval_2025-09-17_04-19-33.log
+===========================================
+
+[2025-09-17T04:19:33.573Z] [LOG] 📝 日志记录已启动: /Users/jackson/Zai/web-search-eval/logs/search-eval_2025-09-17_04-19-33.log
+[2025-09-17T04:19:33.575Z] [LOG] 🚀 初始化搜索引擎评估系统...
+[2025-09-17T04:19:33.577Z] [LOG] ✅ 配置加载成功
+[2025-09-17T04:19:33.577Z] [LOG] 已初始化 5 个搜索引擎
+[2025-09-17T04:19:33.577Z] [LOG] ✅ 搜索引擎管理器初始化完成
+[2025-09-17T04:19:33.579Z] [LOG] ✅ 成功从外部文件加载提示词
+[2025-09-17T04:19:33.579Z] [LOG] ✅ 评估管理器初始化完成
+[2025-09-17T04:19:33.579Z] [LOG] ✅ 批量测试管理器初始化完成
+[2025-09-17T04:19:33.579Z] [LOG] 🎉 系统初始化完成！
+[2025-09-17T04:19:33.579Z] [LOG] 
+📋 系统信息:
+[2025-09-17T04:19:33.579Z] [LOG]    搜索引擎: 5/5 个已启用
+[2025-09-17T04:19:33.580Z] [LOG]    评估维度: 3 个
+[2025-09-17T04:19:33.580Z] [LOG]    重复测试: 3 次
+[2025-09-17T04:19:33.580Z] [LOG]    启用引擎: jina, serper, zhipu_pro, zhipu_sogou, zhipu_quark
+[2025-09-17T04:19:33.580Z] [LOG] 
+[2025-09-17T04:19:33.580Z] [LOG] 🔍 评估查询: "Python基础教程"
+[2025-09-17T04:19:33.580Z] [INFO] 开始单次评估 - 查询: Python基础教程
+[2025-09-17T04:19:33.580Z] [LOG] 🔍 开始评估查询: "Python基础教程"
+[2025-09-17T04:19:33.580Z] [LOG] 
+================================================================================
+[2025-09-17T04:19:33.580Z] [LOG] 🔍 开始搜索: "Python基础教程"
+[2025-09-17T04:19:33.580Z] [LOG] 📊 启用的搜索引擎数量: 5
+[2025-09-17T04:19:33.580Z] [LOG] 🎯 搜索引擎列表: jina, serper, zhipu_pro, zhipu_sogou, zhipu_quark
+[2025-09-17T04:19:33.580Z] [LOG] ================================================================================
+[2025-09-17T04:19:33.580Z] [LOG] 
+[1/5] 🚀 开始使用 jina 搜索...
+[2025-09-17T04:19:33.580Z] [LOG] 使用 jina 搜索: Python基础教程
+[2025-09-17T04:19:33.609Z] [LOG] 
+[2/5] 🚀 开始使用 serper 搜索...
+[2025-09-17T04:19:33.609Z] [LOG] 使用 serper 搜索: Python基础教程
+[2025-09-17T04:19:33.611Z] [LOG] 
+[3/5] 🚀 开始使用 zhipu_pro 搜索...
+[2025-09-17T04:19:33.611Z] [LOG] 使用 zhipu_pro 搜索: Python基础教程
+[2025-09-17T04:19:33.611Z] [LOG] 使用 zhipu_pro 搜索: Python基础教程
+[2025-09-17T04:19:33.611Z] [LOG] 智谱Pro请求数据: {
+  "search_query": "Python基础教程",
+  "search_engine": "search_pro",
+  "search_intent": false,
+  "count": 10,
+  "search_domain_filter": "",
+  "search_recency_filter": "noLimit",
+  "content_size": "medium",
+  "request_id": "zhipu_pro_1758082773611_zh2r6cme9",
+  "user_id": "default"
+}
+[2025-09-17T04:19:33.612Z] [LOG] 
+[4/5] 🚀 开始使用 zhipu_sogou 搜索...
+[2025-09-17T04:19:33.612Z] [LOG] 使用 zhipu_sogou 搜索: Python基础教程
+[2025-09-17T04:19:33.612Z] [LOG] 使用 zhipu_sogou 搜索: Python基础教程
+[2025-09-17T04:19:33.612Z] [LOG] 智谱Sogou请求数据: {
+  "search_query": "Python基础教程",
+  "search_engine": "search_pro_sogou",
+  "search_intent": false,
+  "count": 10,
+  "search_domain_filter": "",
+  "search_recency_filter": "noLimit",
+  "content_size": "medium",
+  "request_id": "zhipu_sogou_1758082773612_62wa6n2dm",
+  "user_id": "default"
+}
+[2025-09-17T04:19:33.612Z] [LOG] 
+[5/5] 🚀 开始使用 zhipu_quark 搜索...
+[2025-09-17T04:19:33.612Z] [LOG] 使用 zhipu_quark 搜索: Python基础教程
+[2025-09-17T04:19:33.613Z] [LOG] 使用 zhipu_quark 搜索: Python基础教程
+[2025-09-17T04:19:33.613Z] [LOG] 智谱Quark请求数据: {
+  "search_query": "Python基础教程",
+  "search_engine": "search_pro_quark",
+  "search_intent": false,
+  "count": 10,
+  "search_domain_filter": "",
+  "search_recency_filter": "noLimit",
+  "content_size": "medium",
+  "request_id": "zhipu_quark_1758082773613_bdcag9org",
+  "user_id": "default"
+}
+[2025-09-17T04:19:34.643Z] [LOG] jina 搜索完成，返回 10 条结果
+[2025-09-17T04:19:34.643Z] [LOG] ✅ jina 搜索完成:
+[2025-09-17T04:19:34.643Z] [LOG]    📈 结果数量: 10
+[2025-09-17T04:19:34.643Z] [LOG]    🔗 搜索结果详情:
+[2025-09-17T04:19:34.643Z] [LOG]       1. Python 基础教程 - 菜鸟教程（发布时间：未知时间）
+[2025-09-17T04:19:34.643Z] [LOG]          http://www.runoob.com/python/python-tutorial.html
+[2025-09-17T04:19:34.643Z] [LOG]       2. 简介- Python教程- 廖雪峰的官方网站（发布时间：未知时间）
+[2025-09-17T04:19:34.643Z] [LOG]          https://liaoxuefeng.com/books/python/index.html
+[2025-09-17T04:19:34.643Z] [LOG]       3. Python 教程— Python 3.13.7 文档（发布时间：未知时间）
+[2025-09-17T04:19:34.643Z] [LOG]          https://docs.python.org/zh-cn/3.13/tutorial/index.html
+[2025-09-17T04:19:34.643Z] [LOG]       4. jackfrued/Python-100-Days: Python - 100天从新手到大师 - GitHub（发布时间：未知时间）
+[2025-09-17T04:19:34.643Z] [LOG]          https://github.com/jackfrued/Python-100-Days
+[2025-09-17T04:19:34.643Z] [LOG]       5. 3小时超快速入门Python | 动画教学【2025新版】【自学 ... - YouTube（发布时间：未知时间）
+[2025-09-17T04:19:34.643Z] [LOG]          https://www.youtube.com/watch?v=9Hku_7e-JSk
+[2025-09-17T04:19:34.643Z] [LOG]       6. 黑马程序员Python小白基础入门教程Python入门到精通教程_哔哩哔哩（发布时间：未知时间）
+[2025-09-17T04:19:34.643Z] [LOG]          https://www.bilibili.com/video/BV1Az4y1S7oK/
+[2025-09-17T04:19:34.643Z] [LOG]       7. Python基础教程，Python入门教程（非常详细） - C语言中文网（发布时间：未知时间）
+[2025-09-17T04:19:34.643Z] [LOG]          https://c.biancheng.net/python/
+[2025-09-17T04:19:34.643Z] [LOG]       8. 开始在Windows 上使用Python（初学者） - Microsoft Learn（发布时间：未知时间）
+[2025-09-17T04:19:34.643Z] [LOG]          https://learn.microsoft.com/zh-cn/windows/python/beginners
+[2025-09-17T04:19:34.643Z] [LOG]       9. Python基础- Python教程- 廖雪峰的官方网站（发布时间：未知时间）
+[2025-09-17T04:19:34.643Z] [LOG]          https://liaoxuefeng.com/books/python/basic/index.html
+[2025-09-17T04:19:34.643Z] [LOG]       10. Python基础教程（第2版）（一本Python入门教程） (Chinese Edition)（发布时间：未知时间）
+[2025-09-17T04:19:34.643Z] [LOG]          https://www.amazon.com/-/zh_TW/%E7%8E%8B%E6%AC%A3-ebook/dp/B08BC5M3G9
+[2025-09-17T04:19:35.023Z] [LOG] 智谱Sogou响应摘要: 返回10条结果
+[2025-09-17T04:19:35.024Z] [LOG] zhipu_sogou 搜索完成，返回 10 条结果
+[2025-09-17T04:19:35.024Z] [LOG] zhipu_sogou 搜索完成，返回 10 条结果
+[2025-09-17T04:19:35.024Z] [LOG] ✅ zhipu_sogou 搜索完成:
+[2025-09-17T04:19:35.024Z] [LOG]    📈 结果数量: 10
+[2025-09-17T04:19:35.024Z] [LOG]    🔗 搜索结果详情:
+[2025-09-17T04:19:35.024Z] [LOG]       1. 【2024】Python入门,详细基础教程,零基础入门,详细图文_python零基础入门教程-CSDN博客（发布时间：未知时间）
+[2025-09-17T04:19:35.024Z] [LOG]          https://blog.csdn.net/weixin_42399800/article/details/143822422
+[2025-09-17T04:19:35.024Z] [LOG]       2. Python入门教程:从零基础开始学习_Python-CSDN专栏（发布时间：未知时间）
+[2025-09-17T04:19:35.024Z] [LOG]          https://download.csdn.net/blog/column/12406851/132727413
+[2025-09-17T04:19:35.024Z] [LOG]       3. Python基础教程,Python入门教程(非常详细) - C语言中文网（发布时间：未知时间）
+[2025-09-17T04:19:35.024Z] [LOG]          https://c.biancheng.net/python
+[2025-09-17T04:19:35.024Z] [LOG]       4. Python元编程实战:详解__metaclass__、装饰器与描述符应用（发布时间：未知时间）
+[2025-09-17T04:19:35.024Z] [LOG]          https://new.qq.com/rain/a/20250826A01PGX00
+[2025-09-17T04:19:35.024Z] [LOG]       5. Python编程基础教程（发布时间：未知时间）
+[2025-09-17T04:19:35.024Z] [LOG]          https://baike.baidu.com/item/Python%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/60015190
+[2025-09-17T04:19:35.024Z] [LOG]       6. Python基础教程(第2版)（发布时间：未知时间）
+[2025-09-17T04:19:35.024Z] [LOG]          https://baike.baidu.com/item/Python%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B(%E7%AC%AC2%E7%89%88)/1388416
+[2025-09-17T04:19:35.025Z] [LOG]       7. Python基础教程(2010年人民邮电出版社出版的图书) - 搜狗百科（发布时间：未知时间）
+[2025-09-17T04:19:35.025Z] [LOG]          http://baike.sogou.com/v62866011.htm?fromTitle=Python%25E5%259F%25BA%25E7%25A1%2580%25E6%2595%2599%25E7%25A8%258B
+[2025-09-17T04:19:35.025Z] [LOG]       8. Python系列教程(小游戏篇1)-Python基础与游戏开发环境搭建（发布时间：未知时间）
+[2025-09-17T04:19:35.025Z] [LOG]          https://so.html5.qq.com/page/real/search_news?docid=70000021_288675cd80d88052
+[2025-09-17T04:19:35.025Z] [LOG]       9. Python基础教程 - Python入门_Python爬虫_Python爬虫IP代理推荐（发布时间：未知时间）
+[2025-09-17T04:19:35.025Z] [LOG]          https://www.python51.com/
+[2025-09-17T04:19:35.025Z] [LOG]       10. Python 基础教程  菜鸟教程（发布时间：未知时间）
+[2025-09-17T04:19:35.025Z] [LOG]          https://m.runoob.com/python/python-tutorial.html
+[2025-09-17T04:19:35.053Z] [LOG] 智谱Quark响应摘要: 返回8条结果
+[2025-09-17T04:19:35.053Z] [LOG] zhipu_quark 搜索完成，返回 8 条结果
+[2025-09-17T04:19:35.054Z] [LOG] zhipu_quark 搜索完成，返回 8 条结果
+[2025-09-17T04:19:35.054Z] [LOG] ✅ zhipu_quark 搜索完成:
+[2025-09-17T04:19:35.054Z] [LOG]    📈 结果数量: 8
+[2025-09-17T04:19:35.054Z] [LOG]    🔗 搜索结果详情:
+[2025-09-17T04:19:35.054Z] [LOG]       1. Python 基础教程（发布时间：未知时间）
+[2025-09-17T04:19:35.054Z] [LOG]          https://edu.jb51.net/python/python-tutorial.html
+[2025-09-17T04:19:35.054Z] [LOG]       2. Python基础（发布时间：未知时间）
+[2025-09-17T04:19:35.054Z] [LOG]          https://liaoxuefeng.com/books/python/basic/index.html
+[2025-09-17T04:19:35.054Z] [LOG]       3. python零基础入门学习（发布时间：未知时间）
+[2025-09-17T04:19:35.054Z] [LOG]          https://m.py.cn/course/list/97/hot.html?p=1
+[2025-09-17T04:19:35.054Z] [LOG]       4. Python从入门到精通：零基础也能轻松上手的编程之路（发布时间：未知时间）
+[2025-09-17T04:19:35.054Z] [LOG]          https://m.toutiao.com/zixun/7538295719737280553/
+[2025-09-17T04:19:35.054Z] [LOG]       5. 静态代码检测技术入门：Python 的 Tree-sitter 技术详解与示例教程（发布时间：未知时间）
+[2025-09-17T04:19:35.054Z] [LOG]          https://juejin.cn/post/7550229013026832435
+[2025-09-17T04:19:35.054Z] [LOG]       6. Python网络编程入门（发布时间：未知时间）
+[2025-09-17T04:19:35.054Z] [LOG]          http://m.zol.com.cn/article/10459152.html
+[2025-09-17T04:19:35.054Z] [LOG]       7. Python3 基本数据类型（发布时间：未知时间）
+[2025-09-17T04:19:35.054Z] [LOG]          https://www.runoob.com/python3/python3-data-type.html
+[2025-09-17T04:19:35.054Z] [LOG]       8. Python怎么创建一个类_Python类的创建与使用教程（发布时间：未知时间）
+[2025-09-17T04:19:35.054Z] [LOG]          https://m.php.cn/faq/1524530.html
+[2025-09-17T04:19:35.182Z] [LOG] 智谱Pro响应摘要: 返回10条结果
+[2025-09-17T04:19:35.183Z] [LOG] zhipu_pro 搜索完成，返回 10 条结果
+[2025-09-17T04:19:35.183Z] [LOG] zhipu_pro 搜索完成，返回 10 条结果
+[2025-09-17T04:19:35.183Z] [LOG] ✅ zhipu_pro 搜索完成:
+[2025-09-17T04:19:35.183Z] [LOG]    📈 结果数量: 10
+[2025-09-17T04:19:35.183Z] [LOG]    🔗 搜索结果详情:
+[2025-09-17T04:19:35.183Z] [LOG]       1. python基础教程（发布时间：未知时间）
+[2025-09-17T04:19:35.184Z] [LOG]          https://www.coder100.com/index/index/content/id/4027386
+[2025-09-17T04:19:35.184Z] [LOG]       2. 这才是最适合新手的python基础教程，800个程序实例、5万行代码（发布时间：未知时间）
+[2025-09-17T04:19:35.184Z] [LOG]          http://mp.weixin.qq.com/s?__biz=Mzg5Mjk3NjA2MQ==&mid=2247484306&idx=1&sn=86062e8490114806d5e8aa604f7906f5
+[2025-09-17T04:19:35.184Z] [LOG]       3. 【机器学习】超简明Python基础教程（发布时间：2024-11-20 10:21:43）（发布时间：未知时间）
+[2025-09-17T04:19:35.184Z] [LOG]          https://blog.csdn.net/IT_ORACLE/article/details/143902948
+[2025-09-17T04:19:35.184Z] [LOG]       4. Python基础教程（入门教程），30分钟玩转Python编程！（发布时间：2021-08-31 16:42:11）（发布时间：未知时间）
+[2025-09-17T04:19:35.184Z] [LOG]          https://blog.csdn.net/mc_xy/article/details/120021408
+[2025-09-17T04:19:35.184Z] [LOG]       5. 《Python基础教程(第3版)》PDF高清版（发布时间：未知时间）
+[2025-09-17T04:19:35.184Z] [LOG]          https://www.jianshu.com/p/558c91805898
+[2025-09-17T04:19:35.184Z] [LOG]       6. Python教父推荐：《Python基础教程》(第3版) 中文PDF电子版限免（发布时间：2024-01-12 14:02:43）（发布时间：未知时间）
+[2025-09-17T04:19:35.184Z] [LOG]          https://blog.csdn.net/2301_82275412/article/details/135551156
+[2025-09-17T04:19:35.184Z] [LOG]       7. python入门基础教程（发布时间：未知时间）
+[2025-09-17T04:19:35.184Z] [LOG]          https://www.360docs.net/doc/2919447657.html
+[2025-09-17T04:19:35.184Z] [LOG]       8. Python基础教程，Python入门教程（非常详细）（发布时间：2022-02-14 09:29:00）（发布时间：未知时间）
+[2025-09-17T04:19:35.184Z] [LOG]          https://blog.csdn.net/qq_25729265/article/details/123367571
+[2025-09-17T04:19:35.184Z] [LOG]       9. 2025封神了！640页超详细Python基础教程（最新版Python3.10）（发布时间：2025-05-11 09:01:35）（发布时间：未知时间）
+[2025-09-17T04:19:35.184Z] [LOG]          
+[2025-09-17T04:19:35.184Z] [LOG]       10. 【2025】Python入门教程（非常详细）从零基础入门到精通，看完这一篇就够了!（发布时间：2025-08-11 09:58:24）（发布时间：未知时间）
+[2025-09-17T04:19:35.184Z] [LOG]          
+[2025-09-17T04:19:35.519Z] [LOG] serper 搜索完成，返回 10 条结果
+[2025-09-17T04:19:35.519Z] [LOG] ✅ serper 搜索完成:
+[2025-09-17T04:19:35.519Z] [LOG]    📈 结果数量: 10
+[2025-09-17T04:19:35.519Z] [LOG]    🔗 搜索结果详情:
+[2025-09-17T04:19:35.519Z] [LOG]       1. Python 基础教程（发布时间：未知时间）
+[2025-09-17T04:19:35.519Z] [LOG]          http://www.runoob.com/python/python-tutorial.html
+[2025-09-17T04:19:35.519Z] [LOG]       2. 简介- Python教程- 廖雪峰的官方网站（发布时间：未知时间）
+[2025-09-17T04:19:35.519Z] [LOG]          https://liaoxuefeng.com/books/python/index.html
+[2025-09-17T04:19:35.519Z] [LOG]       3. Python 教程— Python 3.13.7 文档（发布时间：未知时间）
+[2025-09-17T04:19:35.519Z] [LOG]          https://docs.python.org/zh-cn/3.13/tutorial/index.html
+[2025-09-17T04:19:35.519Z] [LOG]       4. jackfrued/Python-100-Days: Python - 100天从新手到大师（发布时间：未知时间）
+[2025-09-17T04:19:35.519Z] [LOG]          https://github.com/jackfrued/Python-100-Days
+[2025-09-17T04:19:35.519Z] [LOG]       5. 3小时超快速入门Python | 动画教学【2025新版】【自学 ...（发布时间：未知时间）
+[2025-09-17T04:19:35.519Z] [LOG]          https://www.youtube.com/watch?v=9Hku_7e-JSk
+[2025-09-17T04:19:35.519Z] [LOG]       6. 黑马程序员Python小白基础入门教程Python入门到精通教程（发布时间：未知时间）
+[2025-09-17T04:19:35.519Z] [LOG]          https://www.bilibili.com/video/BV1Az4y1S7oK/
+[2025-09-17T04:19:35.520Z] [LOG]       7. Python基础教程，Python入门教程（非常详细）（发布时间：未知时间）
+[2025-09-17T04:19:35.520Z] [LOG]          https://c.biancheng.net/python/
+[2025-09-17T04:19:35.520Z] [LOG]       8. 开始在Windows 上使用Python（初学者）（发布时间：未知时间）
+[2025-09-17T04:19:35.520Z] [LOG]          https://learn.microsoft.com/zh-cn/windows/python/beginners
+[2025-09-17T04:19:35.520Z] [LOG]       9. Python基础- Python教程- 廖雪峰的官方网站（发布时间：未知时间）
+[2025-09-17T04:19:35.520Z] [LOG]          https://liaoxuefeng.com/books/python/basic/index.html
+[2025-09-17T04:19:35.520Z] [LOG]       10. Python基础教程（第2版）（一本Python入门教程） (Chinese ...（发布时间：未知时间）
+[2025-09-17T04:19:35.520Z] [LOG]          https://www.amazon.com/-/zh_TW/%E7%8E%8B%E6%AC%A3-ebook/dp/B08BC5M3G9
+[2025-09-17T04:19:35.520Z] [LOG] 
+================================================================================
+[2025-09-17T04:19:35.520Z] [LOG] 📋 搜索结果汇总:
+[2025-09-17T04:19:35.520Z] [LOG]    ✅ jina: 10 条结果
+[2025-09-17T04:19:35.520Z] [LOG]    ✅ serper: 10 条结果
+[2025-09-17T04:19:35.520Z] [LOG]    ✅ zhipu_pro: 10 条结果
+[2025-09-17T04:19:35.520Z] [LOG]    ✅ zhipu_sogou: 10 条结果
+[2025-09-17T04:19:35.520Z] [LOG]    ✅ zhipu_quark: 8 条结果
+[2025-09-17T04:19:35.520Z] [LOG] 
+📊 总计: 5/5 个引擎成功，共获得 48 条结果
+[2025-09-17T04:19:35.520Z] [LOG] ================================================================================
+
+[2025-09-17T04:19:35.520Z] [LOG] 开始评估查询: Python基础教程
+[2025-09-17T04:19:35.520Z] [LOG] 评估 jina 的搜索结果
+[2025-09-17T04:19:35.520Z] [LOG] 🔄 开始对 jina 进行 3 次重复评估
+[2025-09-17T04:19:35.520Z] [LOG] 📋 评分制式说明:
+[2025-09-17T04:19:35.520Z] [LOG]    - 二分制评分: 使用 /Users/jackson/Zai/web-search-eval/prompts/binary/ 目录下的提示词文件
+[2025-09-17T04:19:35.520Z] [LOG]    - 五分制评分: 使用 /Users/jackson/Zai/web-search-eval/prompts/five_point/ 目录下的提示词文件
+[2025-09-17T04:19:35.521Z] [LOG]    - 评估维度: 权威性、相关性、时效性
+[2025-09-17T04:19:35.521Z] [LOG]    📊 第 1/3 次评估 jina...
+[2025-09-17T04:19:35.521Z] [LOG] 
+================================================================================
+[2025-09-17T04:19:35.521Z] [LOG] 🎯 开始AI批量评估过程
+[2025-09-17T04:19:35.521Z] [LOG] 📝 查询: "Python基础教程"
+[2025-09-17T04:19:35.521Z] [LOG] 📊 待评估结果数量: 10
+[2025-09-17T04:19:35.521Z] [LOG] 🔍 评估维度: 权威性(权重:0.4), 相关性(权重:0.35), 时效性(权重:0.25)
+[2025-09-17T04:19:35.521Z] [LOG] 🚀 优化模式: 每个维度仅调用1次API (总共3次调用)
+[2025-09-17T04:19:35.521Z] [LOG] ================================================================================
+[2025-09-17T04:19:35.521Z] [LOG] 
+📏 批量评估维度: 权威性 (权重: 0.4)
+[2025-09-17T04:19:43.058Z] [LOG]    ✅ 权威性: 批量评分完成，处理了10个结果
+[2025-09-17T04:19:43.059Z] [LOG]       整体评分: 0分
+[2025-09-17T04:19:43.059Z] [LOG]       评分理由: 根据权威性评分标准分析搜索结果：
+
+- **权威媒体**：3条
+  - 结果3：Python官方文档（docs.python.org），属于核心权威源。
+  - 结果8：Microsoft Learn（learn.microsoft.com），属于企业技术白皮书。
+  - 结果10：Amazon（www.amazon.com），虽然是电商平台，但书籍出版物具有一定的权威性。
+
+- **非权威媒体*...
+[2025-09-17T04:19:44.060Z] [LOG] 
+📏 批量评估维度: 相关性 (权重: 0.35)
